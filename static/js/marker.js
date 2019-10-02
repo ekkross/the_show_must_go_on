@@ -10,8 +10,8 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
   accessToken: API_KEY
 }).addTo(myMap);
 
-var baseURL = "https://app.ticketmaster.com/discovery/v2/venues?apikey=";
-var venue = "&latlong=45.5051064,-122.6750261&radius=25&locale=*";
+var baseURL = "https://app.ticketmaster.com/discovery/v2/venues.json?apikey=";
+var venue = "&latlong=45.5051064,-122.6750261&radius=50&locale=*";
 var accessTM = API_Key_TM;
 
 var url = baseURL + accessTM + venue;
@@ -20,30 +20,45 @@ var url = baseURL + accessTM + venue;
 // &latlong=45.5051064,-122.6750261&radius=25&locale=*
 
 // Grab the data with d3
+// function showvenue(json) {
+//   for(var i=0; i<json.page.size; i++) {
+//     $("#venue").append("<p>"+json._embedded.venue[i].name+"</p>");
+//   }
+//   console.log(json)
+// }
+
 d3.json(url, function(response) {
+  
+  // for(var j = 0; j < response.page.size; j++) {
+        
+  //   var number = response.page.number[1];
+    
+  //   // ("#venue").append("<p>"+response._embedded.venue[i].name+"</p>");
+  //  console.log(number)
+  //  console.log(re)
+  // }})
+  console.log(response)
+  
+  
+  var markers = L.markerClusterGroup();
 
-  console.log(response);
+  // Loop through data
+  for (var i = 0; i < response._embedded.venues.length; i++) {
 
-  // // Create a new marker cluster group
-  // var markers = L.markerClusterGroup();
+    // Set the data location property to a variable
+    var location = response._embedded.venues[i].location;
 
-  // // Loop through data
-  // for (var i = 0; i < response.length; i++) {
+    // Check for location property
+    if (location) {
 
-  //   // Set the data location property to a variable
-  //   var location = response[i].location;
+      // Add a new marker to the cluster group and bind a pop-up
+      markers.addLayer(L.marker([location.latitude, location.longitude])
+        .bindPopup("Address:"+ ""+ response._embedded.venues[i].name +" "+ 'Address:'+" " + response._embedded.venues[i].address));
+    }
 
-  //   // Check for location property
-  //   if (location) {
+  }
 
-  //     // Add a new marker to the cluster group and bind a pop-up
-  //     markers.addLayer(L.marker([location.coordinates[1], location.coordinates[0]])
-  //       .bindPopup("Address:"+ ""+ response[i].address+""+ 'situation:'+"" + response[i].primary_situation));
-  //   }
-
-  // }
-
-  // // Add our marker cluster layer to the map
-  // myMap.addLayer(markers);
+  // Add our marker cluster layer to the map
+  myMap.addLayer(markers);
 
 });
