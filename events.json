@@ -1,0 +1,6097 @@
+{
+	"_embedded": {
+		"events": [{
+			"name": "Ruel",
+			"type": "event",
+			"id": "Z7r9jZ1AeqJqA",
+			"test": false,
+			"url": "http://www.ticketsnow.com/InventoryBrowse/TicketList.aspx?PID=2766745",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/fb9/0caee480-57a8-432a-af93-3cffdca7efb9_1132881_RETINA_PORTRAIT_3_2.jpg",
+				"width": 640,
+				"height": 427,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/fb9/0caee480-57a8-432a-af93-3cffdca7efb9_1132881_TABLET_LANDSCAPE_16_9.jpg",
+				"width": 1024,
+				"height": 576,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/fb9/0caee480-57a8-432a-af93-3cffdca7efb9_1132881_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+				"width": 2048,
+				"height": 1152,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/fb9/0caee480-57a8-432a-af93-3cffdca7efb9_1132881_ARTIST_PAGE_3_2.jpg",
+				"width": 305,
+				"height": 203,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/fb9/0caee480-57a8-432a-af93-3cffdca7efb9_1132881_EVENT_DETAIL_PAGE_16_9.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/fb9/0caee480-57a8-432a-af93-3cffdca7efb9_1132881_TABLET_LANDSCAPE_3_2.jpg",
+				"width": 1024,
+				"height": 683,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/fb9/0caee480-57a8-432a-af93-3cffdca7efb9_1132881_RECOMENDATION_16_9.jpg",
+				"width": 100,
+				"height": 56,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/fb9/0caee480-57a8-432a-af93-3cffdca7efb9_1132881_RETINA_PORTRAIT_16_9.jpg",
+				"width": 640,
+				"height": 360,
+				"fallback": false
+			}, {
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/a/fb9/0caee480-57a8-432a-af93-3cffdca7efb9_1132881_CUSTOM.jpg",
+				"width": 305,
+				"height": 225,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/fb9/0caee480-57a8-432a-af93-3cffdca7efb9_1132881_RETINA_LANDSCAPE_16_9.jpg",
+				"width": 1136,
+				"height": 639,
+				"fallback": false
+			}],
+			"sales": {
+				"public": {
+					"startDateTime": "1900-01-01T18:00:00Z",
+					"startTBD": false,
+					"endDateTime": "2019-10-13T02:00:00Z"
+				}
+			},
+			"dates": {
+				"start": {
+					"localDate": "2019-10-12",
+					"localTime": "19:00:00",
+					"dateTime": "2019-10-13T02:00:00Z",
+					"dateTBD": false,
+					"dateTBA": false,
+					"timeTBA": false,
+					"noSpecificTime": false
+				},
+				"status": {
+					"code": "onsale"
+				},
+				"spanMultipleDays": false
+			},
+			"classifications": [{
+				"primary": true,
+				"segment": {
+					"id": "KZFzniwnSyZfZ7v7nJ",
+					"name": "Music"
+				},
+				"genre": {
+					"id": "KnvZfZ7vAvl",
+					"name": "Other"
+				},
+				"subGenre": {
+					"id": "KZazBEonSMnZfZ7vk1I",
+					"name": "Other"
+				},
+				"family": false
+			}],
+			"outlets": [{
+				"url": "http://www.holocene.org/",
+				"type": "venueBoxOffice"
+			}, {
+				"url": "https://www.ticketmaster.com/ruel-portland-oregon-10-12-2019/event/Z7r9jZ1AeqJqA",
+				"type": "tmMarketPlace"
+			}],
+			"seatmap": {
+				"staticUrl": "http://resale.ticketmaster.com.au/akamai-content/graphics/TMResale/1/VenueMaps/11469-0-0-1-GAStage71229.png"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/events/Z7r9jZ1AeqJqA?locale=en-us"
+				},
+				"attractions": [{
+					"href": "/discovery/v2/attractions/K8vZ917p667?locale=en-us"
+				}],
+				"venues": [{
+					"href": "/discovery/v2/venues/Z7r9jZaeSu?locale=en-us"
+				}]
+			},
+			"_embedded": {
+				"venues": [{
+					"name": "Holocene",
+					"type": "venue",
+					"id": "Z7r9jZaeSu",
+					"test": false,
+					"locale": "en-us",
+					"postalCode": "97214",
+					"timezone": "America/Los_Angeles",
+					"city": {
+						"name": "Portland"
+					},
+					"state": {
+						"name": "Oregon",
+						"stateCode": "OR"
+					},
+					"country": {
+						"name": "United States Of America",
+						"countryCode": "US"
+					},
+					"address": {
+						"line1": "1001 SE Morrison St"
+					},
+					"location": {
+						"longitude": "-122.642799",
+						"latitude": "45.513901"
+					},
+					"dmas": [{
+						"id": 362
+					}],
+					"upcomingEvents": {
+						"_total": 8,
+						"tmr": 8
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/venues/Z7r9jZaeSu?locale=en-us"
+						}
+					}
+				}],
+				"attractions": [{
+					"name": "Ruel",
+					"type": "attraction",
+					"id": "K8vZ917p667",
+					"test": false,
+					"url": "http://www.ticketmaster.co.nz/Ruel-tickets/artist/2387464",
+					"locale": "en-us",
+					"images": [{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/fb9/0caee480-57a8-432a-af93-3cffdca7efb9_1132881_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/fb9/0caee480-57a8-432a-af93-3cffdca7efb9_1132881_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/fb9/0caee480-57a8-432a-af93-3cffdca7efb9_1132881_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/fb9/0caee480-57a8-432a-af93-3cffdca7efb9_1132881_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/fb9/0caee480-57a8-432a-af93-3cffdca7efb9_1132881_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/fb9/0caee480-57a8-432a-af93-3cffdca7efb9_1132881_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/fb9/0caee480-57a8-432a-af93-3cffdca7efb9_1132881_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/fb9/0caee480-57a8-432a-af93-3cffdca7efb9_1132881_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					}, {
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/fb9/0caee480-57a8-432a-af93-3cffdca7efb9_1132881_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/fb9/0caee480-57a8-432a-af93-3cffdca7efb9_1132881_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nJ",
+							"name": "Music"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAvv",
+							"name": "Alternative"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAvn",
+							"name": "Alternative Rock"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7la",
+							"name": "Individual"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7vAd7",
+							"name": "Musician"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 30,
+						"tmr": 16,
+						"mfx-nl": 1,
+						"mfx-de": 2,
+						"ticketweb": 2,
+						"ticketmaster": 9
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ917p667?locale=en-us"
+						}
+					}
+				}]
+			}
+		}, {
+			"name": "Jinjer",
+			"type": "event",
+			"id": "Z7r9jZ1Ae_JP-",
+			"test": false,
+			"url": "http://www.ticketsnow.com/InventoryBrowse/TicketList.aspx?PID=2666961",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/a/475/dc23b7b9-f599-4708-bcd6-72d040d00475_1031411_CUSTOM.jpg",
+				"width": 305,
+				"height": 225,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/475/dc23b7b9-f599-4708-bcd6-72d040d00475_1031411_RECOMENDATION_16_9.jpg",
+				"width": 100,
+				"height": 56,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/475/dc23b7b9-f599-4708-bcd6-72d040d00475_1031411_RETINA_LANDSCAPE_16_9.jpg",
+				"width": 1136,
+				"height": 639,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/475/dc23b7b9-f599-4708-bcd6-72d040d00475_1031411_ARTIST_PAGE_3_2.jpg",
+				"width": 305,
+				"height": 203,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/475/dc23b7b9-f599-4708-bcd6-72d040d00475_1031411_TABLET_LANDSCAPE_16_9.jpg",
+				"width": 1024,
+				"height": 576,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/475/dc23b7b9-f599-4708-bcd6-72d040d00475_1031411_RETINA_PORTRAIT_3_2.jpg",
+				"width": 640,
+				"height": 427,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/475/dc23b7b9-f599-4708-bcd6-72d040d00475_1031411_TABLET_LANDSCAPE_3_2.jpg",
+				"width": 1024,
+				"height": 683,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/475/dc23b7b9-f599-4708-bcd6-72d040d00475_1031411_RETINA_PORTRAIT_16_9.jpg",
+				"width": 640,
+				"height": 360,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/475/dc23b7b9-f599-4708-bcd6-72d040d00475_1031411_EVENT_DETAIL_PAGE_16_9.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/475/dc23b7b9-f599-4708-bcd6-72d040d00475_1031411_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+				"width": 2048,
+				"height": 1152,
+				"fallback": false
+			}],
+			"sales": {
+				"public": {
+					"startDateTime": "1900-01-01T18:00:00Z",
+					"startTBD": false,
+					"endDateTime": "2019-11-03T01:30:00Z"
+				}
+			},
+			"dates": {
+				"start": {
+					"localDate": "2019-11-02",
+					"localTime": "18:30:00",
+					"dateTime": "2019-11-03T01:30:00Z",
+					"dateTBD": false,
+					"dateTBA": false,
+					"timeTBA": false,
+					"noSpecificTime": false
+				},
+				"status": {
+					"code": "onsale"
+				},
+				"spanMultipleDays": false
+			},
+			"classifications": [{
+				"primary": true,
+				"segment": {
+					"id": "KZFzniwnSyZfZ7v7nJ",
+					"name": "Music"
+				},
+				"genre": {
+					"id": "KnvZfZ7vAvl",
+					"name": "Other"
+				},
+				"subGenre": {
+					"id": "KZazBEonSMnZfZ7vk1I",
+					"name": "Other"
+				},
+				"family": false
+			}],
+			"outlets": [{
+				"url": "http://hawthornetheatre.com/",
+				"type": "venueBoxOffice"
+			}, {
+				"url": "https://www.ticketmaster.com/jinjer-portland-oregon-11-02-2019/event/Z7r9jZ1Ae_JP-",
+				"type": "tmMarketPlace"
+			}],
+			"seatmap": {
+				"staticUrl": "http://resale.ticketmaster.com.au/akamai-content/graphics/TMResale/2/VenueMaps/5222-0-0-1-GAStage71229.png"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/events/Z7r9jZ1Ae_JP-?locale=en-us"
+				},
+				"attractions": [{
+					"href": "/discovery/v2/attractions/K8vZ917pOqV?locale=en-us"
+				}],
+				"venues": [{
+					"href": "/discovery/v2/venues/ZFr9jZkddd?locale=en-us"
+				}]
+			},
+			"_embedded": {
+				"venues": [{
+					"name": "Hawthorne Theatre",
+					"type": "venue",
+					"id": "ZFr9jZkddd",
+					"test": false,
+					"locale": "en-us",
+					"postalCode": "97214",
+					"timezone": "America/Los_Angeles",
+					"city": {
+						"name": "Portland"
+					},
+					"state": {
+						"name": "Oregon",
+						"stateCode": "OR"
+					},
+					"country": {
+						"name": "United States Of America",
+						"countryCode": "US"
+					},
+					"address": {
+						"line1": "1507 SE 39th Ave"
+					},
+					"location": {
+						"longitude": "-122.642799",
+						"latitude": "45.513901"
+					},
+					"dmas": [{
+						"id": 362
+					}],
+					"upcomingEvents": {
+						"_total": 26,
+						"tmr": 25,
+						"ticketmaster": 1
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/venues/ZFr9jZkddd?locale=en-us"
+						}
+					}
+				}],
+				"attractions": [{
+					"name": "Jinjer",
+					"type": "attraction",
+					"id": "K8vZ917pOqV",
+					"test": false,
+					"url": "https://www.ticketmaster.co.uk/jinjer-tickets/artist/5230421",
+					"locale": "en-us",
+					"images": [{
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/475/dc23b7b9-f599-4708-bcd6-72d040d00475_1031411_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/475/dc23b7b9-f599-4708-bcd6-72d040d00475_1031411_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/475/dc23b7b9-f599-4708-bcd6-72d040d00475_1031411_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/475/dc23b7b9-f599-4708-bcd6-72d040d00475_1031411_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/475/dc23b7b9-f599-4708-bcd6-72d040d00475_1031411_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/475/dc23b7b9-f599-4708-bcd6-72d040d00475_1031411_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/475/dc23b7b9-f599-4708-bcd6-72d040d00475_1031411_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/475/dc23b7b9-f599-4708-bcd6-72d040d00475_1031411_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/475/dc23b7b9-f599-4708-bcd6-72d040d00475_1031411_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/475/dc23b7b9-f599-4708-bcd6-72d040d00475_1031411_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nJ",
+							"name": "Music"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAvt",
+							"name": "Metal"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vk6E",
+							"name": "Metal"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7l1",
+							"name": "Group"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7vA71",
+							"name": "Band"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 35,
+						"mfx-dk": 1,
+						"mfx-nl": 1,
+						"tmr": 22,
+						"ticketmaster": 11
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ917pOqV?locale=en-us"
+						}
+					}
+				}]
+			}
+		}, {
+			"name": "Senses Fail",
+			"type": "event",
+			"id": "Z7r9jZ1AeqA_S",
+			"test": false,
+			"url": "http://www.ticketsnow.com/InventoryBrowse/TicketList.aspx?PID=2745673",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/ba9/7b1d5d44-ed92-4573-a55f-91bcbe711ba9_1069931_RETINA_PORTRAIT_16_9.jpg",
+				"width": 640,
+				"height": 360,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/ba9/7b1d5d44-ed92-4573-a55f-91bcbe711ba9_1069931_RETINA_LANDSCAPE_16_9.jpg",
+				"width": 1136,
+				"height": 639,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/ba9/7b1d5d44-ed92-4573-a55f-91bcbe711ba9_1069931_RECOMENDATION_16_9.jpg",
+				"width": 100,
+				"height": 56,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/ba9/7b1d5d44-ed92-4573-a55f-91bcbe711ba9_1069931_TABLET_LANDSCAPE_3_2.jpg",
+				"width": 1024,
+				"height": 683,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/ba9/7b1d5d44-ed92-4573-a55f-91bcbe711ba9_1069931_RETINA_PORTRAIT_3_2.jpg",
+				"width": 640,
+				"height": 427,
+				"fallback": false
+			}, {
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/a/ba9/7b1d5d44-ed92-4573-a55f-91bcbe711ba9_1069931_CUSTOM.jpg",
+				"width": 305,
+				"height": 225,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/ba9/7b1d5d44-ed92-4573-a55f-91bcbe711ba9_1069931_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+				"width": 2048,
+				"height": 1152,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/ba9/7b1d5d44-ed92-4573-a55f-91bcbe711ba9_1069931_ARTIST_PAGE_3_2.jpg",
+				"width": 305,
+				"height": 203,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/ba9/7b1d5d44-ed92-4573-a55f-91bcbe711ba9_1069931_EVENT_DETAIL_PAGE_16_9.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/ba9/7b1d5d44-ed92-4573-a55f-91bcbe711ba9_1069931_TABLET_LANDSCAPE_16_9.jpg",
+				"width": 1024,
+				"height": 576,
+				"fallback": false
+			}],
+			"sales": {
+				"public": {
+					"startDateTime": "1900-01-01T18:00:00Z",
+					"startTBD": false,
+					"endDateTime": "2019-10-13T03:00:00Z"
+				}
+			},
+			"dates": {
+				"start": {
+					"localDate": "2019-10-12",
+					"localTime": "20:00:00",
+					"dateTime": "2019-10-13T03:00:00Z",
+					"dateTBD": false,
+					"dateTBA": false,
+					"timeTBA": false,
+					"noSpecificTime": false
+				},
+				"status": {
+					"code": "onsale"
+				},
+				"spanMultipleDays": false
+			},
+			"classifications": [{
+				"primary": true,
+				"segment": {
+					"id": "KZFzniwnSyZfZ7v7nJ",
+					"name": "Music"
+				},
+				"genre": {
+					"id": "KnvZfZ7vAvv",
+					"name": "Alternative"
+				},
+				"subGenre": {
+					"id": "KZazBEonSMnZfZ7vAvn",
+					"name": "Alternative Rock"
+				},
+				"family": false
+			}],
+			"outlets": [{
+				"url": "http://hawthornetheatre.com/",
+				"type": "venueBoxOffice"
+			}, {
+				"url": "https://www.ticketmaster.com/senses-fail-portland-oregon-10-12-2019/event/Z7r9jZ1AeqA_S",
+				"type": "tmMarketPlace"
+			}],
+			"seatmap": {
+				"staticUrl": "http://resale.ticketmaster.com.au/akamai-content/graphics/TMResale/2/VenueMaps/5222-0-0-1-GAStage71229.png"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/events/Z7r9jZ1AeqA_S?locale=en-us"
+				},
+				"attractions": [{
+					"href": "/discovery/v2/attractions/K8vZ9175_of?locale=en-us"
+				}],
+				"venues": [{
+					"href": "/discovery/v2/venues/ZFr9jZkddd?locale=en-us"
+				}]
+			},
+			"_embedded": {
+				"venues": [{
+					"name": "Hawthorne Theatre",
+					"type": "venue",
+					"id": "ZFr9jZkddd",
+					"test": false,
+					"locale": "en-us",
+					"postalCode": "97214",
+					"timezone": "America/Los_Angeles",
+					"city": {
+						"name": "Portland"
+					},
+					"state": {
+						"name": "Oregon",
+						"stateCode": "OR"
+					},
+					"country": {
+						"name": "United States Of America",
+						"countryCode": "US"
+					},
+					"address": {
+						"line1": "1507 SE 39th Ave"
+					},
+					"location": {
+						"longitude": "-122.642799",
+						"latitude": "45.513901"
+					},
+					"dmas": [{
+						"id": 362
+					}],
+					"upcomingEvents": {
+						"_total": 26,
+						"tmr": 25,
+						"ticketmaster": 1
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/venues/ZFr9jZkddd?locale=en-us"
+						}
+					}
+				}],
+				"attractions": [{
+					"name": "Senses Fail",
+					"type": "attraction",
+					"id": "K8vZ9175_of",
+					"test": false,
+					"url": "https://www.ticketmaster.co.uk/Senses-Fail-tickets/artist/856342",
+					"locale": "en-us",
+					"externalLinks": {
+						"youtube": [{
+							"url": "https://www.youtube.com/user/sensesfailofficial"
+						}],
+						"twitter": [{
+							"url": "https://twitter.com/sensesfail"
+						}],
+						"itunes": [{
+							"url": "https://itunes.apple.com/us/artist/id15138873"
+						}],
+						"facebook": [{
+							"url": "https://www.facebook.com/sensesfail"
+						}],
+						"wiki": [{
+							"url": "https://en.wikipedia.org/wiki/Senses_Fail"
+						}],
+						"musicbrainz": [{
+							"id": "b4946461-dacb-4aa9-a77c-7b3231317794"
+						}],
+						"homepage": [{
+							"url": "http://sensesfail.com/"
+						}]
+					},
+					"images": [{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/ba9/7b1d5d44-ed92-4573-a55f-91bcbe711ba9_1069931_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/ba9/7b1d5d44-ed92-4573-a55f-91bcbe711ba9_1069931_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/ba9/7b1d5d44-ed92-4573-a55f-91bcbe711ba9_1069931_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/ba9/7b1d5d44-ed92-4573-a55f-91bcbe711ba9_1069931_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/ba9/7b1d5d44-ed92-4573-a55f-91bcbe711ba9_1069931_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					}, {
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/ba9/7b1d5d44-ed92-4573-a55f-91bcbe711ba9_1069931_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/ba9/7b1d5d44-ed92-4573-a55f-91bcbe711ba9_1069931_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/ba9/7b1d5d44-ed92-4573-a55f-91bcbe711ba9_1069931_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/ba9/7b1d5d44-ed92-4573-a55f-91bcbe711ba9_1069931_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/ba9/7b1d5d44-ed92-4573-a55f-91bcbe711ba9_1069931_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nJ",
+							"name": "Music"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAeA",
+							"name": "Rock"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7v6F1",
+							"name": "Pop"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7nI",
+							"name": "Undefined"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7v7lJ",
+							"name": "Undefined"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 15,
+						"tmr": 11,
+						"ticketweb": 1,
+						"ticketmaster": 3
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ9175_of?locale=en-us"
+						}
+					}
+				}]
+			}
+		}, {
+			"name": "Keb' Mo'",
+			"type": "event",
+			"id": "Z7r9jZ1Ae_tJ7",
+			"test": false,
+			"url": "http://www.ticketsnow.com/InventoryBrowse/TicketList.aspx?PID=2669984",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_RETINA_PORTRAIT_3_2.jpg",
+				"width": 640,
+				"height": 427,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_TABLET_LANDSCAPE_3_2.jpg",
+				"width": 1024,
+				"height": 683,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_ARTIST_PAGE_3_2.jpg",
+				"width": 305,
+				"height": 203,
+				"fallback": false
+			}, {
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_CUSTOM.jpg",
+				"width": 305,
+				"height": 225,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_RETINA_LANDSCAPE_16_9.jpg",
+				"width": 1136,
+				"height": 639,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+				"width": 2048,
+				"height": 1152,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_RECOMENDATION_16_9.jpg",
+				"width": 100,
+				"height": 56,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_RETINA_PORTRAIT_16_9.jpg",
+				"width": 640,
+				"height": 360,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_TABLET_LANDSCAPE_16_9.jpg",
+				"width": 1024,
+				"height": 576,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_EVENT_DETAIL_PAGE_16_9.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}],
+			"sales": {
+				"public": {
+					"startDateTime": "1900-01-01T18:00:00Z",
+					"startTBD": false,
+					"endDateTime": "2019-10-04T03:00:00Z"
+				}
+			},
+			"dates": {
+				"start": {
+					"localDate": "2019-10-03",
+					"localTime": "20:00:00",
+					"dateTime": "2019-10-04T03:00:00Z",
+					"dateTBD": false,
+					"dateTBA": false,
+					"timeTBA": false,
+					"noSpecificTime": false
+				},
+				"status": {
+					"code": "onsale"
+				},
+				"spanMultipleDays": false
+			},
+			"classifications": [{
+				"primary": true,
+				"segment": {
+					"id": "KZFzniwnSyZfZ7v7nJ",
+					"name": "Music"
+				},
+				"genre": {
+					"id": "KnvZfZ7vAvd",
+					"name": "Blues"
+				},
+				"subGenre": {
+					"id": "KZazBEonSMnZfZ7vAk6",
+					"name": "Jazz Blues"
+				},
+				"family": false
+			}],
+			"outlets": [{
+				"url": "https://www.revolutionhall.com/",
+				"type": "venueBoxOffice"
+			}, {
+				"url": "https://www.ticketmaster.com/keb-mo-portland-oregon-10-03-2019/event/Z7r9jZ1Ae_tJ7",
+				"type": "tmMarketPlace"
+			}],
+			"seatmap": {
+				"staticUrl": "http://resale.ticketmaster.com.au/akamai-content/graphics/TMResale/2/VenueMaps/10905-0-0-1-GAStage.png"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/events/Z7r9jZ1Ae_tJ7?locale=en-us"
+				},
+				"attractions": [{
+					"href": "/discovery/v2/attractions/K8vZ9171f6V?locale=en-us"
+				}],
+				"venues": [{
+					"href": "/discovery/v2/venues/Z7r9jZaen_?locale=en-us"
+				}]
+			},
+			"_embedded": {
+				"venues": [{
+					"name": "Revolution Hall - Portland",
+					"type": "venue",
+					"id": "Z7r9jZaen_",
+					"test": false,
+					"locale": "en-us",
+					"postalCode": "97214",
+					"timezone": "America/Los_Angeles",
+					"city": {
+						"name": "Portland"
+					},
+					"state": {
+						"name": "Oregon",
+						"stateCode": "OR"
+					},
+					"country": {
+						"name": "United States Of America",
+						"countryCode": "US"
+					},
+					"address": {
+						"line1": "1300 SE Stark Street #110"
+					},
+					"location": {
+						"longitude": "-122.642799",
+						"latitude": "45.513901"
+					},
+					"dmas": [{
+						"id": 362
+					}],
+					"upcomingEvents": {
+						"_total": 19,
+						"tmr": 19
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/venues/Z7r9jZaen_?locale=en-us"
+						}
+					}
+				}],
+				"attractions": [{
+					"name": "Keb' Mo'",
+					"type": "attraction",
+					"id": "K8vZ9171f6V",
+					"test": false,
+					"url": "https://www.ticketmaster.ie/Keb-Mo-tickets/artist/3400",
+					"locale": "en-us",
+					"images": [{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					}, {
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nJ",
+							"name": "Music"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAvd",
+							"name": "Blues"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAAd",
+							"name": "Blues"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7nI",
+							"name": "Undefined"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7v7lJ",
+							"name": "Undefined"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 14,
+						"tmr": 8,
+						"ticketmaster": 6
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ9171f6V?locale=en-us"
+						}
+					}
+				}]
+			}
+		}, {
+			"name": "Built To Spill",
+			"type": "event",
+			"id": "Z7r9jZ1Ae_6jO",
+			"test": false,
+			"url": "http://www.ticketsnow.com/InventoryBrowse/TicketList.aspx?PID=2647720",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RETINA_LANDSCAPE_16_9.jpg",
+				"width": 1136,
+				"height": 639,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_TABLET_LANDSCAPE_3_2.jpg",
+				"width": 1024,
+				"height": 683,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_ARTIST_PAGE_3_2.jpg",
+				"width": 305,
+				"height": 203,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+				"width": 2048,
+				"height": 1152,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_TABLET_LANDSCAPE_16_9.jpg",
+				"width": 1024,
+				"height": 576,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RECOMENDATION_16_9.jpg",
+				"width": 100,
+				"height": 56,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RETINA_PORTRAIT_16_9.jpg",
+				"width": 640,
+				"height": 360,
+				"fallback": false
+			}, {
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_CUSTOM.jpg",
+				"width": 305,
+				"height": 225,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_EVENT_DETAIL_PAGE_16_9.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RETINA_PORTRAIT_3_2.jpg",
+				"width": 640,
+				"height": 427,
+				"fallback": false
+			}],
+			"sales": {
+				"public": {
+					"startDateTime": "1900-01-01T06:00:00Z",
+					"startTBD": false,
+					"endDateTime": "2019-11-03T04:00:00Z"
+				}
+			},
+			"dates": {
+				"start": {
+					"localDate": "2019-11-02",
+					"localTime": "21:00:00",
+					"dateTime": "2019-11-03T04:00:00Z",
+					"dateTBD": false,
+					"dateTBA": false,
+					"timeTBA": false,
+					"noSpecificTime": false
+				},
+				"status": {
+					"code": "onsale"
+				},
+				"spanMultipleDays": false
+			},
+			"classifications": [{
+				"primary": true,
+				"segment": {
+					"id": "KZFzniwnSyZfZ7v7nJ",
+					"name": "Music"
+				},
+				"genre": {
+					"id": "KnvZfZ7vAvv",
+					"name": "Alternative"
+				},
+				"subGenre": {
+					"id": "KZazBEonSMnZfZ7vAvn",
+					"name": "Alternative Rock"
+				},
+				"family": false
+			}],
+			"outlets": [{
+				"url": "https://www.ticketmaster.com/built-to-spill-portland-oregon-11-02-2019/event/Z7r9jZ1Ae_6jO",
+				"type": "tmMarketPlace"
+			}],
+			"seatmap": {
+				"staticUrl": "http://resale.ticketmaster.com.au/akamai-content/graphics/TMResale/2/VenueMaps/5509-0-0-1-GAStage.png"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/events/Z7r9jZ1Ae_6jO?locale=en-us"
+				},
+				"attractions": [{
+					"href": "/discovery/v2/attractions/K8vZ9171Q67?locale=en-us"
+				}],
+				"venues": [{
+					"href": "/discovery/v2/venues/ZFr9jZkkv1?locale=en-us"
+				}]
+			},
+			"_embedded": {
+				"venues": [{
+					"name": "Doug Fir Lounge",
+					"type": "venue",
+					"id": "ZFr9jZkkv1",
+					"test": false,
+					"locale": "en-us",
+					"postalCode": "97214",
+					"timezone": "America/Los_Angeles",
+					"city": {
+						"name": "Portland"
+					},
+					"state": {
+						"name": "Oregon",
+						"stateCode": "OR"
+					},
+					"country": {
+						"name": "United States Of America",
+						"countryCode": "US"
+					},
+					"address": {
+						"line1": "830 E Burnside St"
+					},
+					"location": {
+						"longitude": "-122.642799",
+						"latitude": "45.513901"
+					},
+					"dmas": [{
+						"id": 362
+					}],
+					"upcomingEvents": {
+						"_total": 40,
+						"tmr": 40
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/venues/ZFr9jZkkv1?locale=en-us"
+						}
+					}
+				}],
+				"attractions": [{
+					"name": "Built To Spill",
+					"type": "attraction",
+					"id": "K8vZ9171Q67",
+					"test": false,
+					"url": "https://www.ticketmaster.com/built-to-spill-tickets/artist/775453",
+					"locale": "en-us",
+					"externalLinks": {
+						"itunes": [{
+							"url": "https://itunes.apple.com/us/artist/id161731"
+						}],
+						"lastfm": [{
+							"url": "https://www.last.fm/music/Built+to+Spill"
+						}],
+						"facebook": [{
+							"url": "https://www.facebook.com/builttospill"
+						}],
+						"musicbrainz": [{
+							"id": "3ac482b8-1494-4071-a0e9-f192f9d2c2b0"
+						}],
+						"homepage": [{
+							"url": "http://www.builttospill.com/"
+						}]
+					},
+					"images": [{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					}, {
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nJ",
+							"name": "Music"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAeA",
+							"name": "Rock"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7v6F1",
+							"name": "Pop"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7nI",
+							"name": "Undefined"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7v7lJ",
+							"name": "Undefined"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 40,
+						"tmr": 30,
+						"ticketmaster": 10
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ9171Q67?locale=en-us"
+						}
+					}
+				}]
+			}
+		}, {
+			"name": "Knocked Loose w/ Rotting Out",
+			"type": "event",
+			"id": "Z7r9jZ1AejSa3",
+			"test": false,
+			"url": "http://www.ticketsnow.com/InventoryBrowse/TicketList.aspx?PID=2733252",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/e3f/f7ca2a23-d5f6-45bd-9276-8d71744c1e3f_1131291_RETINA_LANDSCAPE_16_9.jpg",
+				"width": 1136,
+				"height": 639,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/e3f/f7ca2a23-d5f6-45bd-9276-8d71744c1e3f_1131291_RECOMENDATION_16_9.jpg",
+				"width": 100,
+				"height": 56,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/e3f/f7ca2a23-d5f6-45bd-9276-8d71744c1e3f_1131291_TABLET_LANDSCAPE_3_2.jpg",
+				"width": 1024,
+				"height": 683,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/e3f/f7ca2a23-d5f6-45bd-9276-8d71744c1e3f_1131291_TABLET_LANDSCAPE_16_9.jpg",
+				"width": 1024,
+				"height": 576,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/e3f/f7ca2a23-d5f6-45bd-9276-8d71744c1e3f_1131291_EVENT_DETAIL_PAGE_16_9.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}, {
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/a/e3f/f7ca2a23-d5f6-45bd-9276-8d71744c1e3f_1131291_CUSTOM.jpg",
+				"width": 305,
+				"height": 225,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/e3f/f7ca2a23-d5f6-45bd-9276-8d71744c1e3f_1131291_RETINA_PORTRAIT_3_2.jpg",
+				"width": 640,
+				"height": 427,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/e3f/f7ca2a23-d5f6-45bd-9276-8d71744c1e3f_1131291_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+				"width": 2048,
+				"height": 1152,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/e3f/f7ca2a23-d5f6-45bd-9276-8d71744c1e3f_1131291_RETINA_PORTRAIT_16_9.jpg",
+				"width": 640,
+				"height": 360,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/e3f/f7ca2a23-d5f6-45bd-9276-8d71744c1e3f_1131291_ARTIST_PAGE_3_2.jpg",
+				"width": 305,
+				"height": 203,
+				"fallback": false
+			}],
+			"sales": {
+				"public": {
+					"startDateTime": "1900-01-01T18:00:00Z",
+					"startTBD": false,
+					"endDateTime": "2019-10-08T02:00:00Z"
+				}
+			},
+			"dates": {
+				"start": {
+					"localDate": "2019-10-07",
+					"localTime": "19:00:00",
+					"dateTime": "2019-10-08T02:00:00Z",
+					"dateTBD": false,
+					"dateTBA": false,
+					"timeTBA": false,
+					"noSpecificTime": false
+				},
+				"status": {
+					"code": "onsale"
+				},
+				"spanMultipleDays": false
+			},
+			"classifications": [{
+				"primary": true,
+				"segment": {
+					"id": "KZFzniwnSyZfZ7v7nJ",
+					"name": "Music"
+				},
+				"genre": {
+					"id": "KnvZfZ7vAvl",
+					"name": "Other"
+				},
+				"subGenre": {
+					"id": "KZazBEonSMnZfZ7vk1I",
+					"name": "Other"
+				},
+				"family": false
+			}],
+			"outlets": [{
+				"url": "http://hawthornetheatre.com/",
+				"type": "venueBoxOffice"
+			}, {
+				"url": "https://www.ticketmaster.com/knocked-loose-w-rotting-out-portland-oregon-10-07-2019/event/Z7r9jZ1AejSa3",
+				"type": "tmMarketPlace"
+			}],
+			"seatmap": {
+				"staticUrl": "http://resale.ticketmaster.com.au/akamai-content/graphics/TMResale/2/VenueMaps/5222-0-0-1-GAStage71229.png"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/events/Z7r9jZ1AejSa3?locale=en-us"
+				},
+				"attractions": [{
+					"href": "/discovery/v2/attractions/K8vZ917KFS0?locale=en-us"
+				}, {
+					"href": "/discovery/v2/attractions/K8vZ9172L8f?locale=en-us"
+				}, {
+					"href": "/discovery/v2/attractions/K8vZ9179rc0?locale=en-us"
+				}],
+				"venues": [{
+					"href": "/discovery/v2/venues/ZFr9jZkddd?locale=en-us"
+				}]
+			},
+			"_embedded": {
+				"venues": [{
+					"name": "Hawthorne Theatre",
+					"type": "venue",
+					"id": "ZFr9jZkddd",
+					"test": false,
+					"locale": "en-us",
+					"postalCode": "97214",
+					"timezone": "America/Los_Angeles",
+					"city": {
+						"name": "Portland"
+					},
+					"state": {
+						"name": "Oregon",
+						"stateCode": "OR"
+					},
+					"country": {
+						"name": "United States Of America",
+						"countryCode": "US"
+					},
+					"address": {
+						"line1": "1507 SE 39th Ave"
+					},
+					"location": {
+						"longitude": "-122.642799",
+						"latitude": "45.513901"
+					},
+					"dmas": [{
+						"id": 362
+					}],
+					"upcomingEvents": {
+						"_total": 26,
+						"tmr": 25,
+						"ticketmaster": 1
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/venues/ZFr9jZkddd?locale=en-us"
+						}
+					}
+				}],
+				"attractions": [{
+					"name": "Knocked Loose",
+					"type": "attraction",
+					"id": "K8vZ917KFS0",
+					"test": false,
+					"url": "https://www.ticketmaster.com.mx/knocked-loose-tickets/artist/2082357",
+					"locale": "en-us",
+					"externalLinks": {
+						"twitter": [{
+							"url": "https://twitter.com/knockedloose"
+						}],
+						"facebook": [{
+							"url": "https://www.facebook.com/KnockedLoose"
+						}],
+						"musicbrainz": [{
+							"id": "9ca10859-49e2-44e3-b3d6-04c535207bc2"
+						}]
+					},
+					"images": [{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/e3f/f7ca2a23-d5f6-45bd-9276-8d71744c1e3f_1131291_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/e3f/f7ca2a23-d5f6-45bd-9276-8d71744c1e3f_1131291_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/e3f/f7ca2a23-d5f6-45bd-9276-8d71744c1e3f_1131291_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/e3f/f7ca2a23-d5f6-45bd-9276-8d71744c1e3f_1131291_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/e3f/f7ca2a23-d5f6-45bd-9276-8d71744c1e3f_1131291_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					}, {
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/e3f/f7ca2a23-d5f6-45bd-9276-8d71744c1e3f_1131291_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/e3f/f7ca2a23-d5f6-45bd-9276-8d71744c1e3f_1131291_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/e3f/f7ca2a23-d5f6-45bd-9276-8d71744c1e3f_1131291_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/e3f/f7ca2a23-d5f6-45bd-9276-8d71744c1e3f_1131291_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/e3f/f7ca2a23-d5f6-45bd-9276-8d71744c1e3f_1131291_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nJ",
+							"name": "Music"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAvt",
+							"name": "Metal"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vkFd",
+							"name": "Heavy Metal"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7nI",
+							"name": "Undefined"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7v7lJ",
+							"name": "Undefined"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 39,
+						"tmr": 24,
+						"ticketweb": 2,
+						"ticketmaster": 13
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ917KFS0?locale=en-us"
+						}
+					}
+				}, {
+					"name": "Rotting Out",
+					"type": "attraction",
+					"id": "K8vZ9172L8f",
+					"test": false,
+					"url": "http://www.ticketmaster.com.au/Rotting-Out-tickets/artist/1698678",
+					"locale": "en-us",
+					"externalLinks": {
+						"musicbrainz": [{
+							"id": "7aa46a37-686f-4258-9f24-e760f28860ac"
+						}]
+					},
+					"images": [{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/4a7/6811e380-2bae-47c5-a8db-7d5e1466f4a7_807201_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false,
+						"attribution": "By Kevin Cortopassi [CC BY-ND 2.0  (https://creativecommons.org/licenses/by-nd/2.0)], from [ Flickr (https://www.flickr.com/photos/10907465@N05/5766091676)]"
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dbimages/165810a.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/4a7/6811e380-2bae-47c5-a8db-7d5e1466f4a7_807201_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false,
+						"attribution": "By Kevin Cortopassi [CC BY-ND 2.0  (https://creativecommons.org/licenses/by-nd/2.0)], from [ Flickr (https://www.flickr.com/photos/10907465@N05/5766091676)]"
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/4a7/6811e380-2bae-47c5-a8db-7d5e1466f4a7_807201_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false,
+						"attribution": "By Kevin Cortopassi [CC BY-ND 2.0  (https://creativecommons.org/licenses/by-nd/2.0)], from [ Flickr (https://www.flickr.com/photos/10907465@N05/5766091676)]"
+					}, {
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dbimages/165809a.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/4a7/6811e380-2bae-47c5-a8db-7d5e1466f4a7_807201_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false,
+						"attribution": "By Kevin Cortopassi [CC BY-ND 2.0  (https://creativecommons.org/licenses/by-nd/2.0)], from [ Flickr (https://www.flickr.com/photos/10907465@N05/5766091676)]"
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/4a7/6811e380-2bae-47c5-a8db-7d5e1466f4a7_807201_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false,
+						"attribution": "By Kevin Cortopassi [CC BY-ND 2.0  (https://creativecommons.org/licenses/by-nd/2.0)], from [ Flickr (https://www.flickr.com/photos/10907465@N05/5766091676)]"
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/4a7/6811e380-2bae-47c5-a8db-7d5e1466f4a7_807201_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false,
+						"attribution": "By Kevin Cortopassi [CC BY-ND 2.0  (https://creativecommons.org/licenses/by-nd/2.0)], from [ Flickr (https://www.flickr.com/photos/10907465@N05/5766091676)]"
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/4a7/6811e380-2bae-47c5-a8db-7d5e1466f4a7_807201_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false,
+						"attribution": "By Kevin Cortopassi [CC BY-ND 2.0  (https://creativecommons.org/licenses/by-nd/2.0)], from [ Flickr (https://www.flickr.com/photos/10907465@N05/5766091676)]"
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/4a7/6811e380-2bae-47c5-a8db-7d5e1466f4a7_807201_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false,
+						"attribution": "By Kevin Cortopassi [CC BY-ND 2.0  (https://creativecommons.org/licenses/by-nd/2.0)], from [ Flickr (https://www.flickr.com/photos/10907465@N05/5766091676)]"
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nJ",
+							"name": "Music"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAeA",
+							"name": "Rock"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7v6a6",
+							"name": "Punk"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7nI",
+							"name": "Undefined"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7v7lJ",
+							"name": "Undefined"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 27,
+						"tmr": 19,
+						"ticketmaster": 8
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ9172L8f?locale=en-us"
+						}
+					}
+				}, {
+					"name": "SeeYouSpaceCowboy",
+					"type": "attraction",
+					"id": "K8vZ9179rc0",
+					"test": false,
+					"url": "https://www.ticketmaster.co.uk/seeyouspacecowboy-tickets/artist/5280219",
+					"locale": "en-us",
+					"images": [{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": true
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": true
+					}, {
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": true
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": true
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": true
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nJ",
+							"name": "Music"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAvt",
+							"name": "Metal"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vk6E",
+							"name": "Metal"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7l1",
+							"name": "Group"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7vA71",
+							"name": "Band"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 27,
+						"tmr": 19,
+						"ticketmaster": 8
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ9179rc0?locale=en-us"
+						}
+					}
+				}]
+			}
+		}, {
+			"name": "Built To Spill",
+			"type": "event",
+			"id": "Z7r9jZ1Ae_6jp",
+			"test": false,
+			"url": "http://www.ticketsnow.com/InventoryBrowse/TicketList.aspx?PID=2647716",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RETINA_LANDSCAPE_16_9.jpg",
+				"width": 1136,
+				"height": 639,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_TABLET_LANDSCAPE_3_2.jpg",
+				"width": 1024,
+				"height": 683,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_ARTIST_PAGE_3_2.jpg",
+				"width": 305,
+				"height": 203,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+				"width": 2048,
+				"height": 1152,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_TABLET_LANDSCAPE_16_9.jpg",
+				"width": 1024,
+				"height": 576,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RECOMENDATION_16_9.jpg",
+				"width": 100,
+				"height": 56,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RETINA_PORTRAIT_16_9.jpg",
+				"width": 640,
+				"height": 360,
+				"fallback": false
+			}, {
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_CUSTOM.jpg",
+				"width": 305,
+				"height": 225,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_EVENT_DETAIL_PAGE_16_9.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RETINA_PORTRAIT_3_2.jpg",
+				"width": 640,
+				"height": 427,
+				"fallback": false
+			}],
+			"sales": {
+				"public": {
+					"startDateTime": "1900-01-01T06:00:00Z",
+					"startTBD": false,
+					"endDateTime": "2019-11-02T04:00:00Z"
+				}
+			},
+			"dates": {
+				"start": {
+					"localDate": "2019-11-01",
+					"localTime": "21:00:00",
+					"dateTime": "2019-11-02T04:00:00Z",
+					"dateTBD": false,
+					"dateTBA": false,
+					"timeTBA": false,
+					"noSpecificTime": false
+				},
+				"status": {
+					"code": "onsale"
+				},
+				"spanMultipleDays": false
+			},
+			"classifications": [{
+				"primary": true,
+				"segment": {
+					"id": "KZFzniwnSyZfZ7v7nJ",
+					"name": "Music"
+				},
+				"genre": {
+					"id": "KnvZfZ7vAvv",
+					"name": "Alternative"
+				},
+				"subGenre": {
+					"id": "KZazBEonSMnZfZ7vAvn",
+					"name": "Alternative Rock"
+				},
+				"family": false
+			}],
+			"outlets": [{
+				"url": "https://www.ticketmaster.com/built-to-spill-portland-oregon-11-01-2019/event/Z7r9jZ1Ae_6jp",
+				"type": "tmMarketPlace"
+			}],
+			"seatmap": {
+				"staticUrl": "http://resale.ticketmaster.com.au/akamai-content/graphics/TMResale/2/VenueMaps/5509-0-0-1-GAStage.png"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/events/Z7r9jZ1Ae_6jp?locale=en-us"
+				},
+				"attractions": [{
+					"href": "/discovery/v2/attractions/K8vZ9171Q67?locale=en-us"
+				}],
+				"venues": [{
+					"href": "/discovery/v2/venues/ZFr9jZkkv1?locale=en-us"
+				}]
+			},
+			"_embedded": {
+				"venues": [{
+					"name": "Doug Fir Lounge",
+					"type": "venue",
+					"id": "ZFr9jZkkv1",
+					"test": false,
+					"locale": "en-us",
+					"postalCode": "97214",
+					"timezone": "America/Los_Angeles",
+					"city": {
+						"name": "Portland"
+					},
+					"state": {
+						"name": "Oregon",
+						"stateCode": "OR"
+					},
+					"country": {
+						"name": "United States Of America",
+						"countryCode": "US"
+					},
+					"address": {
+						"line1": "830 E Burnside St"
+					},
+					"location": {
+						"longitude": "-122.642799",
+						"latitude": "45.513901"
+					},
+					"dmas": [{
+						"id": 362
+					}],
+					"upcomingEvents": {
+						"_total": 40,
+						"tmr": 40
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/venues/ZFr9jZkkv1?locale=en-us"
+						}
+					}
+				}],
+				"attractions": [{
+					"name": "Built To Spill",
+					"type": "attraction",
+					"id": "K8vZ9171Q67",
+					"test": false,
+					"url": "https://www.ticketmaster.com/built-to-spill-tickets/artist/775453",
+					"locale": "en-us",
+					"externalLinks": {
+						"itunes": [{
+							"url": "https://itunes.apple.com/us/artist/id161731"
+						}],
+						"lastfm": [{
+							"url": "https://www.last.fm/music/Built+to+Spill"
+						}],
+						"facebook": [{
+							"url": "https://www.facebook.com/builttospill"
+						}],
+						"musicbrainz": [{
+							"id": "3ac482b8-1494-4071-a0e9-f192f9d2c2b0"
+						}],
+						"homepage": [{
+							"url": "http://www.builttospill.com/"
+						}]
+					},
+					"images": [{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					}, {
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nJ",
+							"name": "Music"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAeA",
+							"name": "Rock"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7v6F1",
+							"name": "Pop"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7nI",
+							"name": "Undefined"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7v7lJ",
+							"name": "Undefined"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 40,
+						"tmr": 30,
+						"ticketmaster": 10
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ9171Q67?locale=en-us"
+						}
+					}
+				}]
+			}
+		}, {
+			"name": "Built To Spill",
+			"type": "event",
+			"id": "Z7r9jZ1Aeqy-U",
+			"test": false,
+			"url": "http://www.ticketsnow.com/InventoryBrowse/TicketList.aspx?PID=2779876",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RETINA_LANDSCAPE_16_9.jpg",
+				"width": 1136,
+				"height": 639,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_TABLET_LANDSCAPE_3_2.jpg",
+				"width": 1024,
+				"height": 683,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_ARTIST_PAGE_3_2.jpg",
+				"width": 305,
+				"height": 203,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+				"width": 2048,
+				"height": 1152,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_TABLET_LANDSCAPE_16_9.jpg",
+				"width": 1024,
+				"height": 576,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RECOMENDATION_16_9.jpg",
+				"width": 100,
+				"height": 56,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RETINA_PORTRAIT_16_9.jpg",
+				"width": 640,
+				"height": 360,
+				"fallback": false
+			}, {
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_CUSTOM.jpg",
+				"width": 305,
+				"height": 225,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_EVENT_DETAIL_PAGE_16_9.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RETINA_PORTRAIT_3_2.jpg",
+				"width": 640,
+				"height": 427,
+				"fallback": false
+			}],
+			"sales": {
+				"public": {
+					"startDateTime": "1900-01-01T18:00:00Z",
+					"startTBD": false,
+					"endDateTime": "2019-11-04T05:00:00Z"
+				}
+			},
+			"dates": {
+				"start": {
+					"localDate": "2019-11-03",
+					"localTime": "21:00:00",
+					"dateTime": "2019-11-04T05:00:00Z",
+					"dateTBD": false,
+					"dateTBA": false,
+					"timeTBA": false,
+					"noSpecificTime": false
+				},
+				"status": {
+					"code": "onsale"
+				},
+				"spanMultipleDays": false
+			},
+			"classifications": [{
+				"primary": true,
+				"segment": {
+					"id": "KZFzniwnSyZfZ7v7nJ",
+					"name": "Music"
+				},
+				"genre": {
+					"id": "KnvZfZ7vAvv",
+					"name": "Alternative"
+				},
+				"subGenre": {
+					"id": "KZazBEonSMnZfZ7vAvn",
+					"name": "Alternative Rock"
+				},
+				"family": false
+			}],
+			"outlets": [{
+				"url": "https://www.dougfirlounge.com/",
+				"type": "venueBoxOffice"
+			}, {
+				"url": "https://www.ticketmaster.com/built-to-spill-portland-oregon-11-03-2019/event/Z7r9jZ1Aeqy-U",
+				"type": "tmMarketPlace"
+			}],
+			"seatmap": {
+				"staticUrl": "http://resale.ticketmaster.com.au/akamai-content/graphics/TMResale/2/VenueMaps/5509-0-0-1-GAStage.png"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/events/Z7r9jZ1Aeqy-U?locale=en-us"
+				},
+				"attractions": [{
+					"href": "/discovery/v2/attractions/K8vZ9171Q67?locale=en-us"
+				}],
+				"venues": [{
+					"href": "/discovery/v2/venues/ZFr9jZkkv1?locale=en-us"
+				}]
+			},
+			"_embedded": {
+				"venues": [{
+					"name": "Doug Fir Lounge",
+					"type": "venue",
+					"id": "ZFr9jZkkv1",
+					"test": false,
+					"locale": "en-us",
+					"postalCode": "97214",
+					"timezone": "America/Los_Angeles",
+					"city": {
+						"name": "Portland"
+					},
+					"state": {
+						"name": "Oregon",
+						"stateCode": "OR"
+					},
+					"country": {
+						"name": "United States Of America",
+						"countryCode": "US"
+					},
+					"address": {
+						"line1": "830 E Burnside St"
+					},
+					"location": {
+						"longitude": "-122.642799",
+						"latitude": "45.513901"
+					},
+					"dmas": [{
+						"id": 362
+					}],
+					"upcomingEvents": {
+						"_total": 40,
+						"tmr": 40
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/venues/ZFr9jZkkv1?locale=en-us"
+						}
+					}
+				}],
+				"attractions": [{
+					"name": "Built To Spill",
+					"type": "attraction",
+					"id": "K8vZ9171Q67",
+					"test": false,
+					"url": "https://www.ticketmaster.com/built-to-spill-tickets/artist/775453",
+					"locale": "en-us",
+					"externalLinks": {
+						"itunes": [{
+							"url": "https://itunes.apple.com/us/artist/id161731"
+						}],
+						"lastfm": [{
+							"url": "https://www.last.fm/music/Built+to+Spill"
+						}],
+						"facebook": [{
+							"url": "https://www.facebook.com/builttospill"
+						}],
+						"musicbrainz": [{
+							"id": "3ac482b8-1494-4071-a0e9-f192f9d2c2b0"
+						}],
+						"homepage": [{
+							"url": "http://www.builttospill.com/"
+						}]
+					},
+					"images": [{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					}, {
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/b07/db0d4ecd-5cc4-4d10-bf39-20ae8efddb07_848571_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nJ",
+							"name": "Music"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAeA",
+							"name": "Rock"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7v6F1",
+							"name": "Pop"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7nI",
+							"name": "Undefined"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7v7lJ",
+							"name": "Undefined"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 40,
+						"tmr": 30,
+						"ticketmaster": 10
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ9171Q67?locale=en-us"
+						}
+					}
+				}]
+			}
+		}, {
+			"name": "Wage War",
+			"type": "event",
+			"id": "Z7r9jZ1Aeqdp7",
+			"test": false,
+			"url": "http://www.ticketsnow.com/InventoryBrowse/TicketList.aspx?PID=2743584",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b53/4b6c5119-e2b5-4262-b965-02bf13050b53_1093891_RETINA_PORTRAIT_16_9.jpg",
+				"width": 640,
+				"height": 360,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b53/4b6c5119-e2b5-4262-b965-02bf13050b53_1093891_TABLET_LANDSCAPE_16_9.jpg",
+				"width": 1024,
+				"height": 576,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/b53/4b6c5119-e2b5-4262-b965-02bf13050b53_1093891_RETINA_PORTRAIT_3_2.jpg",
+				"width": 640,
+				"height": 427,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b53/4b6c5119-e2b5-4262-b965-02bf13050b53_1093891_RETINA_LANDSCAPE_16_9.jpg",
+				"width": 1136,
+				"height": 639,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b53/4b6c5119-e2b5-4262-b965-02bf13050b53_1093891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+				"width": 2048,
+				"height": 1152,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b53/4b6c5119-e2b5-4262-b965-02bf13050b53_1093891_EVENT_DETAIL_PAGE_16_9.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/b53/4b6c5119-e2b5-4262-b965-02bf13050b53_1093891_TABLET_LANDSCAPE_3_2.jpg",
+				"width": 1024,
+				"height": 683,
+				"fallback": false
+			}, {
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/a/b53/4b6c5119-e2b5-4262-b965-02bf13050b53_1093891_CUSTOM.jpg",
+				"width": 305,
+				"height": 225,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/b53/4b6c5119-e2b5-4262-b965-02bf13050b53_1093891_RECOMENDATION_16_9.jpg",
+				"width": 100,
+				"height": 56,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/b53/4b6c5119-e2b5-4262-b965-02bf13050b53_1093891_ARTIST_PAGE_3_2.jpg",
+				"width": 305,
+				"height": 203,
+				"fallback": false
+			}],
+			"sales": {
+				"public": {
+					"startDateTime": "1900-01-01T18:00:00Z",
+					"startTBD": false,
+					"endDateTime": "2019-10-23T02:00:00Z"
+				}
+			},
+			"dates": {
+				"start": {
+					"localDate": "2019-10-22",
+					"localTime": "19:00:00",
+					"dateTime": "2019-10-23T02:00:00Z",
+					"dateTBD": false,
+					"dateTBA": false,
+					"timeTBA": false,
+					"noSpecificTime": false
+				},
+				"status": {
+					"code": "onsale"
+				},
+				"spanMultipleDays": false
+			},
+			"classifications": [{
+				"primary": true,
+				"segment": {
+					"id": "KZFzniwnSyZfZ7v7nJ",
+					"name": "Music"
+				},
+				"genre": {
+					"id": "KnvZfZ7vAvl",
+					"name": "Other"
+				},
+				"subGenre": {
+					"id": "KZazBEonSMnZfZ7vk1I",
+					"name": "Other"
+				},
+				"family": false
+			}],
+			"outlets": [{
+				"url": "http://hawthornetheatre.com/",
+				"type": "venueBoxOffice"
+			}, {
+				"url": "https://www.ticketmaster.com/wage-war-portland-oregon-10-22-2019/event/Z7r9jZ1Aeqdp7",
+				"type": "tmMarketPlace"
+			}],
+			"seatmap": {
+				"staticUrl": "http://resale.ticketmaster.com.au/akamai-content/graphics/TMResale/2/VenueMaps/5222-0-0-1-GAStage71229.png"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/events/Z7r9jZ1Aeqdp7?locale=en-us"
+				},
+				"attractions": [{
+					"href": "/discovery/v2/attractions/K8vZ917oVbV?locale=en-us"
+				}],
+				"venues": [{
+					"href": "/discovery/v2/venues/ZFr9jZkddd?locale=en-us"
+				}]
+			},
+			"_embedded": {
+				"venues": [{
+					"name": "Hawthorne Theatre",
+					"type": "venue",
+					"id": "ZFr9jZkddd",
+					"test": false,
+					"locale": "en-us",
+					"postalCode": "97214",
+					"timezone": "America/Los_Angeles",
+					"city": {
+						"name": "Portland"
+					},
+					"state": {
+						"name": "Oregon",
+						"stateCode": "OR"
+					},
+					"country": {
+						"name": "United States Of America",
+						"countryCode": "US"
+					},
+					"address": {
+						"line1": "1507 SE 39th Ave"
+					},
+					"location": {
+						"longitude": "-122.642799",
+						"latitude": "45.513901"
+					},
+					"dmas": [{
+						"id": 362
+					}],
+					"upcomingEvents": {
+						"_total": 26,
+						"tmr": 25,
+						"ticketmaster": 1
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/venues/ZFr9jZkddd?locale=en-us"
+						}
+					}
+				}],
+				"attractions": [{
+					"name": "Wage War",
+					"type": "attraction",
+					"id": "K8vZ917oVbV",
+					"test": false,
+					"url": "https://www.ticketmaster.ca/wage-war-tickets/artist/1926855",
+					"locale": "en-us",
+					"externalLinks": {
+						"youtube": [{
+							"url": "https://www.youtube.com/channel/UCVbRGNXwrOMEZ1qzGBPf-ow"
+						}],
+						"twitter": [{
+							"url": "https://twitter.com/wagewarofficial"
+						}],
+						"facebook": [{
+							"url": "https://www.facebook.com/WageWarOfficial"
+						}],
+						"instagram": [{
+							"url": "https://www.instagram.com/wagewarofficial"
+						}, {
+							"url": "https://www.instagram.com/wagewarofficial/"
+						}],
+						"musicbrainz": [{
+							"id": "653f3412-63c8-4bd8-bce1-a33aaf93a837"
+						}],
+						"homepage": [{
+							"url": "http://wagewarband.com/"
+						}]
+					},
+					"images": [{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b53/4b6c5119-e2b5-4262-b965-02bf13050b53_1093891_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b53/4b6c5119-e2b5-4262-b965-02bf13050b53_1093891_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/b53/4b6c5119-e2b5-4262-b965-02bf13050b53_1093891_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b53/4b6c5119-e2b5-4262-b965-02bf13050b53_1093891_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b53/4b6c5119-e2b5-4262-b965-02bf13050b53_1093891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b53/4b6c5119-e2b5-4262-b965-02bf13050b53_1093891_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/b53/4b6c5119-e2b5-4262-b965-02bf13050b53_1093891_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					}, {
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/b53/4b6c5119-e2b5-4262-b965-02bf13050b53_1093891_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/b53/4b6c5119-e2b5-4262-b965-02bf13050b53_1093891_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/b53/4b6c5119-e2b5-4262-b965-02bf13050b53_1093891_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nJ",
+							"name": "Music"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAvt",
+							"name": "Metal"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vkFd",
+							"name": "Heavy Metal"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7nI",
+							"name": "Undefined"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7v7lJ",
+							"name": "Undefined"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 30,
+						"mfx-nl": 1,
+						"tmr": 7,
+						"mfx-de": 4,
+						"ticketweb": 1,
+						"ticketmaster": 17
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ917oVbV?locale=en-us"
+						}
+					}
+				}]
+			}
+		}, {
+			"name": "Wilder Woods",
+			"type": "event",
+			"id": "Z7r9jZ1AejA-U",
+			"test": false,
+			"url": "http://www.ticketsnow.com/InventoryBrowse/TicketList.aspx?PID=2705876",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/07a/ade1155f-5fcf-4b01-9984-551c7e4db07a_1069301_ARTIST_PAGE_3_2.jpg",
+				"width": 305,
+				"height": 203,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/07a/ade1155f-5fcf-4b01-9984-551c7e4db07a_1069301_RECOMENDATION_16_9.jpg",
+				"width": 100,
+				"height": 56,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/07a/ade1155f-5fcf-4b01-9984-551c7e4db07a_1069301_TABLET_LANDSCAPE_16_9.jpg",
+				"width": 1024,
+				"height": 576,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/07a/ade1155f-5fcf-4b01-9984-551c7e4db07a_1069301_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+				"width": 2048,
+				"height": 1152,
+				"fallback": false
+			}, {
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/a/07a/ade1155f-5fcf-4b01-9984-551c7e4db07a_1069301_CUSTOM.jpg",
+				"width": 305,
+				"height": 225,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/07a/ade1155f-5fcf-4b01-9984-551c7e4db07a_1069301_EVENT_DETAIL_PAGE_16_9.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/07a/ade1155f-5fcf-4b01-9984-551c7e4db07a_1069301_RETINA_PORTRAIT_3_2.jpg",
+				"width": 640,
+				"height": 427,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/07a/ade1155f-5fcf-4b01-9984-551c7e4db07a_1069301_TABLET_LANDSCAPE_3_2.jpg",
+				"width": 1024,
+				"height": 683,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/07a/ade1155f-5fcf-4b01-9984-551c7e4db07a_1069301_RETINA_PORTRAIT_16_9.jpg",
+				"width": 640,
+				"height": 360,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/07a/ade1155f-5fcf-4b01-9984-551c7e4db07a_1069301_RETINA_LANDSCAPE_16_9.jpg",
+				"width": 1136,
+				"height": 639,
+				"fallback": false
+			}],
+			"sales": {
+				"public": {
+					"startDateTime": "1900-01-01T18:00:00Z",
+					"startTBD": false,
+					"endDateTime": "2019-10-05T03:00:00Z"
+				}
+			},
+			"dates": {
+				"start": {
+					"localDate": "2019-10-04",
+					"localTime": "20:00:00",
+					"dateTime": "2019-10-05T03:00:00Z",
+					"dateTBD": false,
+					"dateTBA": false,
+					"timeTBA": false,
+					"noSpecificTime": false
+				},
+				"status": {
+					"code": "onsale"
+				},
+				"spanMultipleDays": false
+			},
+			"classifications": [{
+				"primary": true,
+				"segment": {
+					"id": "KZFzniwnSyZfZ7v7nJ",
+					"name": "Music"
+				},
+				"genre": {
+					"id": "KnvZfZ7vAvl",
+					"name": "Other"
+				},
+				"subGenre": {
+					"id": "KZazBEonSMnZfZ7vk1I",
+					"name": "Other"
+				},
+				"family": false
+			}],
+			"outlets": [{
+				"url": "http://hawthornetheatre.com/",
+				"type": "venueBoxOffice"
+			}, {
+				"url": "https://www.ticketmaster.com/wilder-woods-portland-oregon-10-04-2019/event/Z7r9jZ1AejA-U",
+				"type": "tmMarketPlace"
+			}],
+			"seatmap": {
+				"staticUrl": "http://resale.ticketmaster.com.au/akamai-content/graphics/TMResale/2/VenueMaps/5222-0-0-1-GAStage71229.png"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/events/Z7r9jZ1AejA-U?locale=en-us"
+				},
+				"attractions": [{
+					"href": "/discovery/v2/attractions/K8vZ917ban0?locale=en-us"
+				}],
+				"venues": [{
+					"href": "/discovery/v2/venues/ZFr9jZkddd?locale=en-us"
+				}]
+			},
+			"_embedded": {
+				"venues": [{
+					"name": "Hawthorne Theatre",
+					"type": "venue",
+					"id": "ZFr9jZkddd",
+					"test": false,
+					"locale": "en-us",
+					"postalCode": "97214",
+					"timezone": "America/Los_Angeles",
+					"city": {
+						"name": "Portland"
+					},
+					"state": {
+						"name": "Oregon",
+						"stateCode": "OR"
+					},
+					"country": {
+						"name": "United States Of America",
+						"countryCode": "US"
+					},
+					"address": {
+						"line1": "1507 SE 39th Ave"
+					},
+					"location": {
+						"longitude": "-122.642799",
+						"latitude": "45.513901"
+					},
+					"dmas": [{
+						"id": 362
+					}],
+					"upcomingEvents": {
+						"_total": 26,
+						"tmr": 25,
+						"ticketmaster": 1
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/venues/ZFr9jZkddd?locale=en-us"
+						}
+					}
+				}],
+				"attractions": [{
+					"name": "Wilder Woods",
+					"type": "attraction",
+					"id": "K8vZ917ban0",
+					"test": false,
+					"url": "https://www.ticketmaster.co.uk/Wilder-Woods-tickets/artist/5304660",
+					"locale": "en-us",
+					"images": [{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/07a/ade1155f-5fcf-4b01-9984-551c7e4db07a_1069301_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/07a/ade1155f-5fcf-4b01-9984-551c7e4db07a_1069301_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/07a/ade1155f-5fcf-4b01-9984-551c7e4db07a_1069301_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/07a/ade1155f-5fcf-4b01-9984-551c7e4db07a_1069301_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					}, {
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/07a/ade1155f-5fcf-4b01-9984-551c7e4db07a_1069301_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/07a/ade1155f-5fcf-4b01-9984-551c7e4db07a_1069301_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/07a/ade1155f-5fcf-4b01-9984-551c7e4db07a_1069301_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/07a/ade1155f-5fcf-4b01-9984-551c7e4db07a_1069301_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/07a/ade1155f-5fcf-4b01-9984-551c7e4db07a_1069301_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/07a/ade1155f-5fcf-4b01-9984-551c7e4db07a_1069301_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nJ",
+							"name": "Music"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAeA",
+							"name": "Rock"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7v6F1",
+							"name": "Pop"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7la",
+							"name": "Individual"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7vAd7",
+							"name": "Musician"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 14,
+						"tmr": 8,
+						"mfx-de": 2,
+						"ticketweb": 1,
+						"ticketmaster": 3
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ917ban0?locale=en-us"
+						}
+					}
+				}]
+			}
+		}, {
+			"name": "Steve Hackett",
+			"type": "event",
+			"id": "Z7r9jZ1Aep83v",
+			"test": false,
+			"url": "http://www.ticketsnow.com/InventoryBrowse/TicketList.aspx?PID=2590481",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/770/07b91b99-8218-4476-a222-834cf4518770_20791_ARTIST_PAGE_3_2.jpg",
+				"width": 305,
+				"height": 203,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/770/07b91b99-8218-4476-a222-834cf4518770_20791_RETINA_PORTRAIT_16_9.jpg",
+				"width": 640,
+				"height": 360,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/770/07b91b99-8218-4476-a222-834cf4518770_20791_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+				"width": 2048,
+				"height": 1152,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/770/07b91b99-8218-4476-a222-834cf4518770_20791_RETINA_LANDSCAPE_16_9.jpg",
+				"width": 1136,
+				"height": 639,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/770/07b91b99-8218-4476-a222-834cf4518770_20791_TABLET_LANDSCAPE_3_2.jpg",
+				"width": 1024,
+				"height": 683,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/770/07b91b99-8218-4476-a222-834cf4518770_20791_EVENT_DETAIL_PAGE_16_9.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/770/07b91b99-8218-4476-a222-834cf4518770_20791_TABLET_LANDSCAPE_16_9.jpg",
+				"width": 1024,
+				"height": 576,
+				"fallback": false
+			}, {
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/a/770/07b91b99-8218-4476-a222-834cf4518770_20791_CUSTOM.jpg",
+				"width": 305,
+				"height": 225,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/770/07b91b99-8218-4476-a222-834cf4518770_20791_RECOMENDATION_16_9.jpg",
+				"width": 100,
+				"height": 56,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/770/07b91b99-8218-4476-a222-834cf4518770_20791_RETINA_PORTRAIT_3_2.jpg",
+				"width": 640,
+				"height": 427,
+				"fallback": false
+			}],
+			"sales": {
+				"public": {
+					"startDateTime": "1900-01-01T18:00:00Z",
+					"startTBD": false,
+					"endDateTime": "2019-10-13T03:00:00Z"
+				}
+			},
+			"dates": {
+				"start": {
+					"localDate": "2019-10-12",
+					"localTime": "20:00:00",
+					"dateTime": "2019-10-13T03:00:00Z",
+					"dateTBD": false,
+					"dateTBA": false,
+					"timeTBA": false,
+					"noSpecificTime": false
+				},
+				"status": {
+					"code": "onsale"
+				},
+				"spanMultipleDays": false
+			},
+			"classifications": [{
+				"primary": true,
+				"segment": {
+					"id": "KZFzniwnSyZfZ7v7nJ",
+					"name": "Music"
+				},
+				"genre": {
+					"id": "KnvZfZ7vAev",
+					"name": "Pop"
+				},
+				"subGenre": {
+					"id": "KZazBEonSMnZfZ7vk1l",
+					"name": "Adult Contemporary"
+				},
+				"family": false
+			}],
+			"outlets": [{
+				"url": "https://www.revolutionhall.com/",
+				"type": "venueBoxOffice"
+			}, {
+				"url": "https://www.ticketmaster.com/steve-hackett-portland-oregon-10-12-2019/event/Z7r9jZ1Aep83v",
+				"type": "tmMarketPlace"
+			}],
+			"seatmap": {
+				"staticUrl": "http://resale.ticketmaster.com.au/akamai-content/graphics/TMResale/2/VenueMaps/10905-0-0-1-GAStage.png"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/events/Z7r9jZ1Aep83v?locale=en-us"
+				},
+				"attractions": [{
+					"href": "/discovery/v2/attractions/K8vZ9178hU0?locale=en-us"
+				}],
+				"venues": [{
+					"href": "/discovery/v2/venues/Z7r9jZaen_?locale=en-us"
+				}]
+			},
+			"_embedded": {
+				"venues": [{
+					"name": "Revolution Hall - Portland",
+					"type": "venue",
+					"id": "Z7r9jZaen_",
+					"test": false,
+					"locale": "en-us",
+					"postalCode": "97214",
+					"timezone": "America/Los_Angeles",
+					"city": {
+						"name": "Portland"
+					},
+					"state": {
+						"name": "Oregon",
+						"stateCode": "OR"
+					},
+					"country": {
+						"name": "United States Of America",
+						"countryCode": "US"
+					},
+					"address": {
+						"line1": "1300 SE Stark Street #110"
+					},
+					"location": {
+						"longitude": "-122.642799",
+						"latitude": "45.513901"
+					},
+					"dmas": [{
+						"id": 362
+					}],
+					"upcomingEvents": {
+						"_total": 19,
+						"tmr": 19
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/venues/Z7r9jZaen_?locale=en-us"
+						}
+					}
+				}],
+				"attractions": [{
+					"name": "Steve Hackett",
+					"type": "attraction",
+					"id": "K8vZ9178hU0",
+					"test": false,
+					"url": "https://www.ticketmaster.ie/Steve-Hackett-tickets/artist/735223",
+					"locale": "en-us",
+					"externalLinks": {
+						"facebook": [{
+							"url": "http://www.facebook.com/pages/Steve-Hackett/123101228589"
+						}],
+						"wiki": [{
+							"url": "https://en.wikipedia.org/wiki/Steve_Hackett"
+						}],
+						"musicbrainz": [{
+							"id": "f4eb8346-052d-4a5c-8393-cba3aeadb4d9"
+						}],
+						"homepage": [{
+							"url": "http://www.hackettsongs.com/"
+						}]
+					},
+					"images": [{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/770/07b91b99-8218-4476-a222-834cf4518770_20791_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/770/07b91b99-8218-4476-a222-834cf4518770_20791_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/770/07b91b99-8218-4476-a222-834cf4518770_20791_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/770/07b91b99-8218-4476-a222-834cf4518770_20791_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/770/07b91b99-8218-4476-a222-834cf4518770_20791_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/770/07b91b99-8218-4476-a222-834cf4518770_20791_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/770/07b91b99-8218-4476-a222-834cf4518770_20791_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					}, {
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/770/07b91b99-8218-4476-a222-834cf4518770_20791_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/770/07b91b99-8218-4476-a222-834cf4518770_20791_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/770/07b91b99-8218-4476-a222-834cf4518770_20791_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nJ",
+							"name": "Music"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAeA",
+							"name": "Rock"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7v6F1",
+							"name": "Pop"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7nI",
+							"name": "Undefined"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7v7lJ",
+							"name": "Undefined"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 42,
+						"tmr": 13,
+						"ticketmaster": 29
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ9178hU0?locale=en-us"
+						}
+					}
+				}]
+			}
+		}, {
+			"name": "Keb' Mo'",
+			"type": "event",
+			"id": "Z7r9jZ1AebNA3",
+			"test": false,
+			"url": "http://www.ticketsnow.com/InventoryBrowse/TicketList.aspx?PID=2623152",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_RETINA_PORTRAIT_3_2.jpg",
+				"width": 640,
+				"height": 427,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_TABLET_LANDSCAPE_3_2.jpg",
+				"width": 1024,
+				"height": 683,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_ARTIST_PAGE_3_2.jpg",
+				"width": 305,
+				"height": 203,
+				"fallback": false
+			}, {
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_CUSTOM.jpg",
+				"width": 305,
+				"height": 225,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_RETINA_LANDSCAPE_16_9.jpg",
+				"width": 1136,
+				"height": 639,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+				"width": 2048,
+				"height": 1152,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_RECOMENDATION_16_9.jpg",
+				"width": 100,
+				"height": 56,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_RETINA_PORTRAIT_16_9.jpg",
+				"width": 640,
+				"height": 360,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_TABLET_LANDSCAPE_16_9.jpg",
+				"width": 1024,
+				"height": 576,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_EVENT_DETAIL_PAGE_16_9.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}],
+			"sales": {
+				"public": {
+					"startDateTime": "1900-01-01T18:00:00Z",
+					"startTBD": false,
+					"endDateTime": "2019-10-05T03:00:00Z"
+				}
+			},
+			"dates": {
+				"start": {
+					"localDate": "2019-10-04",
+					"localTime": "20:00:00",
+					"dateTime": "2019-10-05T03:00:00Z",
+					"dateTBD": false,
+					"dateTBA": false,
+					"timeTBA": false,
+					"noSpecificTime": false
+				},
+				"status": {
+					"code": "onsale"
+				},
+				"spanMultipleDays": false
+			},
+			"classifications": [{
+				"primary": true,
+				"segment": {
+					"id": "KZFzniwnSyZfZ7v7nJ",
+					"name": "Music"
+				},
+				"genre": {
+					"id": "KnvZfZ7vAvd",
+					"name": "Blues"
+				},
+				"subGenre": {
+					"id": "KZazBEonSMnZfZ7vAk6",
+					"name": "Jazz Blues"
+				},
+				"family": false
+			}],
+			"outlets": [{
+				"url": "https://www.revolutionhall.com/",
+				"type": "venueBoxOffice"
+			}, {
+				"url": "https://www.ticketmaster.com/keb-mo-portland-oregon-10-04-2019/event/Z7r9jZ1AebNA3",
+				"type": "tmMarketPlace"
+			}],
+			"seatmap": {
+				"staticUrl": "http://resale.ticketmaster.com.au/akamai-content/graphics/TMResale/2/VenueMaps/10905-0-0-1-GAStage.png"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/events/Z7r9jZ1AebNA3?locale=en-us"
+				},
+				"attractions": [{
+					"href": "/discovery/v2/attractions/K8vZ9171f6V?locale=en-us"
+				}],
+				"venues": [{
+					"href": "/discovery/v2/venues/Z7r9jZaen_?locale=en-us"
+				}]
+			},
+			"_embedded": {
+				"venues": [{
+					"name": "Revolution Hall - Portland",
+					"type": "venue",
+					"id": "Z7r9jZaen_",
+					"test": false,
+					"locale": "en-us",
+					"postalCode": "97214",
+					"timezone": "America/Los_Angeles",
+					"city": {
+						"name": "Portland"
+					},
+					"state": {
+						"name": "Oregon",
+						"stateCode": "OR"
+					},
+					"country": {
+						"name": "United States Of America",
+						"countryCode": "US"
+					},
+					"address": {
+						"line1": "1300 SE Stark Street #110"
+					},
+					"location": {
+						"longitude": "-122.642799",
+						"latitude": "45.513901"
+					},
+					"dmas": [{
+						"id": 362
+					}],
+					"upcomingEvents": {
+						"_total": 19,
+						"tmr": 19
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/venues/Z7r9jZaen_?locale=en-us"
+						}
+					}
+				}],
+				"attractions": [{
+					"name": "Keb' Mo'",
+					"type": "attraction",
+					"id": "K8vZ9171f6V",
+					"test": false,
+					"url": "https://www.ticketmaster.ie/Keb-Mo-tickets/artist/3400",
+					"locale": "en-us",
+					"images": [{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					}, {
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/a0e/db649938-e1a7-48d3-b313-623f9bb34a0e_1134421_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nJ",
+							"name": "Music"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAvd",
+							"name": "Blues"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAAd",
+							"name": "Blues"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7nI",
+							"name": "Undefined"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7v7lJ",
+							"name": "Undefined"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 14,
+						"tmr": 8,
+						"ticketmaster": 6
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ9171f6V?locale=en-us"
+						}
+					}
+				}]
+			}
+		}, {
+			"name": "Bianca Del Rio",
+			"type": "event",
+			"id": "Z7r9jZ1AebZ3F",
+			"test": false,
+			"url": "http://www.ticketsnow.com/InventoryBrowse/TicketList.aspx?PID=2600488",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/d97/38eb969a-6fcf-4229-a85f-e7e354f4fd97_1002931_EVENT_DETAIL_PAGE_16_9.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}, {
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/a/d97/38eb969a-6fcf-4229-a85f-e7e354f4fd97_1002931_CUSTOM.jpg",
+				"width": 305,
+				"height": 225,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/d97/38eb969a-6fcf-4229-a85f-e7e354f4fd97_1002931_TABLET_LANDSCAPE_3_2.jpg",
+				"width": 1024,
+				"height": 683,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/d97/38eb969a-6fcf-4229-a85f-e7e354f4fd97_1002931_TABLET_LANDSCAPE_16_9.jpg",
+				"width": 1024,
+				"height": 576,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/d97/38eb969a-6fcf-4229-a85f-e7e354f4fd97_1002931_RETINA_PORTRAIT_3_2.jpg",
+				"width": 640,
+				"height": 427,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/d97/38eb969a-6fcf-4229-a85f-e7e354f4fd97_1002931_RECOMENDATION_16_9.jpg",
+				"width": 100,
+				"height": 56,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/d97/38eb969a-6fcf-4229-a85f-e7e354f4fd97_1002931_ARTIST_PAGE_3_2.jpg",
+				"width": 305,
+				"height": 203,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/d97/38eb969a-6fcf-4229-a85f-e7e354f4fd97_1002931_RETINA_LANDSCAPE_16_9.jpg",
+				"width": 1136,
+				"height": 639,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/d97/38eb969a-6fcf-4229-a85f-e7e354f4fd97_1002931_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+				"width": 2048,
+				"height": 1152,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/d97/38eb969a-6fcf-4229-a85f-e7e354f4fd97_1002931_RETINA_PORTRAIT_16_9.jpg",
+				"width": 640,
+				"height": 360,
+				"fallback": false
+			}],
+			"sales": {
+				"public": {
+					"startDateTime": "1900-01-01T18:00:00Z",
+					"startTBD": false,
+					"endDateTime": "2019-11-20T04:00:00Z"
+				}
+			},
+			"dates": {
+				"start": {
+					"localDate": "2019-11-19",
+					"localTime": "20:00:00",
+					"dateTime": "2019-11-20T04:00:00Z",
+					"dateTBD": false,
+					"dateTBA": false,
+					"timeTBA": false,
+					"noSpecificTime": false
+				},
+				"status": {
+					"code": "onsale"
+				},
+				"spanMultipleDays": false
+			},
+			"classifications": [{
+				"primary": true,
+				"segment": {
+					"id": "KZFzniwnSyZfZ7v7nJ",
+					"name": "Music"
+				},
+				"genre": {
+					"id": "KnvZfZ7vAvl",
+					"name": "Other"
+				},
+				"subGenre": {
+					"id": "KZazBEonSMnZfZ7vk1I",
+					"name": "Other"
+				},
+				"family": false
+			}],
+			"outlets": [{
+				"url": "https://www.revolutionhall.com/",
+				"type": "venueBoxOffice"
+			}, {
+				"url": "https://www.ticketmaster.com/bianca-del-rio-portland-oregon-11-19-2019/event/Z7r9jZ1AebZ3F",
+				"type": "tmMarketPlace"
+			}],
+			"seatmap": {
+				"staticUrl": "http://resale.ticketmaster.com.au/akamai-content/graphics/TMResale/2/VenueMaps/10905-0-0-1-GAStage.png"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/events/Z7r9jZ1AebZ3F?locale=en-us"
+				},
+				"attractions": [{
+					"href": "/discovery/v2/attractions/K8vZ9173PMV?locale=en-us"
+				}],
+				"venues": [{
+					"href": "/discovery/v2/venues/Z7r9jZaen_?locale=en-us"
+				}]
+			},
+			"_embedded": {
+				"venues": [{
+					"name": "Revolution Hall - Portland",
+					"type": "venue",
+					"id": "Z7r9jZaen_",
+					"test": false,
+					"locale": "en-us",
+					"postalCode": "97214",
+					"timezone": "America/Los_Angeles",
+					"city": {
+						"name": "Portland"
+					},
+					"state": {
+						"name": "Oregon",
+						"stateCode": "OR"
+					},
+					"country": {
+						"name": "United States Of America",
+						"countryCode": "US"
+					},
+					"address": {
+						"line1": "1300 SE Stark Street #110"
+					},
+					"location": {
+						"longitude": "-122.642799",
+						"latitude": "45.513901"
+					},
+					"dmas": [{
+						"id": 362
+					}],
+					"upcomingEvents": {
+						"_total": 19,
+						"tmr": 19
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/venues/Z7r9jZaen_?locale=en-us"
+						}
+					}
+				}],
+				"attractions": [{
+					"name": "Bianca Del Rio",
+					"type": "attraction",
+					"id": "K8vZ9173PMV",
+					"test": false,
+					"url": "https://www.ticketmaster.com/bianca-del-rio-tickets/artist/2007016",
+					"locale": "en-us",
+					"images": [{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/d97/38eb969a-6fcf-4229-a85f-e7e354f4fd97_1002931_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					}, {
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/d97/38eb969a-6fcf-4229-a85f-e7e354f4fd97_1002931_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/d97/38eb969a-6fcf-4229-a85f-e7e354f4fd97_1002931_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/d97/38eb969a-6fcf-4229-a85f-e7e354f4fd97_1002931_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/d97/38eb969a-6fcf-4229-a85f-e7e354f4fd97_1002931_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/d97/38eb969a-6fcf-4229-a85f-e7e354f4fd97_1002931_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/d97/38eb969a-6fcf-4229-a85f-e7e354f4fd97_1002931_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/d97/38eb969a-6fcf-4229-a85f-e7e354f4fd97_1002931_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/d97/38eb969a-6fcf-4229-a85f-e7e354f4fd97_1002931_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/d97/38eb969a-6fcf-4229-a85f-e7e354f4fd97_1002931_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7na",
+							"name": "Arts & Theatre"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAe1",
+							"name": "Comedy"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vF17",
+							"name": "Comedy"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7nI",
+							"name": "Undefined"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7v7lJ",
+							"name": "Undefined"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 41,
+						"tmr": 26,
+						"ticketmaster": 15
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ9173PMV?locale=en-us"
+						}
+					}
+				}]
+			}
+		}, {
+			"name": "Hail The Sun",
+			"type": "event",
+			"id": "Z7r9jZ1Aeqffg",
+			"test": false,
+			"url": "http://www.ticketsnow.com/InventoryBrowse/TicketList.aspx?PID=2754535",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/4d3/a5c59360-aca4-4def-8988-2e585bc474d3_1068091_RETINA_PORTRAIT_16_9.jpg",
+				"width": 640,
+				"height": 360,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/4d3/a5c59360-aca4-4def-8988-2e585bc474d3_1068091_ARTIST_PAGE_3_2.jpg",
+				"width": 305,
+				"height": 203,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/4d3/a5c59360-aca4-4def-8988-2e585bc474d3_1068091_RECOMENDATION_16_9.jpg",
+				"width": 100,
+				"height": 56,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/4d3/a5c59360-aca4-4def-8988-2e585bc474d3_1068091_TABLET_LANDSCAPE_16_9.jpg",
+				"width": 1024,
+				"height": 576,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/4d3/a5c59360-aca4-4def-8988-2e585bc474d3_1068091_RETINA_PORTRAIT_3_2.jpg",
+				"width": 640,
+				"height": 427,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/4d3/a5c59360-aca4-4def-8988-2e585bc474d3_1068091_TABLET_LANDSCAPE_3_2.jpg",
+				"width": 1024,
+				"height": 683,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/4d3/a5c59360-aca4-4def-8988-2e585bc474d3_1068091_RETINA_LANDSCAPE_16_9.jpg",
+				"width": 1136,
+				"height": 639,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/4d3/a5c59360-aca4-4def-8988-2e585bc474d3_1068091_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+				"width": 2048,
+				"height": 1152,
+				"fallback": false
+			}, {
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/a/4d3/a5c59360-aca4-4def-8988-2e585bc474d3_1068091_CUSTOM.jpg",
+				"width": 305,
+				"height": 225,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/4d3/a5c59360-aca4-4def-8988-2e585bc474d3_1068091_EVENT_DETAIL_PAGE_16_9.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}],
+			"sales": {
+				"public": {
+					"startDateTime": "1900-01-01T18:00:00Z",
+					"startTBD": false,
+					"endDateTime": "2019-10-12T01:30:00Z"
+				}
+			},
+			"dates": {
+				"start": {
+					"localDate": "2019-10-11",
+					"localTime": "18:30:00",
+					"dateTime": "2019-10-12T01:30:00Z",
+					"dateTBD": false,
+					"dateTBA": false,
+					"timeTBA": false,
+					"noSpecificTime": false
+				},
+				"status": {
+					"code": "onsale"
+				},
+				"spanMultipleDays": false
+			},
+			"classifications": [{
+				"primary": true,
+				"segment": {
+					"id": "KZFzniwnSyZfZ7v7nJ",
+					"name": "Music"
+				},
+				"genre": {
+					"id": "KnvZfZ7vAvl",
+					"name": "Other"
+				},
+				"subGenre": {
+					"id": "KZazBEonSMnZfZ7vk1I",
+					"name": "Other"
+				},
+				"family": false
+			}],
+			"outlets": [{
+				"url": "http://hawthornetheatre.com/",
+				"type": "venueBoxOffice"
+			}, {
+				"url": "https://www.ticketmaster.com/hail-the-sun-portland-oregon-10-11-2019/event/Z7r9jZ1Aeqffg",
+				"type": "tmMarketPlace"
+			}],
+			"seatmap": {
+				"staticUrl": "http://resale.ticketmaster.com.au/akamai-content/graphics/TMResale/2/VenueMaps/5222-0-0-1-GAStage71229.png"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/events/Z7r9jZ1Aeqffg?locale=en-us"
+				},
+				"attractions": [{
+					"href": "/discovery/v2/attractions/K8vZ91783f7?locale=en-us"
+				}],
+				"venues": [{
+					"href": "/discovery/v2/venues/ZFr9jZkddd?locale=en-us"
+				}]
+			},
+			"_embedded": {
+				"venues": [{
+					"name": "Hawthorne Theatre",
+					"type": "venue",
+					"id": "ZFr9jZkddd",
+					"test": false,
+					"locale": "en-us",
+					"postalCode": "97214",
+					"timezone": "America/Los_Angeles",
+					"city": {
+						"name": "Portland"
+					},
+					"state": {
+						"name": "Oregon",
+						"stateCode": "OR"
+					},
+					"country": {
+						"name": "United States Of America",
+						"countryCode": "US"
+					},
+					"address": {
+						"line1": "1507 SE 39th Ave"
+					},
+					"location": {
+						"longitude": "-122.642799",
+						"latitude": "45.513901"
+					},
+					"dmas": [{
+						"id": 362
+					}],
+					"upcomingEvents": {
+						"_total": 26,
+						"tmr": 25,
+						"ticketmaster": 1
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/venues/ZFr9jZkddd?locale=en-us"
+						}
+					}
+				}],
+				"attractions": [{
+					"name": "Hail the Sun",
+					"type": "attraction",
+					"id": "K8vZ91783f7",
+					"test": false,
+					"url": "https://www.ticketmaster.ie/hail-the-sun-tickets/artist/1777787",
+					"locale": "en-us",
+					"externalLinks": {
+						"musicbrainz": [{
+							"id": "86048067-211d-4b94-8af4-20494abbdedf"
+						}]
+					},
+					"images": [{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/4d3/a5c59360-aca4-4def-8988-2e585bc474d3_1068091_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/4d3/a5c59360-aca4-4def-8988-2e585bc474d3_1068091_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/4d3/a5c59360-aca4-4def-8988-2e585bc474d3_1068091_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/4d3/a5c59360-aca4-4def-8988-2e585bc474d3_1068091_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/4d3/a5c59360-aca4-4def-8988-2e585bc474d3_1068091_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/4d3/a5c59360-aca4-4def-8988-2e585bc474d3_1068091_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/4d3/a5c59360-aca4-4def-8988-2e585bc474d3_1068091_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/4d3/a5c59360-aca4-4def-8988-2e585bc474d3_1068091_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					}, {
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/4d3/a5c59360-aca4-4def-8988-2e585bc474d3_1068091_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/4d3/a5c59360-aca4-4def-8988-2e585bc474d3_1068091_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nJ",
+							"name": "Music"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAeA",
+							"name": "Rock"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7v6F1",
+							"name": "Pop"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7nI",
+							"name": "Undefined"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7v7lJ",
+							"name": "Undefined"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 10,
+						"tmr": 9,
+						"ticketmaster": 1
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ91783f7?locale=en-us"
+						}
+					}
+				}]
+			}
+		}, {
+			"name": "Whitney",
+			"type": "event",
+			"id": "Z7r9jZ1Aebxb6",
+			"test": false,
+			"url": "http://www.ticketsnow.com/InventoryBrowse/TicketList.aspx?PID=2622607",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/a/a84/57ff2057-c181-4f5c-aded-43c22e411a84_1104971_CUSTOM.jpg",
+				"width": 305,
+				"height": 225,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/a84/57ff2057-c181-4f5c-aded-43c22e411a84_1104971_RETINA_LANDSCAPE_16_9.jpg",
+				"width": 1136,
+				"height": 639,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/a84/57ff2057-c181-4f5c-aded-43c22e411a84_1104971_ARTIST_PAGE_3_2.jpg",
+				"width": 305,
+				"height": 203,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/a84/57ff2057-c181-4f5c-aded-43c22e411a84_1104971_RETINA_PORTRAIT_16_9.jpg",
+				"width": 640,
+				"height": 360,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/a84/57ff2057-c181-4f5c-aded-43c22e411a84_1104971_EVENT_DETAIL_PAGE_16_9.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/a84/57ff2057-c181-4f5c-aded-43c22e411a84_1104971_RETINA_PORTRAIT_3_2.jpg",
+				"width": 640,
+				"height": 427,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/a84/57ff2057-c181-4f5c-aded-43c22e411a84_1104971_RECOMENDATION_16_9.jpg",
+				"width": 100,
+				"height": 56,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/a84/57ff2057-c181-4f5c-aded-43c22e411a84_1104971_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+				"width": 2048,
+				"height": 1152,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/a84/57ff2057-c181-4f5c-aded-43c22e411a84_1104971_TABLET_LANDSCAPE_16_9.jpg",
+				"width": 1024,
+				"height": 576,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/a84/57ff2057-c181-4f5c-aded-43c22e411a84_1104971_TABLET_LANDSCAPE_3_2.jpg",
+				"width": 1024,
+				"height": 683,
+				"fallback": false
+			}],
+			"sales": {
+				"public": {
+					"startDateTime": "1900-01-01T18:00:00Z",
+					"startTBD": false,
+					"endDateTime": "2019-10-28T04:00:00Z"
+				}
+			},
+			"dates": {
+				"start": {
+					"localDate": "2019-10-27",
+					"localTime": "21:00:00",
+					"dateTime": "2019-10-28T04:00:00Z",
+					"dateTBD": false,
+					"dateTBA": false,
+					"timeTBA": false,
+					"noSpecificTime": false
+				},
+				"status": {
+					"code": "onsale"
+				},
+				"spanMultipleDays": false
+			},
+			"classifications": [{
+				"primary": true,
+				"segment": {
+					"id": "KZFzniwnSyZfZ7v7nJ",
+					"name": "Music"
+				},
+				"genre": {
+					"id": "KnvZfZ7vAev",
+					"name": "Pop"
+				},
+				"subGenre": {
+					"id": "KZazBEonSMnZfZ7vkEl",
+					"name": "Pop Rock"
+				},
+				"family": false
+			}],
+			"outlets": [{
+				"url": "https://www.revolutionhall.com/",
+				"type": "venueBoxOffice"
+			}, {
+				"url": "https://www.ticketmaster.com/whitney-portland-oregon-10-27-2019/event/Z7r9jZ1Aebxb6",
+				"type": "tmMarketPlace"
+			}],
+			"seatmap": {
+				"staticUrl": "http://resale.ticketmaster.com.au/akamai-content/graphics/TMResale/2/VenueMaps/10905-0-0-1-GAStage.png"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/events/Z7r9jZ1Aebxb6?locale=en-us"
+				},
+				"attractions": [{
+					"href": "/discovery/v2/attractions/K8vZ917KB87?locale=en-us"
+				}],
+				"venues": [{
+					"href": "/discovery/v2/venues/Z7r9jZaen_?locale=en-us"
+				}]
+			},
+			"_embedded": {
+				"venues": [{
+					"name": "Revolution Hall - Portland",
+					"type": "venue",
+					"id": "Z7r9jZaen_",
+					"test": false,
+					"locale": "en-us",
+					"postalCode": "97214",
+					"timezone": "America/Los_Angeles",
+					"city": {
+						"name": "Portland"
+					},
+					"state": {
+						"name": "Oregon",
+						"stateCode": "OR"
+					},
+					"country": {
+						"name": "United States Of America",
+						"countryCode": "US"
+					},
+					"address": {
+						"line1": "1300 SE Stark Street #110"
+					},
+					"location": {
+						"longitude": "-122.642799",
+						"latitude": "45.513901"
+					},
+					"dmas": [{
+						"id": 362
+					}],
+					"upcomingEvents": {
+						"_total": 19,
+						"tmr": 19
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/venues/Z7r9jZaen_?locale=en-us"
+						}
+					}
+				}],
+				"attractions": [{
+					"name": "Whitney",
+					"type": "attraction",
+					"id": "K8vZ917KB87",
+					"test": false,
+					"url": "https://www.ticketmaster.co.nz/whitney-tickets/artist/2168001",
+					"locale": "en-us",
+					"externalLinks": {
+						"facebook": [{
+							"url": "https://www.facebook.com/whitneychicago"
+						}],
+						"musicbrainz": [{
+							"id": "c8adeb75-8ec5-4b0f-a5d3-13e87da1d19a"
+						}]
+					},
+					"images": [{
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/a84/57ff2057-c181-4f5c-aded-43c22e411a84_1104971_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/a84/57ff2057-c181-4f5c-aded-43c22e411a84_1104971_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/a84/57ff2057-c181-4f5c-aded-43c22e411a84_1104971_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/a84/57ff2057-c181-4f5c-aded-43c22e411a84_1104971_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/a84/57ff2057-c181-4f5c-aded-43c22e411a84_1104971_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/a84/57ff2057-c181-4f5c-aded-43c22e411a84_1104971_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/a84/57ff2057-c181-4f5c-aded-43c22e411a84_1104971_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/a84/57ff2057-c181-4f5c-aded-43c22e411a84_1104971_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/a84/57ff2057-c181-4f5c-aded-43c22e411a84_1104971_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/a84/57ff2057-c181-4f5c-aded-43c22e411a84_1104971_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nJ",
+							"name": "Music"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAvv",
+							"name": "Alternative"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAvn",
+							"name": "Alternative Rock"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7l1",
+							"name": "Group"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7vA71",
+							"name": "Band"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 32,
+						"tmr": 19,
+						"mfx-nl": 1,
+						"ticketweb": 2,
+						"ticketmaster": 10
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ917KB87?locale=en-us"
+						}
+					}
+				}]
+			}
+		}, {
+			"name": "Periphery w/ Veil of Maya",
+			"type": "event",
+			"id": "Z7r9jZ1Aejff9",
+			"test": false,
+			"url": "http://www.ticketsnow.com/InventoryBrowse/TicketList.aspx?PID=2714517",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/10d/e08d61c2-e53f-4456-b54f-b2b54dee710d_1074901_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+				"width": 2048,
+				"height": 1152,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/10d/e08d61c2-e53f-4456-b54f-b2b54dee710d_1074901_TABLET_LANDSCAPE_3_2.jpg",
+				"width": 1024,
+				"height": 683,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/10d/e08d61c2-e53f-4456-b54f-b2b54dee710d_1074901_RETINA_PORTRAIT_3_2.jpg",
+				"width": 640,
+				"height": 427,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/10d/e08d61c2-e53f-4456-b54f-b2b54dee710d_1074901_RETINA_LANDSCAPE_16_9.jpg",
+				"width": 1136,
+				"height": 639,
+				"fallback": false
+			}, {
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/a/10d/e08d61c2-e53f-4456-b54f-b2b54dee710d_1074901_CUSTOM.jpg",
+				"width": 305,
+				"height": 225,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/10d/e08d61c2-e53f-4456-b54f-b2b54dee710d_1074901_EVENT_DETAIL_PAGE_16_9.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/10d/e08d61c2-e53f-4456-b54f-b2b54dee710d_1074901_ARTIST_PAGE_3_2.jpg",
+				"width": 305,
+				"height": 203,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/10d/e08d61c2-e53f-4456-b54f-b2b54dee710d_1074901_RECOMENDATION_16_9.jpg",
+				"width": 100,
+				"height": 56,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/10d/e08d61c2-e53f-4456-b54f-b2b54dee710d_1074901_RETINA_PORTRAIT_16_9.jpg",
+				"width": 640,
+				"height": 360,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/10d/e08d61c2-e53f-4456-b54f-b2b54dee710d_1074901_TABLET_LANDSCAPE_16_9.jpg",
+				"width": 1024,
+				"height": 576,
+				"fallback": false
+			}],
+			"sales": {
+				"public": {
+					"startDateTime": "1900-01-01T18:00:00Z",
+					"startTBD": false,
+					"endDateTime": "2019-09-29T02:00:00Z"
+				}
+			},
+			"dates": {
+				"start": {
+					"localDate": "2019-09-28",
+					"localTime": "19:00:00",
+					"dateTime": "2019-09-29T02:00:00Z",
+					"dateTBD": false,
+					"dateTBA": false,
+					"timeTBA": false,
+					"noSpecificTime": false
+				},
+				"status": {
+					"code": "onsale"
+				},
+				"spanMultipleDays": false
+			},
+			"classifications": [{
+				"primary": true,
+				"segment": {
+					"id": "KZFzniwnSyZfZ7v7nJ",
+					"name": "Music"
+				},
+				"genre": {
+					"id": "KnvZfZ7vAvl",
+					"name": "Other"
+				},
+				"subGenre": {
+					"id": "KZazBEonSMnZfZ7vk1I",
+					"name": "Other"
+				},
+				"family": false
+			}],
+			"outlets": [{
+				"url": "http://hawthornetheatre.com/",
+				"type": "venueBoxOffice"
+			}, {
+				"url": "https://www.ticketmaster.com/periphery-w-veil-of-maya-portland-oregon-09-28-2019/event/Z7r9jZ1Aejff9",
+				"type": "tmMarketPlace"
+			}],
+			"seatmap": {
+				"staticUrl": "http://resale.ticketmaster.com.au/akamai-content/graphics/TMResale/2/VenueMaps/5222-0-0-1-GAStage71229.png"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/events/Z7r9jZ1Aejff9?locale=en-us"
+				},
+				"attractions": [{
+					"href": "/discovery/v2/attractions/K8vZ917u1I7?locale=en-us"
+				}, {
+					"href": "/discovery/v2/attractions/K8vZ917GMG0?locale=en-us"
+				}, {
+					"href": "/discovery/v2/attractions/K8vZ9174E07?locale=en-us"
+				}],
+				"venues": [{
+					"href": "/discovery/v2/venues/ZFr9jZkddd?locale=en-us"
+				}]
+			},
+			"_embedded": {
+				"venues": [{
+					"name": "Hawthorne Theatre",
+					"type": "venue",
+					"id": "ZFr9jZkddd",
+					"test": false,
+					"locale": "en-us",
+					"postalCode": "97214",
+					"timezone": "America/Los_Angeles",
+					"city": {
+						"name": "Portland"
+					},
+					"state": {
+						"name": "Oregon",
+						"stateCode": "OR"
+					},
+					"country": {
+						"name": "United States Of America",
+						"countryCode": "US"
+					},
+					"address": {
+						"line1": "1507 SE 39th Ave"
+					},
+					"location": {
+						"longitude": "-122.642799",
+						"latitude": "45.513901"
+					},
+					"dmas": [{
+						"id": 362
+					}],
+					"upcomingEvents": {
+						"_total": 26,
+						"tmr": 25,
+						"ticketmaster": 1
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/venues/ZFr9jZkddd?locale=en-us"
+						}
+					}
+				}],
+				"attractions": [{
+					"name": "Periphery",
+					"type": "attraction",
+					"id": "K8vZ917u1I7",
+					"test": false,
+					"url": "http://www.ticketmaster.com.mx/periphery-tickets/artist/1498978",
+					"locale": "en-us",
+					"externalLinks": {
+						"lastfm": [{
+							"url": "http://www.last.fm/music/Periphery"
+						}],
+						"facebook": [{
+							"url": "https://www.facebook.com/PeripheryBand"
+						}],
+						"wiki": [{
+							"url": "https://en.wikipedia.org/wiki/Periphery_(band)"
+						}],
+						"musicbrainz": [{
+							"id": "a0cef17a-4574-44f4-9f97-fd068615dac6"
+						}]
+					},
+					"images": [{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/10d/e08d61c2-e53f-4456-b54f-b2b54dee710d_1074901_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/10d/e08d61c2-e53f-4456-b54f-b2b54dee710d_1074901_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/10d/e08d61c2-e53f-4456-b54f-b2b54dee710d_1074901_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/10d/e08d61c2-e53f-4456-b54f-b2b54dee710d_1074901_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					}, {
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/10d/e08d61c2-e53f-4456-b54f-b2b54dee710d_1074901_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/10d/e08d61c2-e53f-4456-b54f-b2b54dee710d_1074901_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/10d/e08d61c2-e53f-4456-b54f-b2b54dee710d_1074901_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/10d/e08d61c2-e53f-4456-b54f-b2b54dee710d_1074901_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/10d/e08d61c2-e53f-4456-b54f-b2b54dee710d_1074901_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/10d/e08d61c2-e53f-4456-b54f-b2b54dee710d_1074901_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nJ",
+							"name": "Music"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAeA",
+							"name": "Rock"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7v6dt",
+							"name": "Alternative Rock"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7nI",
+							"name": "Undefined"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7v7lJ",
+							"name": "Undefined"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 12,
+						"tmr": 4,
+						"mfx-nl": 1,
+						"ticketmaster": 7
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ917u1I7?locale=en-us"
+						}
+					}
+				}, {
+					"name": "Veil of Maya",
+					"type": "attraction",
+					"id": "K8vZ917GMG0",
+					"test": false,
+					"url": "https://www.ticketmaster.ca/veil-of-maya-tickets/artist/1394407",
+					"locale": "en-us",
+					"externalLinks": {
+						"twitter": [{
+							"url": "https://twitter.com/veilofmayaband"
+						}],
+						"lastfm": [{
+							"url": "http://www.last.fm/music/Veil+of+Maya"
+						}],
+						"facebook": [{
+							"url": "https://www.facebook.com/veilofmaya"
+						}],
+						"wiki": [{
+							"url": "https://en.wikipedia.org/wiki/Veil_of_Maya"
+						}],
+						"musicbrainz": [{
+							"id": "32e740e5-95ea-42e3-b5e2-29f6630488e4"
+						}]
+					},
+					"images": [{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dbimages/207972a.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": true
+					}, {
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dbimages/207971a.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": true
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": true
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/c/e7c/86478562-7218-4e8f-b9d4-8080fe168e7c_105581_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": true
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nJ",
+							"name": "Music"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAvt",
+							"name": "Metal"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vkFd",
+							"name": "Heavy Metal"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7nI",
+							"name": "Undefined"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7v7lJ",
+							"name": "Undefined"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 10,
+						"mfx-nl": 1,
+						"tmr": 3,
+						"ticketmaster": 6
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ917GMG0?locale=en-us"
+						}
+					}
+				}, {
+					"name": "Covet",
+					"type": "attraction",
+					"id": "K8vZ9174E07",
+					"test": false,
+					"url": "https://www.ticketmaster.ie/Covet-tickets/artist/5215333",
+					"locale": "en-us",
+					"externalLinks": {
+						"musicbrainz": [{
+							"id": "55445596-bb2f-40dc-993d-5195e4657148"
+						}]
+					},
+					"images": [{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": true
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": true
+					}, {
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": true
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/c/fbc/b293c0ad-c904-4215-bc59-8d7f2414dfbc_106141_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": true
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nJ",
+							"name": "Music"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAeA",
+							"name": "Rock"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7v6da",
+							"name": "Rock"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7l1",
+							"name": "Group"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7vA71",
+							"name": "Band"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 5,
+						"tmr": 3,
+						"ticketmaster": 2
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ9174E07?locale=en-us"
+						}
+					}
+				}]
+			}
+		}, {
+			"name": "Barns Courtney",
+			"type": "event",
+			"id": "Z7r9jZ1Ae_z4z",
+			"test": false,
+			"url": "http://www.ticketsnow.com/InventoryBrowse/TicketList.aspx?PID=2678578",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/3a5/473c8559-0a4a-4187-9548-bd7040a623a5_1039731_RETINA_LANDSCAPE_16_9.jpg",
+				"width": 1136,
+				"height": 639,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/3a5/473c8559-0a4a-4187-9548-bd7040a623a5_1039731_RETINA_PORTRAIT_3_2.jpg",
+				"width": 640,
+				"height": 427,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/3a5/473c8559-0a4a-4187-9548-bd7040a623a5_1039731_TABLET_LANDSCAPE_16_9.jpg",
+				"width": 1024,
+				"height": 576,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/3a5/473c8559-0a4a-4187-9548-bd7040a623a5_1039731_ARTIST_PAGE_3_2.jpg",
+				"width": 305,
+				"height": 203,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/3a5/473c8559-0a4a-4187-9548-bd7040a623a5_1039731_EVENT_DETAIL_PAGE_16_9.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/3a5/473c8559-0a4a-4187-9548-bd7040a623a5_1039731_RECOMENDATION_16_9.jpg",
+				"width": 100,
+				"height": 56,
+				"fallback": false
+			}, {
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/a/3a5/473c8559-0a4a-4187-9548-bd7040a623a5_1039731_CUSTOM.jpg",
+				"width": 305,
+				"height": 225,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/3a5/473c8559-0a4a-4187-9548-bd7040a623a5_1039731_TABLET_LANDSCAPE_3_2.jpg",
+				"width": 1024,
+				"height": 683,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/3a5/473c8559-0a4a-4187-9548-bd7040a623a5_1039731_RETINA_PORTRAIT_16_9.jpg",
+				"width": 640,
+				"height": 360,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/3a5/473c8559-0a4a-4187-9548-bd7040a623a5_1039731_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+				"width": 2048,
+				"height": 1152,
+				"fallback": false
+			}],
+			"sales": {
+				"public": {
+					"startDateTime": "1900-01-01T18:00:00Z",
+					"startTBD": false,
+					"endDateTime": "2019-10-01T04:00:00Z"
+				}
+			},
+			"dates": {
+				"start": {
+					"localDate": "2019-09-30",
+					"localTime": "21:00:00",
+					"dateTime": "2019-10-01T04:00:00Z",
+					"dateTBD": false,
+					"dateTBA": false,
+					"timeTBA": false,
+					"noSpecificTime": false
+				},
+				"status": {
+					"code": "onsale"
+				},
+				"spanMultipleDays": false
+			},
+			"classifications": [{
+				"primary": true,
+				"segment": {
+					"id": "KZFzniwnSyZfZ7v7nJ",
+					"name": "Music"
+				},
+				"genre": {
+					"id": "KnvZfZ7vAvl",
+					"name": "Other"
+				},
+				"subGenre": {
+					"id": "KZazBEonSMnZfZ7vk1I",
+					"name": "Other"
+				},
+				"family": false
+			}],
+			"outlets": [{
+				"url": "https://www.dougfirlounge.com/",
+				"type": "venueBoxOffice"
+			}, {
+				"url": "https://www.ticketmaster.com/barns-courtney-portland-oregon-09-30-2019/event/Z7r9jZ1Ae_z4z",
+				"type": "tmMarketPlace"
+			}],
+			"seatmap": {
+				"staticUrl": "http://resale.ticketmaster.com.au/akamai-content/graphics/TMResale/2/VenueMaps/5509-0-0-1-GAStage.png"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/events/Z7r9jZ1Ae_z4z?locale=en-us"
+				},
+				"attractions": [{
+					"href": "/discovery/v2/attractions/K8vZ917f2r7?locale=en-us"
+				}],
+				"venues": [{
+					"href": "/discovery/v2/venues/ZFr9jZkkv1?locale=en-us"
+				}]
+			},
+			"_embedded": {
+				"venues": [{
+					"name": "Doug Fir Lounge",
+					"type": "venue",
+					"id": "ZFr9jZkkv1",
+					"test": false,
+					"locale": "en-us",
+					"postalCode": "97214",
+					"timezone": "America/Los_Angeles",
+					"city": {
+						"name": "Portland"
+					},
+					"state": {
+						"name": "Oregon",
+						"stateCode": "OR"
+					},
+					"country": {
+						"name": "United States Of America",
+						"countryCode": "US"
+					},
+					"address": {
+						"line1": "830 E Burnside St"
+					},
+					"location": {
+						"longitude": "-122.642799",
+						"latitude": "45.513901"
+					},
+					"dmas": [{
+						"id": 362
+					}],
+					"upcomingEvents": {
+						"_total": 40,
+						"tmr": 40
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/venues/ZFr9jZkkv1?locale=en-us"
+						}
+					}
+				}],
+				"attractions": [{
+					"name": "Barns Courtney",
+					"type": "attraction",
+					"id": "K8vZ917f2r7",
+					"test": false,
+					"url": "https://www.ticketmaster.com/barns-courtney-tickets/artist/2194078",
+					"locale": "en-us",
+					"externalLinks": {
+						"youtube": [{
+							"url": "https://www.youtube.com/user/BarnsCourtneyVEVO"
+						}],
+						"twitter": [{
+							"url": "https://twitter.com/BarnsCourtney"
+						}],
+						"facebook": [{
+							"url": "https://www.facebook.com/barnscourtney"
+						}],
+						"instagram": [{
+							"url": "https://www.instagram.com/barnscourtney"
+						}, {
+							"url": "https://www.instagram.com/barnscourtney/"
+						}],
+						"musicbrainz": [{
+							"id": "510fcf21-a1f3-40af-9087-40593af86f7f"
+						}],
+						"homepage": [{
+							"url": "http://www.barnscourtney.com/"
+						}]
+					},
+					"images": [{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/3a5/473c8559-0a4a-4187-9548-bd7040a623a5_1039731_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/3a5/473c8559-0a4a-4187-9548-bd7040a623a5_1039731_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/3a5/473c8559-0a4a-4187-9548-bd7040a623a5_1039731_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/3a5/473c8559-0a4a-4187-9548-bd7040a623a5_1039731_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/3a5/473c8559-0a4a-4187-9548-bd7040a623a5_1039731_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/3a5/473c8559-0a4a-4187-9548-bd7040a623a5_1039731_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					}, {
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/3a5/473c8559-0a4a-4187-9548-bd7040a623a5_1039731_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/3a5/473c8559-0a4a-4187-9548-bd7040a623a5_1039731_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/3a5/473c8559-0a4a-4187-9548-bd7040a623a5_1039731_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/3a5/473c8559-0a4a-4187-9548-bd7040a623a5_1039731_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nJ",
+							"name": "Music"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAvv",
+							"name": "Alternative"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAvn",
+							"name": "Alternative Rock"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7la",
+							"name": "Individual"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7vAd7",
+							"name": "Musician"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 11,
+						"tmr": 3,
+						"ticketmaster": 8
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ917f2r7?locale=en-us"
+						}
+					}
+				}]
+			}
+		}, {
+			"name": "Crime Junkie Podcast",
+			"type": "event",
+			"id": "Z7r9jZ1AeqAbx",
+			"test": false,
+			"url": "http://www.ticketsnow.com/InventoryBrowse/TicketList.aspx?PID=2745622",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/c/393/b74d3ddc-a5f3-4e09-a801-89c36b774393_106071_TABLET_LANDSCAPE_16_9.jpg",
+				"width": 1024,
+				"height": 576,
+				"fallback": true
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/c/393/b74d3ddc-a5f3-4e09-a801-89c36b774393_106071_RETINA_LANDSCAPE_16_9.jpg",
+				"width": 1136,
+				"height": 639,
+				"fallback": true
+			}, {
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/c/393/b74d3ddc-a5f3-4e09-a801-89c36b774393_106071_CUSTOM.jpg",
+				"width": 305,
+				"height": 225,
+				"fallback": true
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/c/393/b74d3ddc-a5f3-4e09-a801-89c36b774393_106071_ARTIST_PAGE_3_2.jpg",
+				"width": 305,
+				"height": 203,
+				"fallback": true
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/c/393/b74d3ddc-a5f3-4e09-a801-89c36b774393_106071_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+				"width": 2048,
+				"height": 1152,
+				"fallback": true
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/c/393/b74d3ddc-a5f3-4e09-a801-89c36b774393_106071_TABLET_LANDSCAPE_3_2.jpg",
+				"width": 1024,
+				"height": 683,
+				"fallback": true
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/c/393/b74d3ddc-a5f3-4e09-a801-89c36b774393_106071_RECOMENDATION_16_9.jpg",
+				"width": 100,
+				"height": 56,
+				"fallback": true
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/c/393/b74d3ddc-a5f3-4e09-a801-89c36b774393_106071_RETINA_PORTRAIT_16_9.jpg",
+				"width": 640,
+				"height": 360,
+				"fallback": true
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/c/393/b74d3ddc-a5f3-4e09-a801-89c36b774393_106071_RETINA_PORTRAIT_3_2.jpg",
+				"width": 640,
+				"height": 427,
+				"fallback": true
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/c/393/b74d3ddc-a5f3-4e09-a801-89c36b774393_106071_EVENT_DETAIL_PAGE_16_9.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": true
+			}],
+			"sales": {
+				"public": {
+					"startDateTime": "1900-01-01T18:00:00Z",
+					"startTBD": false,
+					"endDateTime": "2019-11-08T04:00:00Z"
+				}
+			},
+			"dates": {
+				"start": {
+					"localDate": "2019-11-07",
+					"localTime": "20:00:00",
+					"dateTime": "2019-11-08T04:00:00Z",
+					"dateTBD": false,
+					"dateTBA": false,
+					"timeTBA": false,
+					"noSpecificTime": false
+				},
+				"status": {
+					"code": "onsale"
+				},
+				"spanMultipleDays": false
+			},
+			"classifications": [{
+				"primary": true,
+				"segment": {
+					"id": "KZFzniwnSyZfZ7v7na",
+					"name": "Arts & Theatre"
+				},
+				"genre": {
+					"id": "KnvZfZ7v7le",
+					"name": "Miscellaneous"
+				},
+				"subGenre": {
+					"id": "KZazBEonSMnZfZ7vF1k",
+					"name": "Miscellaneous"
+				},
+				"family": false
+			}],
+			"outlets": [{
+				"url": "https://www.revolutionhall.com/",
+				"type": "venueBoxOffice"
+			}, {
+				"url": "https://www.ticketmaster.com/crime-junkie-podcast-portland-oregon-11-07-2019/event/Z7r9jZ1AeqAbx",
+				"type": "tmMarketPlace"
+			}],
+			"seatmap": {
+				"staticUrl": "http://resale.ticketmaster.com.au/akamai-content/graphics/TMResale/2/VenueMaps/10905-0-0-1-GAStage.png"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/events/Z7r9jZ1AeqAbx?locale=en-us"
+				},
+				"attractions": [{
+					"href": "/discovery/v2/attractions/Z7r9jZaC5F?locale=en-us"
+				}],
+				"venues": [{
+					"href": "/discovery/v2/venues/Z7r9jZaen_?locale=en-us"
+				}]
+			},
+			"_embedded": {
+				"venues": [{
+					"name": "Revolution Hall - Portland",
+					"type": "venue",
+					"id": "Z7r9jZaen_",
+					"test": false,
+					"locale": "en-us",
+					"postalCode": "97214",
+					"timezone": "America/Los_Angeles",
+					"city": {
+						"name": "Portland"
+					},
+					"state": {
+						"name": "Oregon",
+						"stateCode": "OR"
+					},
+					"country": {
+						"name": "United States Of America",
+						"countryCode": "US"
+					},
+					"address": {
+						"line1": "1300 SE Stark Street #110"
+					},
+					"location": {
+						"longitude": "-122.642799",
+						"latitude": "45.513901"
+					},
+					"dmas": [{
+						"id": 362
+					}],
+					"upcomingEvents": {
+						"_total": 19,
+						"tmr": 19
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/venues/Z7r9jZaen_?locale=en-us"
+						}
+					}
+				}],
+				"attractions": [{
+					"name": "Crime Junkie Podcast",
+					"type": "attraction",
+					"id": "Z7r9jZaC5F",
+					"test": false,
+					"locale": "en-us",
+					"images": [{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/393/b74d3ddc-a5f3-4e09-a801-89c36b774393_106071_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/393/b74d3ddc-a5f3-4e09-a801-89c36b774393_106071_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": true
+					}, {
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/c/393/b74d3ddc-a5f3-4e09-a801-89c36b774393_106071_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": true
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/c/393/b74d3ddc-a5f3-4e09-a801-89c36b774393_106071_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/393/b74d3ddc-a5f3-4e09-a801-89c36b774393_106071_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": true
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/c/393/b74d3ddc-a5f3-4e09-a801-89c36b774393_106071_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/393/b74d3ddc-a5f3-4e09-a801-89c36b774393_106071_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/393/b74d3ddc-a5f3-4e09-a801-89c36b774393_106071_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": true
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/c/393/b74d3ddc-a5f3-4e09-a801-89c36b774393_106071_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/393/b74d3ddc-a5f3-4e09-a801-89c36b774393_106071_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": true
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7na",
+							"name": "Arts & Theatre"
+						},
+						"genre": {
+							"id": "KnvZfZ7v7le",
+							"name": "Miscellaneous"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vF1k",
+							"name": "Miscellaneous"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 8,
+						"tmr": 2,
+						"ticketmaster": 6
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/Z7r9jZaC5F?locale=en-us"
+						}
+					}
+				}]
+			}
+		}, {
+			"name": "Nick Cave",
+			"type": "event",
+			"id": "Z7r9jZ1AeQvaM",
+			"test": false,
+			"url": "http://www.ticketsnow.com/InventoryBrowse/TicketList.aspx?PID=2681277",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/645/6bd3bb9e-696a-4042-9734-12e8ee6a1645_1043051_RETINA_LANDSCAPE_16_9.jpg",
+				"width": 1136,
+				"height": 639,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/645/6bd3bb9e-696a-4042-9734-12e8ee6a1645_1043051_RECOMENDATION_16_9.jpg",
+				"width": 100,
+				"height": 56,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/645/6bd3bb9e-696a-4042-9734-12e8ee6a1645_1043051_RETINA_PORTRAIT_3_2.jpg",
+				"width": 640,
+				"height": 427,
+				"fallback": false
+			}, {
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/a/645/6bd3bb9e-696a-4042-9734-12e8ee6a1645_1043051_CUSTOM.jpg",
+				"width": 305,
+				"height": 225,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/645/6bd3bb9e-696a-4042-9734-12e8ee6a1645_1043051_ARTIST_PAGE_3_2.jpg",
+				"width": 305,
+				"height": 203,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/645/6bd3bb9e-696a-4042-9734-12e8ee6a1645_1043051_EVENT_DETAIL_PAGE_16_9.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/a/645/6bd3bb9e-696a-4042-9734-12e8ee6a1645_1043051_TABLET_LANDSCAPE_3_2.jpg",
+				"width": 1024,
+				"height": 683,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/645/6bd3bb9e-696a-4042-9734-12e8ee6a1645_1043051_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+				"width": 2048,
+				"height": 1152,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/645/6bd3bb9e-696a-4042-9734-12e8ee6a1645_1043051_TABLET_LANDSCAPE_16_9.jpg",
+				"width": 1024,
+				"height": 576,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/a/645/6bd3bb9e-696a-4042-9734-12e8ee6a1645_1043051_RETINA_PORTRAIT_16_9.jpg",
+				"width": 640,
+				"height": 360,
+				"fallback": false
+			}],
+			"sales": {
+				"public": {
+					"startDateTime": "1900-01-01T18:00:00Z",
+					"startTBD": false,
+					"endDateTime": "2019-10-09T03:00:00Z"
+				}
+			},
+			"dates": {
+				"start": {
+					"localDate": "2019-10-08",
+					"localTime": "20:00:00",
+					"dateTime": "2019-10-09T03:00:00Z",
+					"dateTBD": false,
+					"dateTBA": false,
+					"timeTBA": false,
+					"noSpecificTime": false
+				},
+				"status": {
+					"code": "onsale"
+				},
+				"spanMultipleDays": false
+			},
+			"classifications": [{
+				"primary": true,
+				"segment": {
+					"id": "KZFzniwnSyZfZ7v7nJ",
+					"name": "Music"
+				},
+				"genre": {
+					"id": "KnvZfZ7vAeA",
+					"name": "Rock"
+				},
+				"subGenre": {
+					"id": "KZazBEonSMnZfZ7v6a6",
+					"name": "Punk"
+				},
+				"family": false
+			}],
+			"outlets": [{
+				"url": "https://www.revolutionhall.com/",
+				"type": "venueBoxOffice"
+			}, {
+				"url": "https://www.ticketmaster.com/nick-cave-portland-oregon-10-08-2019/event/Z7r9jZ1AeQvaM",
+				"type": "tmMarketPlace"
+			}],
+			"seatmap": {
+				"staticUrl": "http://resale.ticketmaster.com.au/akamai-content/graphics/TMResale/2/VenueMaps/10905-0-0-1-GAStage.png"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/events/Z7r9jZ1AeQvaM?locale=en-us"
+				},
+				"attractions": [{
+					"href": "/discovery/v2/attractions/K8vZ91712_7?locale=en-us"
+				}],
+				"venues": [{
+					"href": "/discovery/v2/venues/Z7r9jZaen_?locale=en-us"
+				}]
+			},
+			"_embedded": {
+				"venues": [{
+					"name": "Revolution Hall - Portland",
+					"type": "venue",
+					"id": "Z7r9jZaen_",
+					"test": false,
+					"locale": "en-us",
+					"postalCode": "97214",
+					"timezone": "America/Los_Angeles",
+					"city": {
+						"name": "Portland"
+					},
+					"state": {
+						"name": "Oregon",
+						"stateCode": "OR"
+					},
+					"country": {
+						"name": "United States Of America",
+						"countryCode": "US"
+					},
+					"address": {
+						"line1": "1300 SE Stark Street #110"
+					},
+					"location": {
+						"longitude": "-122.642799",
+						"latitude": "45.513901"
+					},
+					"dmas": [{
+						"id": 362
+					}],
+					"upcomingEvents": {
+						"_total": 19,
+						"tmr": 19
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/venues/Z7r9jZaen_?locale=en-us"
+						}
+					}
+				}],
+				"attractions": [{
+					"name": "Nick Cave",
+					"type": "attraction",
+					"id": "K8vZ91712_7",
+					"test": false,
+					"url": "https://www.ticketmaster.co.uk/Nick-Cave-tickets/artist/734716",
+					"locale": "en-us",
+					"externalLinks": {
+						"youtube": [{
+							"url": "http://www.youtube.com/user/20000DaysOnEarth"
+						}],
+						"twitter": [{
+							"url": "http://twitter.com/20000days"
+						}],
+						"facebook": [{
+							"url": "http://www.facebook.com/20000daysonearth"
+						}],
+						"wiki": [{
+							"url": "https://en.wikipedia.org/wiki/Nick_Cave"
+						}],
+						"instagram": [{
+							"url": "http://instagram.com/20000_days"
+						}],
+						"musicbrainz": [{
+							"id": "4aae17a7-9f0c-487b-b60e-f8eafb410b1d"
+						}],
+						"homepage": [{
+							"url": "http://www.nick-cave.com/"
+						}]
+					},
+					"images": [{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/645/6bd3bb9e-696a-4042-9734-12e8ee6a1645_1043051_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/645/6bd3bb9e-696a-4042-9734-12e8ee6a1645_1043051_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/645/6bd3bb9e-696a-4042-9734-12e8ee6a1645_1043051_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					}, {
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/645/6bd3bb9e-696a-4042-9734-12e8ee6a1645_1043051_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/645/6bd3bb9e-696a-4042-9734-12e8ee6a1645_1043051_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/645/6bd3bb9e-696a-4042-9734-12e8ee6a1645_1043051_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/645/6bd3bb9e-696a-4042-9734-12e8ee6a1645_1043051_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/645/6bd3bb9e-696a-4042-9734-12e8ee6a1645_1043051_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/645/6bd3bb9e-696a-4042-9734-12e8ee6a1645_1043051_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/645/6bd3bb9e-696a-4042-9734-12e8ee6a1645_1043051_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nJ",
+							"name": "Music"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAeA",
+							"name": "Rock"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7v6F1",
+							"name": "Pop"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7nI",
+							"name": "Undefined"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7v7lJ",
+							"name": "Undefined"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 10,
+						"tmr": 7,
+						"ticketmaster": 3
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ91712_7?locale=en-us"
+						}
+					}
+				}]
+			}
+		}, {
+			"name": "Yoke Lore",
+			"type": "event",
+			"id": "Z7r9jZ1Aejpko",
+			"test": false,
+			"url": "http://www.ticketsnow.com/InventoryBrowse/TicketList.aspx?PID=2716191",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_TABLET_LANDSCAPE_16_9.jpg",
+				"width": 1024,
+				"height": 576,
+				"fallback": true
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_ARTIST_PAGE_3_2.jpg",
+				"width": 305,
+				"height": 203,
+				"fallback": true
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_EVENT_DETAIL_PAGE_16_9.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": true
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_PORTRAIT_3_2.jpg",
+				"width": 640,
+				"height": 427,
+				"fallback": true
+			}, {
+				"ratio": "3_2",
+				"url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_TABLET_LANDSCAPE_3_2.jpg",
+				"width": 1024,
+				"height": 683,
+				"fallback": true
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RECOMENDATION_16_9.jpg",
+				"width": 100,
+				"height": 56,
+				"fallback": true
+			}, {
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_CUSTOM.jpg",
+				"width": 305,
+				"height": 225,
+				"fallback": true
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_PORTRAIT_16_9.jpg",
+				"width": 640,
+				"height": 360,
+				"fallback": true
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_LANDSCAPE_16_9.jpg",
+				"width": 1136,
+				"height": 639,
+				"fallback": true
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+				"width": 2048,
+				"height": 1152,
+				"fallback": true
+			}],
+			"sales": {
+				"public": {
+					"startDateTime": "1900-01-01T18:00:00Z",
+					"startTBD": false,
+					"endDateTime": "2019-10-12T04:00:00Z"
+				}
+			},
+			"dates": {
+				"start": {
+					"localDate": "2019-10-11",
+					"localTime": "21:00:00",
+					"dateTime": "2019-10-12T04:00:00Z",
+					"dateTBD": false,
+					"dateTBA": false,
+					"timeTBA": false,
+					"noSpecificTime": false
+				},
+				"status": {
+					"code": "onsale"
+				},
+				"spanMultipleDays": false
+			},
+			"classifications": [{
+				"primary": true,
+				"segment": {
+					"id": "KZFzniwnSyZfZ7v7nJ",
+					"name": "Music"
+				},
+				"genre": {
+					"id": "KnvZfZ7vAvl",
+					"name": "Other"
+				},
+				"subGenre": {
+					"id": "KZazBEonSMnZfZ7vk1I",
+					"name": "Other"
+				},
+				"family": false
+			}],
+			"outlets": [{
+				"url": "https://www.dougfirlounge.com/",
+				"type": "venueBoxOffice"
+			}, {
+				"url": "https://www.ticketmaster.com/yoke-lore-portland-oregon-10-11-2019/event/Z7r9jZ1Aejpko",
+				"type": "tmMarketPlace"
+			}],
+			"seatmap": {
+				"staticUrl": "http://resale.ticketmaster.com.au/akamai-content/graphics/TMResale/2/VenueMaps/5509-0-0-1-GAStage.png"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/events/Z7r9jZ1Aejpko?locale=en-us"
+				},
+				"attractions": [{
+					"href": "/discovery/v2/attractions/K8vZ917pv1V?locale=en-us"
+				}],
+				"venues": [{
+					"href": "/discovery/v2/venues/ZFr9jZkkv1?locale=en-us"
+				}]
+			},
+			"_embedded": {
+				"venues": [{
+					"name": "Doug Fir Lounge",
+					"type": "venue",
+					"id": "ZFr9jZkkv1",
+					"test": false,
+					"locale": "en-us",
+					"postalCode": "97214",
+					"timezone": "America/Los_Angeles",
+					"city": {
+						"name": "Portland"
+					},
+					"state": {
+						"name": "Oregon",
+						"stateCode": "OR"
+					},
+					"country": {
+						"name": "United States Of America",
+						"countryCode": "US"
+					},
+					"address": {
+						"line1": "830 E Burnside St"
+					},
+					"location": {
+						"longitude": "-122.642799",
+						"latitude": "45.513901"
+					},
+					"dmas": [{
+						"id": 362
+					}],
+					"upcomingEvents": {
+						"_total": 40,
+						"tmr": 40
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/venues/ZFr9jZkkv1?locale=en-us"
+						}
+					}
+				}],
+				"attractions": [{
+					"name": "Yoke Lore",
+					"type": "attraction",
+					"id": "K8vZ917pv1V",
+					"test": false,
+					"url": "https://www.ticketmaster.com/yoke-lore-tickets/artist/2374828",
+					"locale": "en-us",
+					"images": [{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": true
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": true
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": true
+					}, {
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": true
+					}, {
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/797/5e693c26-2881-4776-8f0c-3aa94bfa3797_106511_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": true
+					}, {
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/f50/96fa13be-e395-429b-8558-a51bb9054f50_105951_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": true
+					}],
+					"classifications": [{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nJ",
+							"name": "Music"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAvv",
+							"name": "Alternative"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAvJ",
+							"name": "Alternative"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7la",
+							"name": "Individual"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7vAd7",
+							"name": "Musician"
+						},
+						"family": false
+					}],
+					"upcomingEvents": {
+						"_total": 18,
+						"tmr": 15,
+						"ticketmaster": 3
+					},
+					"_links": {
+						"self": {
+							"href": "/discovery/v2/attractions/K8vZ917pv1V?locale=en-us"
+						}
+					}
+				}]
+			}
+		}]
+	},
+	"_links": {
+		"first": {
+			"href": "/discovery/v2/events?city=PORTLAND&countryCode=US&postalCode=97214&stateCode=OR&locale=*&page=0&size=20"
+		},
+		"self": {
+			"href": "/discovery/v2/events?city=PORTLAND&countryCode=US&postalCode=97214&stateCode=OR&locale=*"
+		},
+		"next": {
+			"href": "/discovery/v2/events?city=PORTLAND&countryCode=US&postalCode=97214&stateCode=OR&locale=*&page=1&size=20"
+		},
+		"last": {
+			"href": "/discovery/v2/events?city=PORTLAND&countryCode=US&postalCode=97214&stateCode=OR&locale=*&page=5&size=20"
+		}
+	},
+	"page": {
+		"size": 20,
+		"totalElements": 114,
+		"totalPages": 6,
+		"number": 0
+	}
+}

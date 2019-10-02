@@ -1,0 +1,1339 @@
+{
+	"_embedded": {
+		"venues": [{
+			"name": "Moda Center",
+			"type": "venue",
+			"id": "KovZpa6MXe",
+			"test": false,
+			"url": "https://www.ticketmaster.com/moda-center-tickets-portland/venue/123078",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/v/fa8/acdef592-e191-4c54-a72b-0dee19eb8fa8_422761_SOURCE.jpg",
+				"width": 2048,
+				"height": 1536,
+				"fallback": false,
+				"attribution": "CC BY-SA 3.0 via Wikipedia"
+			}, {
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/v/fa8/acdef592-e191-4c54-a72b-0dee19eb8fa8_422761_SOURCE.jpg",
+				"width": 2048,
+				"height": 1536,
+				"fallback": false,
+				"attribution": "CC BY-SA 3.0 via Wikipedia"
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dbimages/21727v.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}],
+			"postalCode": "97227",
+			"timezone": "America/Los_Angeles",
+			"city": {
+				"name": "Portland"
+			},
+			"state": {
+				"name": "Oregon",
+				"stateCode": "OR"
+			},
+			"country": {
+				"name": "United States Of America",
+				"countryCode": "US"
+			},
+			"address": {
+				"line1": "One Center Court, Suite 100"
+			},
+			"location": {
+				"longitude": "-122.66645813",
+				"latitude": "45.53118896"
+			},
+			"markets": [{
+				"name": "Portland and More",
+				"id": "37"
+			}],
+			"dmas": [{
+				"id": 228
+			}, {
+				"id": 272
+			}, {
+				"id": 331
+			}, {
+				"id": 362
+			}],
+			"boxOfficeInfo": {
+				"phoneNumberDetail": "Box Office: (503) 797-9619 Group Sales: (503) 963-4400",
+				"openHoursDetail": "Monday - Friday: 10am - 5pm Saturday and Sunday hours vary.",
+				"acceptedPaymentDetail": "Cash, MasterCard, Visa, Discover and American Express.",
+				"willCallDetail": "Tickets held at will call can be picked up on the day of the performance at the box office beginning 2 hours prior to the event. The customer must present valid form of picture identification and the credit card used for purchase."
+			},
+			"parkingDetail": "On-site parking at the Garden Garage, the East/West Broadway Garages, and at all times for restaurant and retail parking at the One Center Court Garage. Parking may be purchased in advance at all Ticketmaster Ticket Center locations or by Charge-By-Phone: 800-745-3000.",
+			"accessibleSeatingDetail": "Accessible enhancements active.",
+			"generalInfo": {
+				"generalRule": "No flash cameras allowed inside. No audio or video recording devices allowed inside. No smoking inside the building.",
+				"childRule": "Children under 2 are usually free, but must sit on a ticket holders lap. May vary with event."
+			},
+			"upcomingEvents": {
+				"_total": 82,
+				"ticketmaster": 82
+			},
+			"ada": {
+				"adaPhones": "800-877-7575",
+				"adaCustomCopy": "For all events sell using ADA enhancements.\n       4 accessible seat limit, if more seats are needed sell from \n       regular opens as close as possible.\n       Phone representatives, click on the Accessible Tab for each\n       ticket request.\n\n       1. Select WHEELCHAIR ACCESSIBLE from the menu for WHEELCHAIR\n          request only.\n       2. Select LMTMOB from the menu for LIMITED MOBILITY request only\n\n* Box office information is subject to change.",
+				"adaHours": "Monday-Saturday: 9 AM - 6 PM\nSunday: 12 PM - 6 PM"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/venues/KovZpa6MXe?locale=en-us"
+				}
+			}
+		}, {
+			"name": "Veterans Memorial Coliseum",
+			"type": "venue",
+			"id": "KovZpZAJ67kA",
+			"test": false,
+			"url": "https://www.ticketmaster.com/veterans-memorial-coliseum-tickets-portland/venue/123041",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "3_1",
+				"url": "https://s1.ticketm.net/dam/v/c43/96c70ab5-2dba-4cf0-9e98-962119791c43_380941_SOURCE.jpg",
+				"width": 1500,
+				"height": 500,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dbimages/16533v.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}, {
+				"ratio": "3_1",
+				"url": "https://s1.ticketm.net/dam/v/c43/96c70ab5-2dba-4cf0-9e98-962119791c43_380941_SOURCE.jpg",
+				"width": 1500,
+				"height": 500,
+				"fallback": false
+			}],
+			"postalCode": "97208",
+			"timezone": "America/Los_Angeles",
+			"city": {
+				"name": "Portland"
+			},
+			"state": {
+				"name": "Oregon",
+				"stateCode": "OR"
+			},
+			"country": {
+				"name": "United States Of America",
+				"countryCode": "US"
+			},
+			"address": {
+				"line1": "300 Winning Way"
+			},
+			"location": {
+				"longitude": "-122.667442",
+				"latitude": "45.533299"
+			},
+			"markets": [{
+				"name": "Portland and More",
+				"id": "37"
+			}],
+			"dmas": [{
+				"id": 228
+			}, {
+				"id": 272
+			}, {
+				"id": 331
+			}, {
+				"id": 362
+			}],
+			"boxOfficeInfo": {
+				"phoneNumberDetail": "Box Office: (503) 797-9617. Group: 503-963-4400",
+				"openHoursDetail": "Monday - Friday: 10am - 5pm Saturday and Sunday hours vary. Questions call 503 797 9617.",
+				"acceptedPaymentDetail": "Cash, MasterCard, Visa and American Express.",
+				"willCallDetail": "Tickets held at will call can be picked up on the day of the performance at the box office beginning 2 hours prior to the event. The customer must present valid form of picture identification."
+			},
+			"parkingDetail": "On-site parking at the Garden Garage, the Broadway Garages, and at all times for restaurant and retail parking at the One Center Court Garage. Shuttle parking is available for all Blazer games and selected Rose Quarter Events.",
+			"generalInfo": {
+				"generalRule": "No flash cameras allowed inside. No audio or video recording devices allowed inside. No smoking inside the building.",
+				"childRule": "Children under 2 are usually free, but must sit on a ticket holders lap. May vary with event."
+			},
+			"upcomingEvents": {
+				"_total": 23,
+				"ticketmaster": 23
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/venues/KovZpZAJ67kA?locale=en-us"
+				}
+			}
+		}, {
+			"name": "Autzen Stadium",
+			"type": "venue",
+			"id": "KovZpa6Npe",
+			"test": false,
+			"url": "https://www.ticketmaster.com/autzen-stadium-tickets-eugene/venue/123038",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dbimages/21181v.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}, {
+				"ratio": "3_1",
+				"url": "https://s1.ticketm.net/dam/v/17f/fe29d16d-3160-4359-b3a9-542d6436517f_513251_SOURCE.jpg",
+				"width": 1500,
+				"height": 500,
+				"fallback": false
+			}, {
+				"ratio": "3_1",
+				"url": "https://s1.ticketm.net/dam/v/17f/fe29d16d-3160-4359-b3a9-542d6436517f_513251_SOURCE.jpg",
+				"width": 1500,
+				"height": 500,
+				"fallback": false
+			}],
+			"postalCode": "97401",
+			"timezone": "America/Los_Angeles",
+			"city": {
+				"name": "Eugene"
+			},
+			"state": {
+				"name": "Oregon",
+				"stateCode": "OR"
+			},
+			"country": {
+				"name": "United States Of America",
+				"countryCode": "US"
+			},
+			"address": {
+				"line1": "2700 MLK Jr. BLVD"
+			},
+			"location": {
+				"longitude": "-123.0629993",
+				"latitude": "44.055925"
+			},
+			"markets": [{
+				"name": "Portland and More",
+				"id": "37"
+			}],
+			"dmas": [{
+				"id": 228
+			}, {
+				"id": 272
+			}, {
+				"id": 331
+			}, {
+				"id": 362
+			}],
+			"boxOfficeInfo": {
+				"phoneNumberDetail": "1-800-WEB-FOOT",
+				"openHoursDetail": "Monday - Friday: 9am - 5pm The box office will open early for major on sales (if necessary).",
+				"acceptedPaymentDetail": "VISA, MC, DSC, Cash, Checks",
+				"willCallDetail": "The will call is located at the Oregon Ducks ticket office, or the ticket booths in front of the stadium."
+			},
+			"parkingDetail": "available at stadium",
+			"generalInfo": {
+				"generalRule": "No umbrellas allowed in stadium.",
+				"childRule": "Children under 2 are usually free, but must sit on a ticket holders lap."
+			},
+			"upcomingEvents": {
+				"_total": 7,
+				"ticketmaster": 7
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/venues/KovZpa6Npe?locale=en-us"
+				}
+			}
+		}, {
+			"name": "Keller Auditorium",
+			"type": "venue",
+			"id": "KovZpZAEkdFA",
+			"test": false,
+			"url": "https://www.ticketmaster.com/keller-auditorium-tickets-portland/venue/123035",
+			"locale": "en-us",
+			"images": [{
+				"url": "https://s1.ticketm.net/dam/v/e09/8892d5d4-06a6-46a2-a54d-02af0d3eee09_313512_SOURCE.jpg",
+				"width": 2659,
+				"height": 1623,
+				"fallback": false,
+				"attribution": "CC BY 3.0 via wikipedia"
+			}, {
+				"url": "https://s1.ticketm.net/dam/v/e09/8892d5d4-06a6-46a2-a54d-02af0d3eee09_313512_SOURCE.jpg",
+				"width": 2659,
+				"height": 1623,
+				"fallback": false,
+				"attribution": "CC BY 3.0 via wikipedia"
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dbimages/18557v.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}],
+			"postalCode": "97201",
+			"timezone": "America/Los_Angeles",
+			"city": {
+				"name": "Portland"
+			},
+			"state": {
+				"name": "Oregon",
+				"stateCode": "OR"
+			},
+			"country": {
+				"name": "United States Of America",
+				"countryCode": "US"
+			},
+			"address": {
+				"line1": "222 SW Clay"
+			},
+			"location": {
+				"longitude": "-122.679117",
+				"latitude": "45.512731"
+			},
+			"markets": [{
+				"name": "Portland and More",
+				"id": "37"
+			}, {
+				"name": "All of US",
+				"id": "51"
+			}],
+			"dmas": [{
+				"id": 200
+			}, {
+				"id": 228
+			}, {
+				"id": 272
+			}, {
+				"id": 331
+			}, {
+				"id": 362
+			}],
+			"boxOfficeInfo": {
+				"phoneNumberDetail": "Office: 503-248-4335",
+				"openHoursDetail": "The Keller Auditorium Box Office is open 2 hours prior to event starting time.",
+				"acceptedPaymentDetail": "The Keller Auditorium box office accepts cash and check (with a check guarantee card). Visa and MasterCard are alsoaccepted for most events.",
+				"willCallDetail": "2 hours prior to performance."
+			},
+			"parkingDetail": "Pay parking is available across the street at 3rd & Clay, and 3rd & Market.",
+			"accessibleSeatingDetail": "Purchase on the standard event purchase page by clicking the ADA icon. The Keller Auditorium has 2 elevators which stop at each floor. Infared hearing devices are available at the coat check. A security deposit (drivers license) is required. For hearing impaired assistance call the PCPA at 503-248-4335.",
+			"generalInfo": {
+				"generalRule": "No flash cameras allowed inside. No recording devices allowed inside. No smoking inside building. Binoculars are allowed. Latecomers must wait in lobby to be seated by an usher during a convenient pause in the performance.",
+				"childRule": "Children under 1 are usually free, but must sit on a ticketholders lap. This policy may vary depending on the event and the event promoter. *** For all Portland Opera and Broadway Across America shows everyone is required to have a ticket for entry! ***"
+			},
+			"upcomingEvents": {
+				"_total": 43,
+				"tmr": 6,
+				"ticketmaster": 37
+			},
+			"ada": {
+				"adaPhones": "800-877-7575",
+				"adaCustomCopy": "Accessible seating for events at the Keller Auditorium is available on the purchase page. Select the ADA icon to view available seats. \n",
+				"adaHours": "The Keller Auditorium Box Office is open 2 hours prior to event starting time.  Advance tickets are available through www.ticketmaster.com and Charge-By-Phone 800-877-7575.\n   \n"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/venues/KovZpZAEkdFA?locale=en-us"
+				}
+			}
+		}, {
+			"name": "Theater of the Clouds at Moda Center",
+			"type": "venue",
+			"id": "KovZpZAJ6E6A",
+			"test": false,
+			"url": "https://www.ticketmaster.com/theater-of-the-clouds-at-moda-tickets-portland/venue/123841",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dbimages/16534v.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}],
+			"postalCode": "97227",
+			"timezone": "America/Los_Angeles",
+			"city": {
+				"name": "Portland"
+			},
+			"state": {
+				"name": "Oregon",
+				"stateCode": "OR"
+			},
+			"country": {
+				"name": "United States Of America",
+				"countryCode": "US"
+			},
+			"address": {
+				"line1": "One Center Court, Suite 100"
+			},
+			"location": {
+				"longitude": "-122.66683364",
+				"latitude": "45.53156475"
+			},
+			"markets": [{
+				"name": "Portland and More",
+				"id": "37"
+			}],
+			"dmas": [{
+				"id": 228
+			}, {
+				"id": 272
+			}, {
+				"id": 331
+			}, {
+				"id": 362
+			}],
+			"upcomingEvents": {
+				"_total": 3,
+				"ticketmaster": 3
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/venues/KovZpZAJ6E6A?locale=en-us"
+				}
+			}
+		}, {
+			"name": "Matthew Knight Arena",
+			"type": "venue",
+			"id": "KovZpZAEe1eA",
+			"test": false,
+			"url": "https://www.ticketmaster.com/matthew-knight-arena-tickets-eugene/venue/123791",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "3_1",
+				"url": "https://s1.ticketm.net/dam/v/133/282a7704-f6a1-476c-a2e9-a2502ea96133_513291_SOURCE.jpg",
+				"width": 1500,
+				"height": 500,
+				"fallback": false
+			}, {
+				"ratio": "3_1",
+				"url": "https://s1.ticketm.net/dam/v/133/282a7704-f6a1-476c-a2e9-a2502ea96133_513291_SOURCE.jpg",
+				"width": 1500,
+				"height": 500,
+				"fallback": false
+			}, {
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dbimages/21273v.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}],
+			"postalCode": "97403",
+			"timezone": "America/Los_Angeles",
+			"city": {
+				"name": "Eugene"
+			},
+			"state": {
+				"name": "Oregon",
+				"stateCode": "OR"
+			},
+			"country": {
+				"name": "United States Of America",
+				"countryCode": "US"
+			},
+			"address": {
+				"line1": "1776 E. 13th Ave"
+			},
+			"location": {
+				"longitude": "-123.066824",
+				"latitude": "44.044972"
+			},
+			"markets": [{
+				"name": "Portland and More",
+				"id": "37"
+			}],
+			"dmas": [{
+				"id": 228
+			}, {
+				"id": 272
+			}, {
+				"id": 331
+			}, {
+				"id": 362
+			}],
+			"upcomingEvents": {
+				"_total": 45,
+				"ticketmaster": 45
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/venues/KovZpZAEe1eA?locale=en-us"
+				}
+			}
+		}, {
+			"name": "Arlene Schnitzer Concert Hall",
+			"type": "venue",
+			"id": "KovZpZAEkkJA",
+			"test": false,
+			"url": "https://www.ticketmaster.com/arlene-schnitzer-concert-hall-tickets-portland/venue/123079",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dbimages/18559v.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}],
+			"postalCode": "97205",
+			"timezone": "America/Los_Angeles",
+			"city": {
+				"name": "Portland"
+			},
+			"state": {
+				"name": "Oregon",
+				"stateCode": "OR"
+			},
+			"country": {
+				"name": "United States Of America",
+				"countryCode": "US"
+			},
+			"address": {
+				"line1": "1037 SW Broadway Ave"
+			},
+			"location": {
+				"longitude": "-122.681188",
+				"latitude": "45.516856"
+			},
+			"markets": [{
+				"name": "Portland and More",
+				"id": "37"
+			}],
+			"dmas": [{
+				"id": 228
+			}, {
+				"id": 272
+			}, {
+				"id": 331
+			}, {
+				"id": 362
+			}],
+			"boxOfficeInfo": {
+				"phoneNumberDetail": "Portland Center for the Performing Arts Business Office: 503-248-4335 Weather Related Info: 503-274-6592 TDD: 503-796-9342 (box office) 503-796-0122 (business office)",
+				"openHoursDetail": "The Arlene Schnitzer box office opens 2 hours prior to the performance. Advance tickets are available through www.ticketmaster.com, Charge-By-Phone (503)224-4400 or at local Ticketmaster outlets.",
+				"acceptedPaymentDetail": "The Arlene Schnitzer box office accepts cash and check (with check guarantee card). Visa and Mastercard are also accepted for most events.",
+				"willCallDetail": "Will call opens 2 hours prior to the performance."
+			},
+			"parkingDetail": "Pay parking is available on 6th St. Other lots within a 2 block radius. There is a parking structure in the Broadway Building across the street and surface lots on SW 10th and Main. Public: 3 blocks from the Pioneer Square MAX stop. Rules/Regulations: Most touring shows do not allow reentry if someone leaves the building.",
+			"accessibleSeatingDetail": "The wheelchair/accessible seats are on the outside aisle of sections A and D on the main floor and row HH in the same sections. It is always seat 1 in section A and the higher numbered seat in section D on the outside aisle. These are theatre seats and must be unbolted and removed for a wheelchair. Accessible aisle seat is the even X-number, the companion is the odd X-number. If you are selling into an account, please indicate in the Extra line to keep or remove the seat. Row HH is 6 moveable, padded chairs and a wheelchair can sit anywhere along the row.",
+			"generalInfo": {
+				"generalRule": "No flash cameras allowed inside No recording devices No smoking inside building Late comers must wait in lobby to be seated by an usher during a convenient pause in the performance."
+			},
+			"upcomingEvents": {
+				"_total": 73,
+				"tmr": 71,
+				"ticketmaster": 2
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/venues/KovZpZAEkkJA?locale=en-us"
+				}
+			}
+		}, {
+			"name": "Newmark Theatre",
+			"type": "venue",
+			"id": "KovZpZA7klvA",
+			"test": false,
+			"url": "https://www.ticketmaster.com/newmark-theatre-tickets-portland/venue/123056",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dbimages/18555v.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}],
+			"postalCode": "97201",
+			"timezone": "America/Los_Angeles",
+			"city": {
+				"name": "Portland"
+			},
+			"state": {
+				"name": "Oregon",
+				"stateCode": "OR"
+			},
+			"country": {
+				"name": "United States Of America",
+				"countryCode": "US"
+			},
+			"address": {
+				"line1": "1111 S.W. Broadway"
+			},
+			"location": {
+				"longitude": "-122.6855578",
+				"latitude": "45.5044355"
+			},
+			"markets": [{
+				"name": "Portland and More",
+				"id": "37"
+			}],
+			"dmas": [{
+				"id": 228
+			}, {
+				"id": 272
+			}, {
+				"id": 331
+			}, {
+				"id": 362
+			}],
+			"boxOfficeInfo": {
+				"phoneNumberDetail": "PCPA Box Office: 503-432-2917",
+				"openHoursDetail": "The Portland Center for Performing Arts (PCPA): Box office opens 2 hours prior to the performance. Portland Piano International: For event information, please call 503-224-9842. Friends of Chamber Music: For event information, please call 503-228-1388",
+				"acceptedPaymentDetail": "The PCPA box office accepts cash and check with a check guarantee card. Visa and Mastercardare accepted for most PCPA events.",
+				"willCallDetail": "Will call opens 2 hours prior to the performance."
+			},
+			"parkingDetail": "Pay garage parking is available on SW 6th Avenue. Other pay lots available within a 2 block radius od the hall.",
+			"accessibleSeatingDetail": "Customers needing wheelchair accessible seating can order the following ways: 1.If ordering tickets on the internet, click the ADA icon on the purchase page to view available seats. 2.Customers can purchase wheelchair accessible seats at over the phone: 800-877-7575 3. Patrons wishing to purchase tickets for Portland Center Stage events, contact the PCS Box Office at 503-274-6588 during the hours listed above. Elevators run from the main lobby to all levels of the theatre. Best entrance is on SW Main. Sidewalk ramp on the corner of SW Broadway and SW Main. Infared hearing devices are available at the coat check. A security deposit (drivers license) is required.",
+			"generalInfo": {
+				"generalRule": "No flash cameras allowed inside No recording devices No smoking inside building Latecomers will be given the option of going into the latecomers booth to watch the production until intermission. However, there is NO late seating within the theatre at any time DURING the performance.",
+				"childRule": "Children under 1 are usually free, but must sit on a ticketholders lap."
+			},
+			"upcomingEvents": {
+				"_total": 28,
+				"tmr": 7,
+				"ticketmaster": 21
+			},
+			"ada": {
+				"adaPhones": "800-877-7575",
+				"adaCustomCopy": "Accessible seating for events at the Newmark Theatre is available on the purchase page. Select the ADA Icon to view available seats.",
+				"adaHours": "The Portland Center for Performing Arts (PCPA): \nBox office opens 2 hours prior to the performance.\n\n\n\nPortland Piano International: For event information, please call 503-224-9842.\nFriends of Chamber Music: For event information, please call 503-228-1388"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/venues/KovZpZA7klvA?locale=en-us"
+				}
+			}
+		}, {
+			"name": "Hampton Opera Center",
+			"type": "venue",
+			"id": "KovZ917A_Pf",
+			"test": false,
+			"url": "https://www.ticketmaster.com/hampton-opera-center-tickets-portland/venue/123892",
+			"locale": "en-us",
+			"postalCode": "97214",
+			"timezone": "America/Los_Angeles",
+			"city": {
+				"name": "Portland"
+			},
+			"state": {
+				"name": "Oregon",
+				"stateCode": "OR"
+			},
+			"country": {
+				"name": "United States Of America",
+				"countryCode": "US"
+			},
+			"address": {
+				"line1": "211 SE Caruthers St"
+			},
+			"location": {
+				"longitude": "-122.664029",
+				"latitude": "45.506196"
+			},
+			"markets": [{
+				"name": "Portland and More",
+				"id": "37"
+			}],
+			"dmas": [{
+				"id": 228
+			}, {
+				"id": 272
+			}, {
+				"id": 331
+			}, {
+				"id": 362
+			}],
+			"boxOfficeInfo": {
+				"phoneNumberDetail": "503-241-1802",
+				"openHoursDetail": "The box office will open 2 hours prior to event starting time.",
+				"acceptedPaymentDetail": "Cash, Check, Visa, Mastercard, Amex, and Discover",
+				"willCallDetail": "2 hours prior to performance"
+			},
+			"parkingDetail": "Limited parking available in opera lot, additional street parking available. Public transit is recommended.",
+			"accessibleSeatingDetail": "Please call the box office for accessible seating - 503 241 1802",
+			"generalInfo": {
+				"generalRule": "No flash cameras allowed inside. No recording devices allowed inside. No smoking inside building. Latecomers must wait in lobby to be seated by an usher during a convenient pause in the performance.",
+				"childRule": "Children under 1 must sit on a ticketholders lap. This policy may vary depending on the event and the event promotoer. All attendees must have a ticket regardless of age."
+			},
+			"upcomingEvents": {
+				"_total": 4,
+				"ticketmaster": 4
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/venues/KovZ917A_Pf?locale=en-us"
+				}
+			}
+		}, {
+			"name": "The North Warehouse",
+			"type": "venue",
+			"id": "KovZ917AxF0",
+			"test": false,
+			"url": "https://www.ticketmaster.com/the-north-warehouse-tickets-portland/venue/123932",
+			"locale": "en-us",
+			"postalCode": "97227",
+			"timezone": "America/Los_Angeles",
+			"city": {
+				"name": "Portland"
+			},
+			"state": {
+				"name": "Oregon",
+				"stateCode": "OR"
+			},
+			"country": {
+				"name": "United States Of America",
+				"countryCode": "US"
+			},
+			"address": {
+				"line1": "723 N Tillamook St."
+			},
+			"location": {
+				"longitude": "-122.674027",
+				"latitude": "45.53807"
+			},
+			"markets": [{
+				"name": "Portland and More",
+				"id": "37"
+			}],
+			"dmas": [{
+				"id": 228
+			}, {
+				"id": 272
+			}, {
+				"id": 331
+			}, {
+				"id": 362
+			}],
+			"upcomingEvents": {
+				"_total": 1,
+				"ticketmaster": 1
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/venues/KovZ917AxF0?locale=en-us"
+				}
+			}
+		}, {
+			"name": "Doug Fir Lounge",
+			"type": "venue",
+			"id": "KovZpZA1k1EA",
+			"test": false,
+			"url": "https://www.ticketmaster.com/doug-fir-lounge-tickets-portland/venue/123740",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/v/e79/c31887f3-efc7-45b7-9f59-13c72655fe79_310682_SOURCE.jpg",
+				"width": 3072,
+				"height": 2304,
+				"fallback": false,
+				"attribution": "CC BY-SA 2.0 via wikipedia"
+			}, {
+				"ratio": "4_3",
+				"url": "https://s1.ticketm.net/dam/v/e79/c31887f3-efc7-45b7-9f59-13c72655fe79_310682_SOURCE.jpg",
+				"width": 3072,
+				"height": 2304,
+				"fallback": false,
+				"attribution": "CC BY-SA 2.0 via wikipedia"
+			}],
+			"postalCode": "97214",
+			"timezone": "America/Los_Angeles",
+			"city": {
+				"name": "Portland"
+			},
+			"state": {
+				"name": "Oregon",
+				"stateCode": "OR"
+			},
+			"country": {
+				"name": "United States Of America",
+				"countryCode": "US"
+			},
+			"address": {
+				"line1": "830 E Burnside St"
+			},
+			"location": {
+				"longitude": "-122.6573463",
+				"latitude": "45.5229114"
+			},
+			"markets": [{
+				"name": "Portland and More",
+				"id": "37"
+			}],
+			"dmas": [{
+				"id": 228
+			}, {
+				"id": 272
+			}, {
+				"id": 331
+			}, {
+				"id": 362
+			}],
+			"upcomingEvents": {
+				"_total": 40,
+				"tmr": 40
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/venues/KovZpZA1k1EA?locale=en-us"
+				}
+			}
+		}, {
+			"name": "Wow Hall",
+			"type": "venue",
+			"id": "KovZpZA1keEA",
+			"test": false,
+			"url": "https://www.ticketmaster.com/wow-hall-tickets-eugene/venue/123143",
+			"locale": "en-us",
+			"postalCode": "97401",
+			"timezone": "America/Los_Angeles",
+			"city": {
+				"name": "Eugene"
+			},
+			"state": {
+				"name": "Oregon",
+				"stateCode": "OR"
+			},
+			"country": {
+				"name": "United States Of America",
+				"countryCode": "US"
+			},
+			"address": {
+				"line1": "291 W 8th Avenue"
+			},
+			"location": {
+				"longitude": "-123.097057",
+				"latitude": "44.051208"
+			},
+			"markets": [{
+				"name": "Portland and More",
+				"id": "37"
+			}],
+			"dmas": [{
+				"id": 228
+			}, {
+				"id": 272
+			}, {
+				"id": 331
+			}, {
+				"id": 362
+			}],
+			"boxOfficeInfo": {
+				"phoneNumberDetail": "(541) 687-2746",
+				"openHoursDetail": "Monday - Friday 3:00 PM to 6:00 PM Generally opens 1 hour prior to showtime.",
+				"willCallDetail": "Tickets held for willcall can be picked up on the day of the performance usually beginning 1 hour prior to showtime. The customer must present a valid form of identification, the actual credit card, and the confirmation number."
+			},
+			"parkingDetail": "Streets and pay lots.",
+			"generalInfo": {
+				"generalRule": "No Cameras(video or still) Allowed Inside. No Recording Devices. No smoking. No outside food or drink allowed.",
+				"childRule": "No one is free. Everyone must have a ticket."
+			},
+			"upcomingEvents": {
+				"_total": 38,
+				"tmr": 4,
+				"ticketweb": 29,
+				"ticketmaster": 5
+			},
+			"ada": {
+				"adaPhones": " varies per event",
+				"adaCustomCopy": "* This is an \"All general admission event.\" Patrons requesting accessible seating may purchase and use regular general admission seating. Please click \"back\" to previous page and continue with standard purchase. \n \n* Box office information is subject to change.",
+				"adaHours": " varies per event"
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/venues/KovZpZA1keEA?locale=en-us"
+				}
+			}
+		}, {
+			"name": "Tower Theatre",
+			"type": "venue",
+			"id": "KovZpZA1tIdA",
+			"test": false,
+			"url": "https://www.ticketmaster.com/tower-theatre-tickets-bend/venue/123589",
+			"locale": "en-us",
+			"postalCode": "97701",
+			"timezone": "America/Los_Angeles",
+			"city": {
+				"name": "Bend"
+			},
+			"state": {
+				"name": "Oregon",
+				"stateCode": "OR"
+			},
+			"country": {
+				"name": "United States Of America",
+				"countryCode": "US"
+			},
+			"address": {
+				"line1": "835 NW Wall Street"
+			},
+			"location": {
+				"longitude": "-121.314915",
+				"latitude": "44.058744"
+			},
+			"markets": [{
+				"name": "Portland and More",
+				"id": "37"
+			}],
+			"dmas": [{
+				"id": 228
+			}, {
+				"id": 272
+			}, {
+				"id": 331
+			}, {
+				"id": 362
+			}],
+			"boxOfficeInfo": {
+				"openHoursDetail": "Generally opens 1 hour prior.",
+				"acceptedPaymentDetail": "Cash",
+				"willCallDetail": "Generally opens 1 hour prior. Tickets held at will call can be picked up on the day of the performance at the box office beginning 1 hour prior to the performance. The customer must present: * valid picture ID, * the actual credit card, * and the confirmation number."
+			},
+			"parkingDetail": "Streets and Pay lots.",
+			"accessibleSeatingDetail": "Assistive Listening Devices: Induction loops and headsets are available for patrons with a hearing impairment, and may be checked out with ID at the concession stand for the performance.",
+			"generalInfo": {
+				"generalRule": "No outside food or drink. No smoking. No cameras (still or video) allowed inside. No recording devices.",
+				"childRule": "No one is free. Everyone must have a ticket."
+			},
+			"upcomingEvents": {
+				"_total": 17,
+				"tmr": 17
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/venues/KovZpZA1tIdA?locale=en-us"
+				}
+			}
+		}, {
+			"name": "Edgefield",
+			"type": "venue",
+			"id": "KovZpZA1vFlA",
+			"test": false,
+			"url": "https://www.ticketmaster.com/edgefield-tickets-troutdale/venue/123048",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dbimages/10335v.",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}],
+			"postalCode": "97060",
+			"timezone": "America/Los_Angeles",
+			"city": {
+				"name": "Troutdale"
+			},
+			"state": {
+				"name": "Oregon",
+				"stateCode": "OR"
+			},
+			"country": {
+				"name": "United States Of America",
+				"countryCode": "US"
+			},
+			"address": {
+				"line1": "2126 SW Halsey Street"
+			},
+			"location": {
+				"longitude": "-122.408745",
+				"latitude": "45.537133"
+			},
+			"markets": [{
+				"name": "Portland and More",
+				"id": "37"
+			}],
+			"dmas": [{
+				"id": 228
+			}, {
+				"id": 272
+			}, {
+				"id": 331
+			}, {
+				"id": 362
+			}],
+			"boxOfficeInfo": {
+				"openHoursDetail": "Box Office and Doors open 1 1/2 hours prior to showtime. Showtime's vary by event.",
+				"acceptedPaymentDetail": "Cash, Visa & Mastercard",
+				"willCallDetail": "Located in front of the Main Entrance on the Southwest end of the amphitheater, near the front entrance to the Edgefield Hotel."
+			},
+			"parkingDetail": "Free Parking in the East and West grass lots located south off of Halsey St. Parking directly in front of Edgefield is reserved for hotel guests and individuals with disabilities only.",
+			"generalInfo": {
+				"generalRule": "All events are held rain or shine. All sales are FINAL. NO REFUNDS. Re-entry to the venue will not be allowed for events unless otherwise noted. Any person under the age of 21 found drinking on the premises will be evicted without refund. Smoking will be allowed in designated areas only. No camping, RV's or camping trailers. No tailgating. No moshing or crowd surfing. All guests and their personal possessions are subject to inspection prior to venue admittance. PERMITTED ITEMS AT ALL EVENTS (unless otherwise noted): Binoculars Blankest & Beach Towels Disposable Cameras Sealed Bottled Water Low Profile Lawn Chairs NON-PERMITTED ITEMS FOR ALL EVENTS: Fireworks Play Pens Throwing Toys (including Beach Balls & frisbees) Laser Pointers High Profile Lawn Chairs Coolers, Baskets or Large Bags Outside food or beverages (SEALED Bottled Water is OK) Cameras or Recording Devices of any kind Weapons Drugs Musical Instruments or Drums Animals (except for service animals) Skateboards, Scooters or Skates of any kind Large (golf) Umbrellas or Flags",
+				"childRule": "Accompanied children ages 2 and younger and welcome in to the venue at no charge."
+			},
+			"upcomingEvents": {
+				"_total": 2,
+				"tmr": 1,
+				"ticketmaster": 1
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/venues/KovZpZA1vFlA?locale=en-us"
+				}
+			}
+		}, {
+			"name": "Les Schwab Amphitheater",
+			"type": "venue",
+			"id": "KovZpZA1vlIA",
+			"test": false,
+			"url": "https://www.ticketmaster.com/les-schwab-amphitheater-tickets-bend/venue/123444",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dbimages/5702v.gif",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}],
+			"postalCode": "97702",
+			"timezone": "America/Los_Angeles",
+			"city": {
+				"name": "Bend"
+			},
+			"state": {
+				"name": "Oregon",
+				"stateCode": "OR"
+			},
+			"country": {
+				"name": "United States Of America",
+				"countryCode": "US"
+			},
+			"address": {
+				"line1": "344 SW Sevlin-Hixon Drive"
+			},
+			"location": {
+				"longitude": "-121.321527",
+				"latitude": "44.048328"
+			},
+			"markets": [{
+				"name": "Portland and More",
+				"id": "37"
+			}],
+			"dmas": [{
+				"id": 228
+			}, {
+				"id": 272
+			}, {
+				"id": 331
+			}, {
+				"id": 362
+			}],
+			"boxOfficeInfo": {
+				"phoneNumberDetail": "541-318-5457",
+				"openHoursDetail": "Box Office and Gates open 1 1/2 hours prior to showtime. Varies by event.",
+				"acceptedPaymentDetail": "Cash Only",
+				"willCallDetail": "Located in front of Main Entrance on the southwest side of the venue."
+			},
+			"parkingDetail": "Parking is free in the Old Mill District and the Mt. Bachelor park & ride lots. Handicapped Parking: Drop off is available at the Box Office. Parking only available in the Old Mill District.",
+			"accessibleSeatingDetail": "For Wheelchair accessible seating, purchase general admission tickets. There is a designated area at stage right, for wheelchair patrons and one companion.",
+			"generalInfo": {
+				"generalRule": "No re-entry, everyone will be subject to search upon entry. No high back chairs or elevated seats allowed. No smoking except in the designated venue areas. No stage diving or crowd surfing. No professional cameras (video or still), recording devices, alcoholic beverages, cans or bottles, fireworks, outside food or beverage, skateboards, frisbees, pets, picnic baskets, cooler ice chests, weapons, guns, knives, chains, explosives, laser pointers, unbreallas, instruments, tents, flags, bota bags, backpacks or large bags. If you are in doubt don't bring it.",
+				"childRule": "Children, 24 months and under are admitted free in the general admission lawn area. No one is free in the Golden Circle reserved seating areas. ALL AGES ARE WELCOME."
+			},
+			"upcomingEvents": {
+				"_total": 3,
+				"tmr": 2,
+				"ticketmaster": 1
+			},
+			"ada": {
+				"adaPhones": "For additional information about Accessible Seating please call the Les Schwab Amphitheater at 541-322-9383.",
+				"adaCustomCopy": "To accommodate accessible seating patrons, Les Schwab Amphitheater allows wheelchair patrons and one companion to sit in a special reserved section at the Amphitheater.  Wheelchair accessible patrons purchase a general admission ticket (even for shows with Golden Circle seating) and then when they arrive at the amphitheater they are directed to the seating area.  In order to accommodate all of the wheelchair patrons, only one companion seat is allowed per wheelchair.  Additional members of your party should sit in the general seating area.  If you have additional questions please contact the venue directly at 541-322-9383.  \n",
+				"adaHours": "Box Office and Gates generally open 1 1/2 prior to showtime. This schedule may vary by event."
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/venues/KovZpZA1vlIA?locale=en-us"
+				}
+			}
+		}, {
+			"name": "Midtown Ballroom",
+			"type": "venue",
+			"id": "KovZpZAEJE1A",
+			"test": false,
+			"url": "https://www.ticketmaster.com/midtown-ballroom-tickets-bend/venue/123855",
+			"locale": "en-us",
+			"postalCode": "97701",
+			"timezone": "America/Los_Angeles",
+			"city": {
+				"name": "Bend"
+			},
+			"state": {
+				"name": "Oregon",
+				"stateCode": "OR"
+			},
+			"country": {
+				"name": "United States Of America",
+				"countryCode": "US"
+			},
+			"address": {
+				"line1": "51 NW Greenwood Ave"
+			},
+			"location": {
+				"longitude": "-121.308303",
+				"latitude": "44.059788"
+			},
+			"markets": [{
+				"name": "Portland and More",
+				"id": "37"
+			}],
+			"dmas": [{
+				"id": 228
+			}, {
+				"id": 272
+			}, {
+				"id": 331
+			}, {
+				"id": 362
+			}],
+			"upcomingEvents": {
+				"_total": 6,
+				"ticketweb": 6
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/venues/KovZpZAEJE1A?locale=en-us"
+				}
+			}
+		}, {
+			"name": "Dante's",
+			"type": "venue",
+			"id": "KovZpZAEddeA",
+			"test": false,
+			"url": "https://www.ticketmaster.com/dantes-tickets-portland/venue/338314",
+			"locale": "en-us",
+			"postalCode": "97209",
+			"timezone": "America/Los_Angeles",
+			"city": {
+				"name": "Portland"
+			},
+			"state": {
+				"name": "Oregon",
+				"stateCode": "OR"
+			},
+			"country": {
+				"name": "United States Of America",
+				"countryCode": "US"
+			},
+			"address": {
+				"line1": "350 West Burnside Street"
+			},
+			"location": {
+				"longitude": "-83.06075954",
+				"latitude": "42.35859995"
+			},
+			"markets": [{
+				"name": " Toledo & More\"",
+				"id": "7"
+			}],
+			"dmas": [{
+				"id": 266
+			}, {
+				"id": 277
+			}, {
+				"id": 317
+			}, {
+				"id": 398
+			}],
+			"upcomingEvents": {
+				"_total": 72,
+				"tmr": 16,
+				"ticketweb": 54,
+				"ticketmaster": 2
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/venues/KovZpZAEddeA?locale=en-us"
+				}
+			}
+		}, {
+			"name": "Revolution Hall",
+			"type": "venue",
+			"id": "KovZpZAEkdIA",
+			"test": false,
+			"url": "https://www.ticketmaster.com/revolution-hall-tickets-portland/venue/123848",
+			"locale": "en-us",
+			"postalCode": "97214",
+			"timezone": "America/Los_Angeles",
+			"city": {
+				"name": "Portland"
+			},
+			"state": {
+				"name": "Oregon",
+				"stateCode": "OR"
+			},
+			"country": {
+				"name": "United States Of America",
+				"countryCode": "US"
+			},
+			"address": {
+				"line1": "1300 SE Stark St"
+			},
+			"location": {
+				"longitude": "-122.652092",
+				"latitude": "45.518958"
+			},
+			"markets": [{
+				"name": "Portland and More",
+				"id": "37"
+			}],
+			"dmas": [{
+				"id": 228
+			}, {
+				"id": 272
+			}, {
+				"id": 331
+			}, {
+				"id": 362
+			}],
+			"upcomingEvents": {
+				"_total": 19,
+				"tmr": 19
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/venues/KovZpZAEkdIA?locale=en-us"
+				}
+			}
+		}, {
+			"name": "McMenamins Crystal Ballroom",
+			"type": "venue",
+			"id": "KovZpZAFFJnA",
+			"test": false,
+			"url": "https://www.ticketmaster.com/mcmenamins-crystal-ballroom-tickets-portland/venue/123402",
+			"locale": "en-us",
+			"images": [{
+				"ratio": "16_9",
+				"url": "https://s1.ticketm.net/dbimages/6141v.jpg",
+				"width": 205,
+				"height": 115,
+				"fallback": false
+			}],
+			"postalCode": "97209",
+			"timezone": "America/Los_Angeles",
+			"city": {
+				"name": "Portland"
+			},
+			"state": {
+				"name": "Oregon",
+				"stateCode": "OR"
+			},
+			"country": {
+				"name": "United States Of America",
+				"countryCode": "US"
+			},
+			"address": {
+				"line1": "1332 West Burnside"
+			},
+			"location": {
+				"longitude": "-122.6847805",
+				"latitude": "45.5228996"
+			},
+			"markets": [{
+				"name": "Portland and More",
+				"id": "37"
+			}],
+			"dmas": [{
+				"id": 228
+			}, {
+				"id": 272
+			}, {
+				"id": 331
+			}, {
+				"id": 362
+			}],
+			"boxOfficeInfo": {
+				"phoneNumberDetail": "503-225-0047",
+				"openHoursDetail": "Box Office is open Noon - 6pm, Mon - Fri. The box office is open later on nights when there is a performance. Tickets available in Ringler's Pub until 10pm 7 days a week.",
+				"acceptedPaymentDetail": "The box office accepts cash, VISA, MasterCard, American Express, and the Discover Card. PLEASE NOTE THAT A $1.00 SERVICE FEE WILL BE ADDED TO ALL BOX OFFICE TICKET SALES.",
+				"willCallDetail": "Will call is located under the Crystal Ballroom awning on 14th Ave."
+			},
+			"parkingDetail": "There are two pay lots nearby and street parking available.",
+			"accessibleSeatingDetail": "Call in advance for early admittance. There is an elevator located in the loby.",
+			"generalInfo": {
+				"generalRule": "No Professional cameras. No weapons (guns, knives, explosives, chains, pepper spray or mace) No alcohol outside Photos and recording varies on the show. More information at www.danceonair.com.",
+				"childRule": "Lola's room is always for ages 21 & over. Ages for Crystal events vary."
+			},
+			"upcomingEvents": {
+				"_total": 38,
+				"tmr": 38
+			},
+			"ada": {
+				"adaPhones": "503-225-0047",
+				"adaCustomCopy": "  \n* This is an \"All general admission event.\" Patrons requesting accessible seating may purchase and use regular general admission seating. Please click \"back\" to previous page and continue with standard purchase.  \n",
+				"adaHours": " Monday - Friday 12-6pm; Sunday 2:30-9pm   \nThe box office is open later on nights when there is a performance."
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/venues/KovZpZAFFJnA?locale=en-us"
+				}
+			}
+		}, {
+			"name": "Domino Room",
+			"type": "venue",
+			"id": "KovZpZAFIatA",
+			"test": false,
+			"url": "https://www.ticketmaster.com/domino-room-tickets-bend/venue/337953",
+			"locale": "en-us",
+			"postalCode": "97701",
+			"timezone": "America/Los_Angeles",
+			"city": {
+				"name": "Bend"
+			},
+			"state": {
+				"name": "Oregon",
+				"stateCode": "OR"
+			},
+			"country": {
+				"name": "United States Of America",
+				"countryCode": "US"
+			},
+			"address": {
+				"line1": "51 NW Greenwood Ave"
+			},
+			"location": {
+				"longitude": "-121.3071577",
+				"latitude": "44.05993"
+			},
+			"markets": [{
+				"name": "Portland and More",
+				"id": "37"
+			}],
+			"dmas": [{
+				"id": 228
+			}, {
+				"id": 272
+			}, {
+				"id": 331
+			}, {
+				"id": 362
+			}],
+			"upcomingEvents": {
+				"_total": 2,
+				"ticketweb": 2
+			},
+			"_links": {
+				"self": {
+					"href": "/discovery/v2/venues/KovZpZAFIatA?locale=en-us"
+				}
+			}
+		}]
+	},
+	"_links": {
+		"first": {
+			"href": "/discovery/v2/venues?countryCode=US&stateCode=OR&locale=*&page=0&size=20"
+		},
+		"self": {
+			"href": "/discovery/v2/venues?countryCode=US&stateCode=OR&locale=*"
+		},
+		"next": {
+			"href": "/discovery/v2/venues?countryCode=US&stateCode=OR&locale=*&page=1&size=20"
+		},
+		"last": {
+			"href": "/discovery/v2/venues?countryCode=US&stateCode=OR&locale=*&page=15&size=20"
+		}
+	},
+	"page": {
+		"size": 20,
+		"totalElements": 312,
+		"totalPages": 16,
+		"number": 0
+	}
+}
