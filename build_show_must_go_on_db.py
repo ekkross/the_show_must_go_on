@@ -91,8 +91,8 @@ def populate_table(engine, table, csvfile):
     conn.execute(table.insert(), data)
     
 # Call the function to insert the data for each table
-populate_table(engine, Events.__table__, 'events_data_with_place.csv')
-populate_table(engine, Venues.__table__, 'venues_data.csv')
+populate_table(engine, Events.__table__, 'csv/events_data_with_place.csv')
+populate_table(engine, Venues.__table__, 'csv/venues_data.csv')
 
 
 # In[ ]:

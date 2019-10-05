@@ -3,4 +3,6 @@ config.py
 config.js
 /env
 .DS_Store
-.vcode
+.vscode
+.ipynb_checkpoints
+__pycache__
