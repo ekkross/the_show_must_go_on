@@ -14,7 +14,7 @@ from psycopg2 import sql
 from sqlalchemy import create_engine
 from sqlalchemy_utils import create_database, database_exists, drop_database
 
-Password = input("enter your postgres passwprd")
+Password = input("enter your postgres password ")
 
 engine = create_engine(f'postgresql://postgres:{Password}@localhost:5432/the_show_must_go_on')
 Base = declarative_base()
