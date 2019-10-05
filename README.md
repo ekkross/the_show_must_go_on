@@ -7,9 +7,9 @@
 - Charles _Flask, JavaScript, Chartjs_
 - Alana _HTML, CSS_
 
-**Data source:** [Ticketmaster API](https://developer.ticketmaster.com/products-and-docs/apis/getting-started/)
+**Data Source:** [Ticketmaster API](https://developer.ticketmaster.com/products-and-docs/apis/getting-started/)
 
-**Repo name:** https://github.com/ekkross/the_show_must_go_on
+**Repository:** [The Show Must Go On](https://github.com/ekkross/the_show_must_go_on)
 
 We used TicketMaster’s API to get data about venues and events in Portland.
 We then cleaned our data using Python and Pandas and loaded it into a Postgres database.
