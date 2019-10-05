@@ -2,3 +2,5 @@
 config.py
 config.js
 /env
+.DS_Store
+.vcode
