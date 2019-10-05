@@ -30,3 +30,6 @@ About:
 We set out to create a way to find the right venue based on the type of show a person wanted to see.  You want to see a metal show on a Friday night?  Your best best to find a show is Dante’s or the Jack London Revue.  Opera?  Try the Newmark Theatre.  Comedy?  Go to the Keller.  
 As we reviewed the TicketMaster API to see what other interesting data points we could get, we discovered that we could get the location of all of these venues as latitude and longitude in order to display them on a map.  
 We also wanted to show the number of events by genre per venue to support our original question.
+
+Database Diagram:
+![The Show Must Go On Database](database_diagram.png)
