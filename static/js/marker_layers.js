@@ -10,13 +10,13 @@ var eventMarkers = [];
 function markerSize(events) {
     return events * 5;
   }
-
+console.log(data[0])
   for (var z = 0; z < data.length; z++) {
     var lat = data[z].venue_location_lat ;
     var long = data[z].venue_location_long;
     var event = data[z].venue_upcoming_event_total;
     var arr = [lat,long];    
-    var venue = data.venue_name;
+    var venue = data[z].venue_name;
     console.log(lat);
     // var address = response._embedded.venues[z].address.line1 + " "+ response._embedded.venues[z].city.name +" "+response._embedded.venues[z].postalCode;
     var list = "<dl><dt>Venue Name:" + venue +"</dt>"+"<dt>address:"+"address"+"</dt>"+"<dt>upcoming events!:"+event+"</dt>"+ "</dl>";
@@ -35,44 +35,6 @@ function markerSize(events) {
   });
 
 
-
-
-
-
-// function (response){    
-// console.log(response);
-// var eventMarkers = [];
-
-// function markerSize(events) {
-//     return events * 5;
-//   }
-
-//   for (var z = 0; z < venueData.venues.length; z++) {
-//     var lat = response._embedded.venues[z].location.latitude ;
-//     var long = response._embedded.venues[z].location.longitude;
-//     var event = response._embedded.venues[z].upcomingEvents._total;
-//     var arr = [lat,long];
-    
-//     var venue = response._embedded.venues[z].name;
-//     var address = response._embedded.venues[z].address.line1 + " "+ response._embedded.venues[z].city.name +" "+response._embedded.venues[z].postalCode;
-//     var list = "<dl><dt>Venue Name:" + venue +"</dt>"+"<dt>address:"+address+"</dt>"+"<dt>upcoming events!:"+event+"</dt>"+ "</dl>";
-//   // Setting the marker radius for the state by passing population into the markerSize function
-//   eventMarkers.push(
-//     L.circle(arr, {
-//       stroke: true,
-//       fillOpacity: 0.75,
-//       color: "black",
-//       fillColor: "purple",
-//       radius: markerSize(event)
-//     }).bindPopup(list));
-//   }
-//   createMap(L.layerGroup(eventMarkers));
-
-// };
-  
-
- 
-    
 
 function createMap(event_pop) {
 
