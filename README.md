@@ -1,13 +1,13 @@
 # the_show_must_go_on
-**Topic:**  We’re trying to make show-hunting as easy as possible for Portland consumers.  Venues.  People.  Sales.
+**Topic:**  The Show Must Go On!  We’re trying to make show-hunting as easy as possible for Portland consumers.  Venues.  People.  Sales.
 
 **Team:** Erin, Michael, Charles, and Alana
 
 **Roles:** 
--Michael - _Leaflet and maps_
--Erin - _Python, SQL_
--Alana - _HTML, CSS_
--Charles - _Flask, JavaScript, Chartjs_
+- Michael _Leaflet and maps_
+- Erin _Python, SQL_
+- Charles _Flask, JavaScript, Chartjs_
+- Alana _HTML, CSS_
 
 **Data source:** Ticketmaster API
 
