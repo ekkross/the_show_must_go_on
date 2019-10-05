@@ -4,10 +4,10 @@
 **Team:** Erin, Michael, Charles, and Alana
 
 **Roles:** 
-Michael - _Leaflet and maps_
-Erin - _Python, SQL_
-Alana - _HTML, CSS_
-Charles - _Flask, JavaScript, Chartjs_
+-Michael - _Leaflet and maps_
+-Erin - _Python, SQL_
+-Alana - _HTML, CSS_
+-Charles - _Flask, JavaScript, Chartjs_
 
 **Data source:** Ticketmaster API
 
@@ -25,7 +25,6 @@ Ideally, we will also be able to display seat maps for each venue when they are 
 We may also include data about total Portland sales on events in the last X months.
 
 **About:**
-
 We set out to create a way to find the right venue based on the type of show a person wanted to see.  You want to see a metal show on a Friday night?  Your best best to find a show is Dante’s or the Jack London Revue.  Opera?  Try the Newmark Theatre.  Comedy?  Go to the Keller.  
 As we reviewed the TicketMaster API to see what other interesting data points we could get, we discovered that we could get the location of all of these venues as latitude and longitude in order to display them on a map.  
 We also wanted to show the number of events by genre per venue to support our original question.
