@@ -18,7 +18,6 @@ Password = input("enter your postgres passwprd")
 
 engine = create_engine(f'postgresql://postgres:{Password}@localhost:5432/the_show_must_go_on')
 Base = declarative_base()
-S
 
 # If a PostgreSQL database with this name exists
 if database_exists(engine.url):
