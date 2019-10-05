@@ -4,3 +4,4 @@ flask
 requests
 sqlalchemy
 numpy
+sqlalchemy_utils import create_database, database_exists, drop_database

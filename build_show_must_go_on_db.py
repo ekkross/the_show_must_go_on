@@ -10,9 +10,25 @@ from sqlalchemy import create_engine, MetaData
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String, Numeric, Text, Float, ForeignKey
 from sqlalchemy.orm import sessionmaker, relationship
+from psycopg2 import sql
+from sqlalchemy import create_engine
+from sqlalchemy_utils import create_database, database_exists, drop_database
 
-engine = create_engine('postgresql://postgres:postgres@localhost:5432/the_show_must_go_on')
+
+engine = create_engine('postgresql://postgres:24@Easton24@localhost:5432/the_show_must_go_on')
 Base = declarative_base()
+
+
+# If a PostgreSQL database with this name exists
+if database_exists(engine.url):
+    # Delete PostgreSQL database 
+    drop_database(engine.url)
+    # Create empty PostgreSQL database
+    create_database(engine.url)
+# Otherwise
+else:
+    # Create empty PostgreSQL database
+    create_database(engine.url)
 
 
 # In[ ]:
