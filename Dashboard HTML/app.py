@@ -2,17 +2,20 @@
 from flask import Flask, render_template, jsonify, request
 import build_show_must_go_on_db
 from sqlalchemy import create_engine
-import numpy as np
+import numpy as np24
 
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 
-
+password = "24@Easton24" #your postgress password here
+post_id = "postgres"
+app_name = "the_show_must_go_on"
 app = Flask(__name__)
 
-DATABASE_URI = 'postgres://postgres:24@Easton24@localhost:5432/the_show_must_go_on'
+DATABASE_URI = f'postgres://{post_id}:{password}@localhost:5432/{app_name}'
+
 engine = create_engine(DATABASE_URI)
 
 Base = automap_base()

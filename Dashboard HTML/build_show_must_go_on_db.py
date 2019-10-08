@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 import pandas as pd
 import sqlalchemy
 from sqlalchemy import create_engine, MetaData
@@ -14,9 +11,9 @@ from psycopg2 import sql
 from sqlalchemy import create_engine
 from sqlalchemy_utils import create_database, database_exists, drop_database
 
-Password = input("enter your postgres password ")
+password = input("enter your postgres password ")
 
-engine = create_engine(f'postgresql://postgres:{Password}@localhost:5432/the_show_must_go_on')
+engine = create_engine(f'postgresql://postgres:{password}@localhost:5432/the_show_must_go_on')
 Base = declarative_base()
 
 # If a PostgreSQL database with this name exists
@@ -29,9 +26,6 @@ if database_exists(engine.url):
 else:
     # Create empty PostgreSQL database
     create_database(engine.url)
-
-
-# In[ ]:
 
 
 class Events(Base):
@@ -69,14 +63,8 @@ class Venues(Base):
     venue_upcoming_event_total = Column(Text)
 
 
-# In[ ]:
-
-
 Base.metadata.create_all(engine)
 engine.table_names()
-
-
-# In[ ]:
 
 
 def populate_table(engine, table, csvfile):
@@ -95,13 +83,7 @@ populate_table(engine, Events.__table__, '../csv/events_data_with_place.csv')
 populate_table(engine, Venues.__table__, '../csv/venues_data.csv')
 
 
-# In[ ]:
-
-
 engine.execute("SELECT * FROM events LIMIT 5").fetchall()
-
-
-# In[ ]:
 
 
 engine.execute("SELECT * FROM venues LIMIT 5").fetchall()
