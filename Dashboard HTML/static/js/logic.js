@@ -1,18 +1,31 @@
 
 
+
 // Bar chart data
 var BarChart = document.getElementById("bar-chart");
-var bardata = [2478, 5267, 734, 784, 433]
-var barlabel = ["Africa", "Asia", "Europe", "Latin America", "North America"]
+// var bardata = [2478, 5267, 734, 784, 433]
+// var barlabel = ["Africa", "Asia", "Europe", "Latin America", "North America"]
 var barcolors = ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"]
+
+var bardata = $.get('/charts');
+
+bardata.done(function(results){
+  var data = {
+    labels: ["Africa", "Asia", "Europe", "Latin America", "North America"],
+    series: [
+      results.results
+    ]
+  }
+})
+
 
 // add bar chart to HTML
 new Chart(BarChart, {
     type: "horizontalBar",
     data: {
-      labels: barlabel,
+      labels: ["Africa", "Asia", "Europe", "Latin America", "North America"]
       datasets: [{
-          label: "Population (millions)",
+          label: "Ticket Sales By Genre",
           backgroundColor: barcolors,
           borderColor: "",
           borderSkipped: false,
@@ -23,7 +36,7 @@ new Chart(BarChart, {
     options: {
       legend: { display: false },
       title: {display: true,
-        text: 'Predicted world population (millions) in 2050'},
+        text: 'Ticket Sales By Genre'},
         scales: {
           xAxes: [{
               barPercentage: 0.5,

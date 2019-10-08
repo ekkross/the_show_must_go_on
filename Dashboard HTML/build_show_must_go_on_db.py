@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-
+from flask import Flask, render_template, jsonify, request
 import pandas as pd
 import sqlalchemy
 from sqlalchemy import create_engine, MetaData
@@ -12,6 +12,7 @@ from sqlalchemy import create_engine
 from sqlalchemy_utils import create_database, database_exists, drop_database
 
 password = input("enter your postgres password ")
+
 
 engine = create_engine(f'postgresql://postgres:{password}@localhost:5432/the_show_must_go_on')
 Base = declarative_base()
