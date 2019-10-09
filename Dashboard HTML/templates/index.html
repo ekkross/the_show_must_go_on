@@ -6,9 +6,10 @@
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- css -->
-  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-  <link href="css/style.css" rel="stylesheet" media="screen">
-  <link href="color/default.css" rel="stylesheet" media="screen">
+  <link href="static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="static/css/style.css" rel="stylesheet" media="screen">
+  <link href="static/color/default.css" rel="stylesheet" media="screen">
+  <script src="static/js/modernizr.custom.js"></script>
   <!-- =======================================================
     Theme Name: Mamba
     Theme URL: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/
@@ -16,16 +17,6 @@
     Author URL: https://bootstrapmade.com
   ======================================================= -->
 
-     <!-- Leaflet CSS & JS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
-    <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.css">
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-  <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js" integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q==" crossorigin=""></script>
-  <!-- Marker Cluster JS & CSS -->
-  <script type="text/javascript" src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster.js"></script>  
-  <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
-  integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
-  crossorigin=""></script>
   
 </head>
 
@@ -34,14 +25,11 @@
     <div id="dl-menu" class="dl-menuwrapper">
       <button class="dl-trigger">Open Menu</button>
       <ul class="dl-menu">
-        <li>
-          <a href="#intro">Home</a>
-        </li>
+        <li><a href="#intro">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#map-section">Venues Map</a></li>
         <li><a href="#chart">Venues Chart</a></li>
-          </ul>
-        </li>
+        <li><a href="#analysis">Analysis</a></li>
       </ul>
     </div>
     <!-- /dl-menuwrapper -->
@@ -58,7 +46,7 @@
           <div class="col-md-12">
 
             <div class="brand">
-              <h1><a href="index.html">The Show Must Go On</a></h1>
+              <h1><a href="#home">The Show Must Go On</a></h1>
               <div class="line-spacer"></div>
               <p><span>Find the Best Venue in Portland</span></p>
             </div>
@@ -73,13 +61,16 @@
 
 
   <!-- About -->
-  <section id="about" class="home-section bg-white">
+  <section id="about" class="home-section bg-gray">
     <div class="container">
       <div class="row">
-        <div class="col-md-offset-2 col-md-8">
+        <div class="col-md-12">
           <div class="section-heading">
             <h2>About us</h2>
-            <p>We’ve been building unique digital products, platforms, and experiences for the past 6 years.</p>
+            <p>We set out to create a way to find the right venue based on the type of show a person wanted to see. You want to see a metal show on a Friday night? Your best best to find a show is Dante’s or the Jack London Revue. Opera? Try the Newmark Theatre. Comedy? Go to the Keller.<br>
+            <br>
+              As we reviewed the TicketMaster API to see what other interesting data points we could get, we discovered that we could get the location of all of these venues as latitude and longitude in order to display them on a map.
+              We also wanted to show the number of events by genre per venue to support our original question.</p>
           </div>
         </div>
       </div>
@@ -87,35 +78,72 @@
   </section>
 
   <!-- Map -->
-  
+       <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.css">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js" integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q==" crossorigin=""></script>
+  <!-- Marker Cluster JS & CSS -->
+  <script type="text/javascript" src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster.js"></script>  
+  <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+  integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+  crossorigin=""></script>
 
   <section id="map-section" class="home-section bg-white">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-              <div style="width: 100%;"> 
-                  <div id="map" style ="width: 100% ; height:400px"></div>
+              <div style="width: 100%; height: 100%"> 
+                  <div id="map" style ="width: 100% ; height:500px"></div>
               </div>
         </div>
+        <div class="col-md-12">
+          <h2>Map Notes</h2>
+              <p>We set out to create a way to find the right venue based on the type of show a person wanted to see. You want to see a metal show on a Friday night? Your best best to find a show is Dante’s or the Jack London Revue. Opera? Try the Newmark Theatre. Comedy? Go to the Keller.</p>
+          </div>
+    </div>
       </div>
     </div>
   </section>
+
   <!-- Chart -->
-  <section id="chart" class="home-section bg-white">
+  <section id="chart" class="home-section bg-gray">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
               <div style="width: 100%;"> 
                   <canvas id="bar-chart" width="400" height="400"></canvas>
-                </div>
-          <div class="col-md-6">
+              </div>
+          </div>
+        <div class="col-md-6">
               <div style="width: 100%;"> 
                   <canvas id="line-chart" width="400" height="400"></canvas>
                 </div>  
         </div>
+      <div class="col-md-12">
+          <h2>Chart Notes</h2>
+              <p>We set out to create a way to find the right venue based on the type of show a person wanted to see. You want to see a metal show on a Friday night? Your best best to find a show is Dante’s or the Jack London Revue. Opera? Try the Newmark Theatre. Comedy? Go to the Keller.</p>
+        </div>
       </div>
     </div>
   </section>
+
+    <!-- Analysis -->
+    <section id="analysis" class="home-section bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Analysis</h2>
+              <p>We set out to create a way to find the right venue based on the type of show a person wanted to see. You want to see a metal show on a Friday night? Your best best to find a show is Dante’s or the Jack London Revue. Opera? Try the Newmark Theatre. Comedy? Go to the Keller.<br>
+              <br>
+                As we reviewed the TicketMaster API to see what other interesting data points we could get, we discovered that we could get the location of all of these venues as latitude and longitude in order to display them on a map.
+                We also wanted to show the number of events by genre per venue to support our original question.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
   <!-- spacer 2 -->
   <section id="spacer2" class="home-section spacer">
@@ -123,8 +151,8 @@
       <div class="row">
         <div class="col-md-12">
           <div class="color-light">
-            <h2 class="wow bounceInDown" data-wow-delay="1s">Details are the key for perfection</h2>
-            <p class="lead wow bounceInUp" data-wow-delay="2s">We mix all detailed things together</p>
+            <h2 class="wow bounceInDown" data-wow-delay="1s">Team</h2>
+            <p class="lead wow bounceInUp" data-wow-delay="2s">Michael | Erin | Charles | Alana</p>
           </div>
         </div>
       </div>
@@ -154,17 +182,17 @@
   </footer>
 
   <!-- js -->
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.smooth-scroll.min.js"></script>
-  <script src="js/jquery.dlmenu.js"></script>
-  <script src="js/wow.min.js"></script>
-  <!-- <script src="js/custom.js"></script> -->
+  <script src="static/js/jquery.js"></script>
+  <script src="static/js/bootstrap.min.js"></script>
+  <script src="static/js/jquery.smooth-scroll.min.js"></script>
+  <script src="static/js/jquery.dlmenu.js"></script>
+  <script src="static/js/wow.min.js"></script>
+  <script src="static/js/custom.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
-  <script type="text/javascript" src="js/logic.js"></script>
-  <script type="text/javascript" src="js/config.js"></script>
-  <script type="text/javascript" src="js/marker.js"></script>
-  <script src="contactform/contactform.js"></script>
+  <script type="text/javascript" src="static/js/logic.js"></script>
+  <script type="text/javascript" src="static/js/config.js"></script>
+  <script type="text/javascript" src="static/js/marker.js"></script>
+  <script src="static/contactform/contactform.js"></script>
 
 </body>
 
