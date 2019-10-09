@@ -1,93 +1,93 @@
 
-var jsonData = $.ajax({
-  url: "http://127.0.0.1:5000/charts",
-  dataType: 'json',
-}).done(function (results) {
+// var jsonData = $.ajax({
+//   url: "http://127.0.0.1:5000/charts",
+//   dataType: 'json',
+// }).done(function (results) {
 
   
-  sortedArrayOfObj = results.sort(function(a, b) {
-    return b.count>a.count;
-  });
+//   sortedArrayOfObj = results.sort(function(a, b) {
+//     return b.count>a.count;
+//   });
 
-  // Split data into separate arrays
-  var genre = [], data=[];
-  sortedArrayOfObj.forEach(function(packet) {
-    genre.push(packet.Genre);
-    data.push(parseFloat(packet.count));
-  });
+//   // Split data into separate arrays
+//   var genre = [], data=[];
+//   sortedArrayOfObj.forEach(function(packet) {
+//     genre.push(packet.Genre);
+//     data.push(parseFloat(packet.count));
+//   });
 
 
-// Bar chart data
+// // Bar chart data
 
-// Generate a random bar color Scheme so it is diffrent everytime you load the page
-function getRandomColor() {
-  var letters = '0123456789ABCDEF'.split('');
-  var color = '#';
-  for (var i = 0; i < 6; i++ ) {
-      color += letters[Math.floor(Math.random() * 16)];
-  }
-  return color;
+// // Generate a random bar color Scheme so it is diffrent everytime you load the page
+// function getRandomColor() {
+//   var letters = '0123456789ABCDEF'.split('');
+//   var color = '#';
+//   for (var i = 0; i < 6; i++ ) {
+//       color += letters[Math.floor(Math.random() * 16)];
+//   }
+//   return color;
  
-}
+// }
 
-new Chart(document.getElementById("bar-chart"), {
-  type: 'bar',
-  data: {
-    labels: genre,
-    datasets: [
-      {
-        label: "Count of Genres",
-        backgroundColor: getRandomColor(),
-        borderColor: getRandomColor(),
-        hoverBackgroundColor: getRandomColor(),
-        data: data
-      }]},
-  options: {
-    legend: { display: false },
-    title: {
-      display: true,
-      text: 'Count of Genre by Venue'
-    },
-      animation: {
-        numsteps: 50000,
-        easing: 'easeOutElastic'
-    }
-  }
-  });
-});
+// new Chart(document.getElementById("bar-chart"), {
+//   type: 'bar',
+//   data: {
+//     labels: genre,
+//     datasets: [
+//       {
+//         label: "Count of Genres",
+//         backgroundColor: getRandomColor(),
+//         borderColor: getRandomColor(),
+//         hoverBackgroundColor: getRandomColor(),
+//         data: data
+//       }]},
+//   options: {
+//     legend: { display: false },
+//     title: {
+//       display: true,
+//       text: 'Count of Genre by Venue'
+//     },
+//       animation: {
+//         numsteps: 50000,
+//         easing: 'easeOutElastic'
+//     }
+//   }
+//   });
+// });
 
 
-// # D3 Chart Starts here
-// Define SVG area dimensions
-var svgWidth = 960;
-var svgHeight = 660;
+// // # D3 Chart Starts here
+// // Define SVG area dimensions
+// var svgWidth = 960;
+// var svgHeight = 660;
 
-// Define the chart's margins as an object
-var chartMargin = {
-  top: 30,
-  right: 30,
-  bottom: 30,
-  left: 30
-};
+// // Define the chart's margins as an object
+// var chartMargin = {
+//   top: 30,
+//   right: 30,
+//   bottom: 30,
+//   left: 30
+// };
 
-// Define dimensions of the chart area
-var chartWidth = svgWidth - chartMargin.left - chartMargin.right;
-var chartHeight = svgHeight - chartMargin.top - chartMargin.bottom;
+// // Define dimensions of the chart area
+// var chartWidth = svgWidth - chartMargin.left - chartMargin.right;
+// var chartHeight = svgHeight - chartMargin.top - chartMargin.bottom;
 
-// Select body, append SVG area to it, and set the dimensions
-var svg = d3.select("line-chart")
-  .append("svg")
-  .attr("height", svgHeight)
-  .attr("width", svgWidth);
+// // Select body, append SVG area to it, and set the dimensions
+// var svg = d3.select("line-chart")
+//   .append("svg")
+//   .attr("height", svgHeight)
+//   .attr("width", svgWidth);
 
-// Append a group to the SVG area and shift ('translate') it to the right and to the bottom
-var chartGroup = svg.append("g")
-  .attr("transform", `translate(${chartMargin.left}, ${chartMargin.top})`);
+// // Append a group to the SVG area and shift ('translate') it to the right and to the bottom
+// var chartGroup = svg.append("g")
+//   .attr("transform", `translate(${chartMargin.left}, ${chartMargin.top})`);
 
 // Load data 
-d3.json("http://127.0.0.1:5000/event", function(error, event) {
-  if (error) throw error;
-
+url_event = "http://127.0.0.1:5000/event"
+d3.json(url_event).then(function(event) { 
+  
   console.log(event);
 
   // Cast the hours value to a number for each piece of event

@@ -46,7 +46,7 @@ function markerSize(events) {
 
 
 function createMap(eventMarkers, markers) { 
- console.log(eventMarkers)
+
   var event_count = L.layerGroup(eventMarkers);
   var venue_location = L.layerGroup(markers)
 
