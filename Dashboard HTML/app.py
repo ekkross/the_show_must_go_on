@@ -1,5 +1,6 @@
 # 1. import Flask
 from flask import Flask, render_template, jsonify, request
+from flask_cors import CORS, cross_origin
 import psycopg2
 from sqlalchemy import create_engine
 import numpy as np
@@ -16,6 +17,7 @@ post_id = "postgres"
 app_name = "the_show_must_go_on"
 
 app = Flask(__name__)
+CORS(app)
 
 DATABASE_URI = f'postgres://{post_id}:{password}@localhost:5432/{app_name}'
 
@@ -75,11 +77,12 @@ def chart():
     results_chart = session.query(func.count(events.event_classification_subgenre_name),
     events.event_classification_subgenre_name).group_by(events.event_classification_subgenre_name).all()
     
-    print(results_chart)
+    # print(results_chart)
 
     session.close()
 
     all_genres = []
+    
     for row in results_chart:
         genre_dict = {}
         genre_dict["Genre"] = row[1]

@@ -6,3 +6,4 @@ sqlalchemy
 numpy
 sqlalchemy_utils
 psycopg2
+flask_CORS
