@@ -3,16 +3,22 @@ from flask import Flask, render_template, jsonify, request
 import build_show_must_go_on_db
 from sqlalchemy import create_engine
 import numpy as np
-
+import pandas as pd
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 
 
+
+password = "24@Easton24" #your postgress password here
+post_id = "postgres"
+app_name = "the_show_must_go_on"
+
 app = Flask(__name__)
 
-DATABASE_URI = 'postgres://postgres:24@Easton24@localhost:5432/the_show_must_go_on'
+DATABASE_URI = f'postgres://{post_id}:{password}@localhost:5432/{app_name}'
+
 engine = create_engine(DATABASE_URI)
 
 Base = automap_base()
@@ -79,6 +85,21 @@ def venue():
 
     return jsonify(all_names)
 
+@app.route("/charts")
+def chart(): 
+
+    session = Session(engine)
+
+    results_chart = session.query(func.count(events.event_classification_subgenre_name),events.event_classification_subgenre_name).group_by(events.event_classification_subgenre_name).all()
+        
+    session.close()
+
+        # Convert list of tuples into normal list
+  
+
+    all_names = list(np.ravel(results_chart))
+
+    return jsonify(all_names)
 
 if __name__ == "__main__":
     app.run(debug=True)
