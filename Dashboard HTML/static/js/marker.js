@@ -28,8 +28,8 @@ function markerSize(events) {
     
     eventMarkers.push(
     L.circle(arr, {
-      stroke: false,
-      fillOpacity: 0.75,
+      stroke: true,
+      fillOpacity: 0.50,
       color: "black",
       fillColor: "purple",
       radius: markerSize(event)
