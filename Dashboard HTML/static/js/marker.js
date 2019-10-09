@@ -19,9 +19,11 @@ function markerSize(events) {
     var event = data[z].total;
     var arr = [lat,long];    
     var venue = data[z].name;
+    var type= data[z].type;
+
   
     // var address = response._embedded.venues[z].address.line1 + " "+ response._embedded.venues[z].city.name +" "+response._embedded.venues[z].postalCode;
-    var list = "<dl><dt>Venue Name:" + venue +"</dt>"+"<dt>address:"+"address"+"</dt>"+"<dt>upcoming events!:"+event+"</dt>"+ "</dl>";
+    var list = "<dl><dt>Venue Name:" + venue +"</dt>";
   // Setting the marker radius for the state by passing population into the markerSize function
     
     eventMarkers.push(
@@ -31,18 +33,22 @@ function markerSize(events) {
       color: "black",
       fillColor: "purple",
       radius: markerSize(event)
-    }).bindPopup(list));
-  
+    }).bindPopup("number of upcoming events"+" "+ event));
+
+    markers.push( L.marker(arr).bindPopup(list));
+
   }
  
 }
-console.log(eventMarkers)
-  createMap(L.layerGroup(eventMarkers))
+  createMap(eventMarkers,markers)
   });
 
 
 
-function createMap(event_pop) {
+function createMap(eventMarkers, markers) { 
+ console.log(eventMarkers)
+  var event_count = L.layerGroup(eventMarkers);
+  var venue_location = L.layerGroup(markers)
 
 // Define variables for our base layers
 var streetmap = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {
@@ -76,7 +82,8 @@ var baseMaps = {
 // Create an overlay object
 var overlayMaps = {
   // "City Population": cities,
-  "Event population": event_pop,
+  "Event population": event_count,
+  "Venue":venue_location
   
 };
 
@@ -84,7 +91,7 @@ var overlayMaps = {
 var myMap = L.map("map", {
   center: [45.512, -122.658],
   zoom: 12,
-  layers: [streetmap, event_pop]
+  layers: [streetmap, event_count,venue_location]
 });
 
 // Pass our map layers into our layer control
