@@ -1,46 +1,46 @@
-var baseURL = "https://app.ticketmaster.com/discovery/v2/venues.json?apikey=";
-var local = "&latlong=45.5051064,-122.6750261&radius=50&locale=*";
-var accessTM = API_Key_TM;
 
-var url = baseURL + accessTM + local;
 
-d3.json(url, createMarkers)
+var url = "http://127.0.0.1:5000/venue";
 
-function createMarkers(response){    
+d3.json(url).then(function(data) {
 
 var eventMarkers = [];
+var markers = []
 
 function markerSize(events) {
-    return events * 5;
+    return events * 15;
   }
+  
 
-  for (var z = 0; z < response._embedded.venues.length; z++) {
-    var lat = response._embedded.venues[z].location.latitude ;
-    var long = response._embedded.venues[z].location.longitude;
-    var event = response._embedded.venues[z].upcomingEvents._total;
-    var arr = [lat,long];
-    
-    var venue = response._embedded.venues[z].name;
-    var address = response._embedded.venues[z].address.line1 + " "+ response._embedded.venues[z].city.name +" "+response._embedded.venues[z].postalCode;
-    var list = "<dl><dt>Venue Name:" + venue +"</dt>"+"<dt>address:"+address+"</dt>"+"<dt>upcoming events!:"+event+"</dt>"+ "</dl>";
+  for (var z = 0; z < data.length; z++) {
+    if (data[z].lat > 0) {
+    var lat = data[z].lat ;
+    var long = data[z].long;
+    var event = data[z].total;
+    var arr = [lat,long];    
+    var venue = data[z].name;
+  
+    // var address = response._embedded.venues[z].address.line1 + " "+ response._embedded.venues[z].city.name +" "+response._embedded.venues[z].postalCode;
+    var list = "<dl><dt>Venue Name:" + venue +"</dt>"+"<dt>address:"+"address"+"</dt>"+"<dt>upcoming events!:"+event+"</dt>"+ "</dl>";
   // Setting the marker radius for the state by passing population into the markerSize function
-  eventMarkers.push(
+    
+    eventMarkers.push(
     L.circle(arr, {
-      stroke: true,
+      stroke: false,
       fillOpacity: 0.75,
       color: "black",
       fillColor: "purple",
       radius: markerSize(event)
     }).bindPopup(list));
+  
   }
-  createMap(L.layerGroup(eventMarkers));
-
-};
-  
-
  
-  
-  
+}
+console.log(eventMarkers)
+  createMap(L.layerGroup(eventMarkers))
+  });
+
+
 
 function createMap(event_pop) {
 
