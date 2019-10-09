@@ -5,7 +5,7 @@
 var BarChart = document.getElementById("bar-chart");
 var bardata = "http://localhost:5000/charts"
 
-// var barlabel = ["Africa", "Asia", "Europe", "Latin America", "North America"]
+var barlabel = ["Africa", "Asia", "Europe", "Latin America", "North America"]
 var barcolors = ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"]
 
 var bardata = $.get('/charts');

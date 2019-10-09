@@ -38,8 +38,8 @@ def names():
     # Create our session (link) from Python to the DB
     session = Session(engine)
 
-    """Return a list of all passenger names"""
-    # Query all passengers
+    """Return a list of all venues names"""
+    # Query all venuess
     results1 = session.query(events.event_name ,
    events.event_type ,
    events.event_id ,
@@ -69,8 +69,8 @@ def venue():
     # Create our session (link) from Python to the DB
     session = Session(engine)
 
-    """Return a list of all passenger names"""
-    # Query all passengers
+    """Return a list of all venues names"""
+    # Query all venuess
     results = session.query(venues.venue_name ,
    venues.venue_type ,
    venues.venue_id ,
@@ -81,9 +81,22 @@ def venue():
 
     session.close()
         # Convert list of tuples into normal list
-    all_names = list(np.ravel(results))
+    all_venues = []
 
-    return jsonify(all_names)
+    for venues.venue_name, venues.venue_type, venues.venue_id, venues.venue_postalcode, venues.venue_location_long, venues.venue_location_lat, venues.venue_upcoming_event_total in results:
+        venues_dict = {}
+        venues_dict["name"] = venues.venue_name
+        venues_dict["type"] = venues.venue_type
+        venues_dict["id"] = venues.venue_id
+        venues_dict["postal_code"] = venues.venue_postalcode
+        venues_dict["long"] = venues.venue_location_long
+        venues_dict["lat"] = venues.venue_location_lat
+        venues_dict["total"] = venues.venue_upcoming_event_total
+        all_venues.append(venues_dict)
+
+    return jsonify(all_venues)
+
+  
 
 @app.route("/charts")
 def chart(): 
