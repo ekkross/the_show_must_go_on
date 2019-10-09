@@ -89,9 +89,7 @@ def chart():
         genre_dict["count"] = row[0]
         all_genres.append(genre_dict)
     return jsonify(all_genres)
-    # all_names = list(np.ravel(results_chart))
 
-    # return jsonify(all_nam es)
 
 
 if __name__ == "__main__":
