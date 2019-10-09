@@ -2,7 +2,7 @@
 from flask import Flask, render_template, jsonify, request
 from flask_cors import CORS, cross_origin
 import psycopg2
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, desc
 import numpy as np
 import pandas as pd
 import sqlalchemy
@@ -75,8 +75,10 @@ def chart():
     session = Session(engine)
 
     results_chart = session.query(func.count(events.event_classification_subgenre_name),
-    events.event_classification_subgenre_name).group_by(events.event_classification_subgenre_name).all()
-    
+    events.event_classification_subgenre_name).group_by(events.event_classification_subgenre_name
+    ).order_by(func.count(events.event_classification_subgenre_name).desc()
+    ).all()
+
     # print(results_chart)
 
     session.close()
@@ -89,6 +91,63 @@ def chart():
         genre_dict["count"] = row[0]
         all_genres.append(genre_dict)
     return jsonify(all_genres)
+
+@app.route("/event")
+def event(): 
+
+    session = Session(engine)
+
+    results_event = session.query(
+    events.event_name ,
+   events.event_type ,
+   events.event_id ,
+   events.event_date_start_date ,
+   events.event_date_status ,
+   events.event_seatmap_url ,
+   events.event_place_name ,
+   events.event_place_id ,
+   events.event_place_postalcode ,
+   events.event_place_location_lat ,
+   events.event_place_location_long ,
+   events.event_classification_segment_id ,
+   events.event_classification_segment_name ,
+   events.event_classification_genre_id ,
+   events.event_classification_genre_name ,
+   events.event_classification_subgenre_id ,
+   events.event_classification_subgenre_name).all()
+    
+    # print(results_chart)
+
+    session.close()
+
+    all_event = []
+    
+    for row in results_event:
+        event_dict = {}
+        event_dict["name"] = row[0]
+        event_dict["type"] = row[1]
+        event_dict["id"] = row[2]
+        event_dict["start_date"] = row[3]
+        event_dict["date_status"] = row[4]
+        event_dict["seat_url"] = row[5]
+        event_dict["place_name"] = row[6]
+        event_dict["place_id"] = row[7]
+        event_dict["Place_post_code"] = row[8]
+        event_dict["place_lat"] = row[9]
+        event_dict["place_long"] = row[10]
+        event_dict["seg_id"] = row[11]
+        event_dict["seg_name"] = row[12]
+        event_dict["genre_id"] = row[13]
+        event_dict["genre_name"] = row[14]
+        event_dict["Subg_id"] = row[15]
+        event_dict["subg_name"] = row[16]
+
+
+        all_event.append(event_dict)
+
+    return jsonify(all_event)
+
+
 
 
 

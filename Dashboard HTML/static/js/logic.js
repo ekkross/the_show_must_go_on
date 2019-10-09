@@ -4,15 +4,32 @@ var jsonData = $.ajax({
   dataType: 'json',
 }).done(function (results) {
 
-  // Split timestamp and data into separate arrays
+  
+  sortedArrayOfObj = results.sort(function(a, b) {
+    return b.count>a.count;
+  });
+
+  // Split data into separate arrays
   var genre = [], data=[];
-  results.forEach(function(packet) {
+  sortedArrayOfObj.forEach(function(packet) {
     genre.push(packet.Genre);
     data.push(parseFloat(packet.count));
   });
 
 
 // Bar chart data
+
+// Generate a random bar color Scheme so it is diffrent everytime you load the page
+function getRandomColor() {
+  var letters = '0123456789ABCDEF'.split('');
+  var color = '#';
+  for (var i = 0; i < 6; i++ ) {
+      color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+ 
+}
+
 new Chart(document.getElementById("bar-chart"), {
   type: 'bar',
   data: {
@@ -20,18 +37,22 @@ new Chart(document.getElementById("bar-chart"), {
     datasets: [
       {
         label: "Count of Genres",
-        backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+        backgroundColor: getRandomColor(),
+        borderColor: getRandomColor(),
+        hoverBackgroundColor: getRandomColor(),
         data: data
-      }
-    ]
-  },
+      }]},
   options: {
     legend: { display: false },
     title: {
       display: true,
-      text: ''
+      text: 'Count of Genre by Venue'
+    },
+      animation: {
+        numsteps: 50000,
+        easing: 'easeOutElastic'
     }
-    }
+  }
   });
 });
 
@@ -63,26 +84,28 @@ var svg = d3.select("line-chart")
 var chartGroup = svg.append("g")
   .attr("transform", `translate(${chartMargin.left}, ${chartMargin.top})`);
 
-// Load data from hours-of-tv-watched.csv
-d3.json("http://127.0.0.1:5000/venue", function(error, venue) {
+// Load data 
+d3.json("http://127.0.0.1:5000/event", function(error, event) {
   if (error) throw error;
 
-  console.log(venue);
+  console.log(event);
 
-  // Cast the hours value to a number for each piece of venue
-  venue.forEach(function(d) {
-    d.name = +d.type;
+  // Cast the hours value to a number for each piece of event
+  event.forEach(function(d) {
+    d.name = +d.name;
+    console.log(d.name)
   });
-  console.log(d.id)
+  
+
   // Configure a band scale for the horizontal axis with a padding of 0.1 (10%)
   var xBandScale = d3.scaleBand()
-    .domain(venue.map(d => d.name))
+    .domain(event.map(d => d.type))
     .range([0, chartWidth])
     .padding(0.1);
 
   // Create a linear scale for the vertical axis.
   var yLinearScale = d3.scaleLinear()
-    .domain([0, d3.max(venue, d => d.type)])
+    .domain([0, d3.max(event, d => d.name)])
     .range([chartHeight, 0]);
 
   // Create two new functions passing our scales in as arguments
@@ -99,10 +122,10 @@ d3.json("http://127.0.0.1:5000/venue", function(error, venue) {
     .attr("transform", `translate(0, ${chartHeight})`)
     .call(bottomAxis);
 
-  // Create one SVG rectangle per piece of venue
+  // Create one SVG rectangle per piece of event
   // Use the linear and band scales to position each rectangle within the chart
   chartGroup.selectAll(".bar")
-    .data(venue)
+    .data(event)
     .enter()
     .append("rect")
     .attr("class", "bar")
