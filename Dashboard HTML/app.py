@@ -147,7 +147,30 @@ def event():
 
     return jsonify(all_event)
 
+@app.route("/events")
+def genres():
+    # Create our session (link) from Python to the DB
+    session = Session(engine)
 
+    """Return a list of all event info"""
+    # Query all events
+    event_results = session.query(
+        events.event_name,
+        events.event_place_name,
+        events.event_classification_genre_name).all()
+
+    session.close()
+
+        # Convert list of tuples into normal list
+    all_events = []
+    for row in event_results:
+        events_dict = {}
+        events_dict["name"] = row[0]
+        events_dict["venue"] = row[1]
+        events_dict["genre"] = row[2]
+        all_events.append(events_dict)
+
+    return jsonify(all_events)
 
 
 
