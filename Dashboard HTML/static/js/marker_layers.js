@@ -10,7 +10,7 @@ var baseLayer = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.pn
 
   d3.json(url_event).then(function(genre) { 
   
-    console.log(genre)
+
     //["NONE", "ARREST, BOOKED", "JUVENILE BOOKED", "EXCEPTIONAL CLEARANCE", "UNFOUNDED", "CLEARED-CONTACT JUVENILE FOR MORE INFO"]
   
     var resoArts = [];
@@ -21,7 +21,7 @@ var baseLayer = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.pn
     for (var i = 0; i < genre.length; i++) {
       var lat = genre[i].place_lat;
     var long = genre[i].place_long;
-  console.log(lat)
+  
       switch (genre[i].seg_name) {
           case "Arts & Theatre":
             resoArts.push([lat, long]);
