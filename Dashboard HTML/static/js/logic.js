@@ -60,13 +60,14 @@ new Chart(document.getElementById("bar-chart"), {
 // -------------------------------------------------------------------------------------------?-
 // d3 chart
 
-     // Load and munge data, then make the visualization.
-var fileName = "./file.csv";
+// Load and munge data, then make the visualization.
+
+var fileName = "static/file.csv";
 var nutritionFields = ["calories", "protein", "fat", "sodium", "fiber",
                             "carbs", "sugars", "potassium", "vitamins"];
 
 
-  d3.csv("file.csv", function(error, data) {
+  d3.csv(fileName, function(error, data) {
     var cerealMap = {};
     data.forEach(function(d) {
     var cereal = d.cereal;
