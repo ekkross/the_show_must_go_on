@@ -28,8 +28,9 @@
         <li><a href="#intro">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#map-section">Venues Map</a></li>
-        <li><a href="#chart">Venues Chart</a></li>
-        <li><a href="#analysis">Analysis</a></li>
+        <li><a href="#map-section-2">Genre Map</a></li>
+        <li><a href="#chart">Genre Chart</a></li>
+        <li><a href="#analysis">Process & Analysis</a></li>
       </ul>
     </div>
     <!-- /dl-menuwrapper -->
@@ -99,9 +100,7 @@
         </div>
         <div class="col-md-12">
           <h2>Map Notes</h2>
-              <p>We set out to create a way to find the right venue based on the type of show a person wanted to see. You want to see a metal show on a Friday night? Your best best to find a show is Dante’s or the Jack London Revue. Opera? Try the Newmark Theatre. Comedy? Go to the Keller.</p>
-          </div>
-    </div>
+              <p>Want to see the venues in the Portland area? This is the first map to check. Click around and discover where venues are in town, and see how many upcoming shows are in your area, using the filter.</p>
       </div>
     </div>
   </section>
@@ -116,7 +115,7 @@
         </div>
         <div class="col-md-12">
           <h2>Map Notes</h2>
-              <p>We set out to create a way to find the right venue based on the type of show a person wanted to see. You want to see a metal show on a Friday night? Your best best to find a show is Dante’s or the Jack London Revue. Opera? Try the Newmark Theatre. Comedy? Go to the Keller.</p>
+              <p>We wanted to narrow down what genres were most popular around town. Use the filters above to select the genres of music you enjoy and see where those shows are most common! Pair that with the spots on the first map, and you'll know where to look for your next show.</p>
           </div>
     </div>
       </div>
@@ -139,23 +138,43 @@
         </div>
       <div class="col-md-12">
           <h2>Chart Notes</h2>
-              <p>We set out to create a way to find the right venue based on the type of show a person wanted to see. You want to see a metal show on a Friday night? Your best best to find a show is Dante’s or the Jack London Revue. Opera? Try the Newmark Theatre. Comedy? Go to the Keller.</p>
+              <p>We wanted to know which genres of event Portland loves! The chart above provides a breakdown of popularity of each type of event.</p>
         </div>
       </div>
     </div>
   </section>
 
-    <!-- Analysis -->
+    <!-- Process and Analysis -->
     <section id="analysis" class="home-section bg-white">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
+              <h2>Process</h2>
+              <p>
+                We used TicketMaster’s API to get a year's worth of data about venues and events in Portland. 
+                We then cleaned our data using Python and Pandas and loaded it into a Postgres database.</p>
+
+                <p>Next, we created interactive maps and charts using JavaScript, Chartjs, Node.js, D3, and Leaflet (for maps).  These visualizations are interactive to allow users to change the view of said charts based on the data they choose to see.<br></p>
+
+                <p></p>The visualizations we created are:<br>
+                - A map of Portland's event venues with venue information and bubble map reflecting numbers of upcoming shows<br>
+                - A heat map of all the genres of shows in Portland<br>
+                - Bar chart representing genre totals per venue 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
               <h2>Analysis</h2>
-              <p>We set out to create a way to find the right venue based on the type of show a person wanted to see. You want to see a metal show on a Friday night? Your best best to find a show is Dante’s or the Jack London Revue. Opera? Try the Newmark Theatre. Comedy? Go to the Keller.<br>
-              <br>
-                As we reviewed the TicketMaster API to see what other interesting data points we could get, we discovered that we could get the location of all of these venues as latitude and longitude in order to display them on a map.
-                We also wanted to show the number of events by genre per venue to support our original question.</p>
+              <p>
+                The combination of the visualizations above helps provide a sketch for where to go in town for different types of events! <br>
+                Portland is definitely the place to be if you love alternative rock, dance music, or basketball.</p>
+                <p>But if you like Jazz, Free Funk, and Dance music? Check out venues like Jack London Revue and Keller Auditorium on the west side of town.
+                Metal, Punk, and Rock and Roll? Visit venues like Bossanova Ballroom on the east side, and Star Theater on the west.
+              </p>
             </div>
           </div>
         </div>
