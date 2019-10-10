@@ -1,3 +1,6 @@
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Venue Markers and 
 
 
 var url = "http://127.0.0.1:5000/venue";
@@ -42,13 +45,11 @@ function markerSize(events) {
 }
   createMap(eventMarkers,markers)
   });
-
-
-
 function createMap(eventMarkers, markers) { 
 
   var event_count = L.layerGroup(eventMarkers);
-  var venue_location = L.layerGroup(markers)
+  var venue_location = L.layerGroup(markers);
+ 
 
 // Define variables for our base layers
 var streetmap = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {
@@ -83,8 +84,7 @@ var baseMaps = {
 var overlayMaps = {
   // "City Population": cities,
   "Event population": event_count,
-  "Venue":venue_location
-  
+  "Venue":venue_location,   
 };
 
 // Define a map object
@@ -99,3 +99,10 @@ var myMap = L.map("map", {
 L.control.layers(baseMaps, overlayMaps, {
   collapsed: false, autoZIndex: true
 }).addTo(myMap)};
+
+
+// #############################
+// #############################
+// #############################
+// #############################
+// #############################
