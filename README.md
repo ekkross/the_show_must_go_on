@@ -42,3 +42,4 @@ The visualizations we created are:
 
 **Conclusion:**
 We were able to successfully build multiple visualizations for genres of event in Portland and where to find them. If we had more time, we would have liked to build a chart that had a dropdown for each venue, in which you could see the genre breakdown for individual venue.
+We built the code for the d3 chart but were not able to get the data to load, but we left the code in the repo
